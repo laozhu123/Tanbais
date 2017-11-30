@@ -20,6 +20,7 @@
     <!-- common -->
     <color name="action_bar_bg">#ffffff</color>
     <color name="black">#000000</color>
+    <color name="color_282828">#282828</color>
     <color name="color_7fffffff">#7fffffff</color>
     <color name="white">#ffffff</color>
     <color name="gray">#333333</color>

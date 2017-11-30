@@ -28,12 +28,12 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_setting_friends_delete.png"
     },
     {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f61d.png",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f61d.png"
-    },
-    {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_icon_admin.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_icon_admin.png"
+    },
+    {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f61d.png",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f61d.png"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_notice_wraning.png",
@@ -154,10 +154,6 @@
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_file_icon_file.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_file_icon_file.png"
-    },
-    {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_left.9.png",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_bubble_left.9.png"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_edit_text_background_hover.9.png",
@@ -316,10 +312,6 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\u2b50.png"
     },
     {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_right_file.9.png",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_bubble_right_file.9.png"
-    },
-    {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f618.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f618.png"
     },
@@ -410,10 +402,6 @@
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u2600.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\u2600.png"
-    },
-    {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_white.9.png",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_bubble_white.9.png"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_location_pressed.png",
@@ -856,10 +844,6 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ad_list_file_checked.png"
     },
     {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_no_left.9.png",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_bubble_no_left.9.png"
-    },
-    {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f46a.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f46a.png"
     },
@@ -888,16 +872,8 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f60c.png"
     },
     {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_right.9.png",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_bubble_right.9.png"
-    },
-    {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_cs_follow.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_follow.png"
-    },
-    {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_left_file.9.png",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_bubble_left_file.9.png"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_input_sub_menu_bg.9.png",
@@ -926,10 +902,6 @@
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon_biaoqing_s.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\icon_biaoqing_s.png"
-    },
-    {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_no_right.9.png",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_bubble_no_right.9.png"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f436.png",

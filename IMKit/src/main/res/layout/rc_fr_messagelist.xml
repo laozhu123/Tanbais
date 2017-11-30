@@ -4,7 +4,7 @@
     android:id="@id/rc_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent">
+    android:background="#fff">
 
     <io.rong.imkit.widget.AutoRefreshListView
         android:id="@id/rc_list"
@@ -40,7 +40,7 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="5dp"
             android:text="@string/rc_new_messages"
-            android:textColor="#0195ff"
+            android:textColor="#3bc2ff"
             android:textSize="14sp"/>
     </LinearLayout>
 
@@ -78,7 +78,7 @@
         android:id="@+id/rc_notification_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#cc69b8ee"
+        android:background="#3bc2ff"
         android:orientation="vertical"
         android:visibility="gone"
         tools:visibility="visible" />

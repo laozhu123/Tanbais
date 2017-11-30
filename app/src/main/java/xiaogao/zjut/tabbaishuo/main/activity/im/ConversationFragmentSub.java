@@ -35,6 +35,7 @@ public class ConversationFragmentSub extends ConversationFragment implements Vie
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         mBack.setOnClickListener(this);
+        mNickName.setText("千千厥歌");
     }
 
     @Override
