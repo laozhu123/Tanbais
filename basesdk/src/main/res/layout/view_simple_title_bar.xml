@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/titlebar_back"
+        android:layout_width="@dimen/action_bar_back_width"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_left_arrow"
+        android:background="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/titlebar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="@color/title_color"
+        android:textSize="@dimen/action_bar_title_text_size"/>
+
+    <TextView
+        android:id="@+id/titlebar_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/action_bar_right_text_size"
+        android:visibility="invisible"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+
+    <ImageView
+        android:id="@+id/titlebar_right_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:visibility="invisible"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="#e7e7e7"/>
+
+</RelativeLayout>

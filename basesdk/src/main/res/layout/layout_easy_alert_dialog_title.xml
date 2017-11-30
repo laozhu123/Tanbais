@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_easy_dialog_title"
+        style="@style/DialogTitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/light_line_size"
+        android:background="@color/color_grey_eeeeee"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 点击状态 -->
+    <item android:state_pressed="true">
+        <shape>
+            <!--<corners android:topLeftRadius="14dp"-->
+                <!--android:topRightRadius="14dp"-->
+                <!--/>-->
+            <solid android:color="@color/color_gray_f7f7f7"/>
+        </shape>
+    </item>
+    <!-- 正常状态 -->
+    <item>
+        <shape>
+            <!--<corners android:topLeftRadius="14dp"-->
+                <!--android:topRightRadius="14dp"-->
+                <!--/>-->
+            <solid android:color="@android:color/white"/>
+        </shape>
+    </item>
+</selector>

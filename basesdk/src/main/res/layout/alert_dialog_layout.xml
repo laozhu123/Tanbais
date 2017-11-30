@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ViewStub
+        android:id="@+id/viewStub_alert_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/alert_dialog_content"/>
+
+    <ViewStub
+        android:id="@+id/viewStub_alert_dialog_only_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/alert_dialog_content_only_message"/>
+
+    <!-- 按钮区域 -->
+    <include layout="@layout/layout_easy_alert_dialog_bottom"/>
+
+</LinearLayout>

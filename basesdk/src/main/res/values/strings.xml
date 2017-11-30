@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="network_error">很抱歉，\n您的网络不太顺畅哦~</string>
+    <string name="network_error_note">很抱歉，您的网络不太顺畅哦~</string>
+    <string name="reload">重新加载</string>
+
+    <string name="app_name">commonUI</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="get_identifying_code_str">免费获取</string>
+    <string name="get_identifying_code_time_str">重新获取</string>
+    <string name="verifyCode">验证码</string>
+    <string name="about_us">关于我们</string>
+    <string name="letter">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="confirm">确定</string>
+    <string name="select_servicer">选择服务人员</string>
+    <string name="appoint_time">约看时间</string>
+    <string name="appoint_times">约看时间</string>
+    <string name="call">拨打</string>
+    <string name="take_photo">拍照</string>
+    <string name="select_photo_from_album">从相册选择</string>
+    <string name="cancle">取消</string>
+    <string name="authenticate_before_grab">接单前需通过认证哦</string>
+    <string name="authenticate_now">是否前往认证？</string>
+    <string name="authenticate">认证</string>
+    <string name="charge">充值</string>
+    <string name="deposit_insufficient">押金不足</string>
+    <string name="charge_deposit">押金不足%d元，是否前往充值</string>
+    <string name="account_frozen">账户冻结</string>
+    <string name="cavalier_account_frozen_tip">您的骑手账户由于违规操作已被冻结，账户解冻请联系客服：%s</string>
+    <string name="open_gps">定位服务未开启</string>
+    <string name="setting_now">立即开启</string>
+    <string name="setting_gps_tip">请在系统设置中，打开“定位服务”来允许“兔波波”确定您的位置</string>
+    <string name="authenticate_failed">审核未通过</string>
+    <string name="authenticate_again">请重新提交认证信息</string>
+    <string name="re_authenticate">重新认证</string>
+    <string name="please_do_not_use_common_pwd">请不要使用相同数字</string>
+    <string name="please_do_not_use_countinuation_pwd">请不要使用连续数字</string>
+    <string name="no_finished_list">列表为空</string>
+
+    <string-array name="hour_minute_display">
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+        <item>16:30</item>
+        <item>17:00</item>
+        <item>17:30</item>
+        <item>18:00</item>
+    </string-array>
+
+
+</resources>

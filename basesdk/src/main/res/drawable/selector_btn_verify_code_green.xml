@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- disabled 状态时 -->
+    <item android:state_enabled="false">
+        <shape>
+            <corners android:radius="@dimen/verify_code_corner"/>
+            <stroke android:width="@dimen/verify_code_stroke_width" android:color="#bbb"/>
+            <padding android:left="@dimen/verify_code_paddingLeft"
+                     android:right="@dimen/verify_code_paddingRight"
+                     android:top="@dimen/verify_code_paddingTop"
+                     android:bottom="@dimen/verify_code_paddingBottom"/>
+        </shape>
+    </item>
+
+    <!-- 点击状态，点击状态一定要在普通状态上面 -->
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/verify_code_corner"/>
+            <stroke android:width="@dimen/verify_code_stroke_width"
+                    android:color="@color/color_bedda8"/>
+            <padding android:left="@dimen/verify_code_paddingLeft"
+                     android:right="@dimen/verify_code_paddingRight"
+                     android:top="@dimen/verify_code_paddingTop" android:bottom="@dimen/verify_code_paddingBottom"/>
+        </shape>
+    </item>
+
+    <!-- 正常状态 -->
+    <item>
+        <shape>
+            <corners android:radius="@dimen/verify_code_corner"/>
+            <stroke android:width="@dimen/verify_code_stroke_width"
+                    android:color="@color/color_7dba50"/>
+            <padding android:left="@dimen/verify_code_paddingLeft"
+                     android:right="@dimen/verify_code_paddingRight"
+                     android:top="@dimen/verify_code_paddingTop"
+                     android:bottom="@dimen/verify_code_paddingBottom"/>
+        </shape>
+    </item>
+</selector>

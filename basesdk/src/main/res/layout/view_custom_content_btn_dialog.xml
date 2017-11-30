@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="290dp"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:background="@drawable/person_image_of_cpm">
+
+    <TextView
+        android:id="@+id/dialog_tltle"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:gravity="center"
+        android:text="非wifi情况下....."
+        android:textColor="@color/color_666666"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_gray_e5e5e5" />
+
+    <LinearLayout
+        android:id="@+id/dialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/dialog_btn_left"
+            android:background="@drawable/audio_delete_yes_selector"
+            android:clickable="true"
+            android:textColor="@color/color_41444e"
+            style="@style/dialog_button"
+            tools:text="是" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_e5e5e5" />
+
+
+        <TextView
+            android:id="@+id/dialog_btn_right"
+            android:background="@drawable/audio_delete_no_selector"
+            android:clickable="true"
+            android:textColor="#fb4e23"
+            style="@style/dialog_button"
+            tools:text="否" />
+    </LinearLayout>
+
+</LinearLayout>

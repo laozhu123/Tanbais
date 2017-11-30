@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_common_network_error"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:src="@drawable/core_icon_error_network"/>
+
+    <TextView
+        android:id="@+id/tv_common_network_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textColor="@color/color_9397a1"
+        android:text="@string/network_error"/>
+
+    <TextView
+        android:id="@+id/btn_refresh_network_error"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:background="@color/black1"
+        android:text="@string/reload"
+        android:textColor="@color/text_color"
+       />
+
+</LinearLayout>

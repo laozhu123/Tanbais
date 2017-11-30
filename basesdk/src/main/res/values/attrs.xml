@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GoogleCircleProgressView">
+        <attr name="gcp_inner_radius" format="dimension"/>
+        <attr name="gcp_background_color" format="color"/>
+        <attr name="gcp_progress_color" format="color"/>
+        <attr name="gcp_progress_stoke_width" format="dimension"/>
+        <attr name="gcp_show_arrow" format="boolean"/>
+        <attr name="gcp_enable_circle_background" format="boolean"/>
+        <attr name="gcp_arrow_width" format="dimension"/>
+        <attr name="gcp_arrow_height" format="dimension"/>
+
+        <attr name="gcp_progress" format="integer"/>
+        <attr name="gcp_max" format="integer"/>
+
+
+        <attr name="gcp_progress_text_size" format="dimension"/>
+        <attr name="gcp_progress_text_color" format="color"/>
+
+        <!--<attr name="gcp_progress_text_offset" format="dimension"/>-->
+
+        <attr name="gcp_progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SwipeToLoadLayout">
+        <attr name="refresh_enabled" format="boolean" />
+        <attr name="load_more_enabled" format="boolean" />
+
+        <attr name="swipe_style" format="enum">
+            <enum name="classic" value="0" />
+            <enum name="above" value="1" />
+            <enum name="blew" value="2" />
+            <enum name="scale" value="3" />
+        </attr>
+
+        <attr name="drag_ratio" format="float" />
+
+        <attr name="refresh_trigger_offset" format="dimension" />
+        <attr name="load_more_trigger_offset" format="dimension" />
+        <attr name="refresh_final_drag_offset" format="dimension" />
+        <attr name="load_more_final_drag_offset" format="dimension" />
+
+        <attr name="swiping_to_refresh_to_default_scrolling_duration" format="integer" />
+        <attr name="release_to_refreshing_scrolling_duration" format="integer" />
+        <attr name="refresh_complete_delay_duration" format="integer" />
+        <attr name="refresh_complete_to_default_scrolling_duration" format="integer" />
+        <attr name="default_to_refreshing_scrolling_duration" format="integer" />
+        <attr name="swiping_to_load_more_to_default_scrolling_duration" format="integer" />
+        <attr name="release_to_loading_more_scrolling_duration" format="integer" />
+        <attr name="load_more_complete_delay_duration" format="integer" />
+        <attr name="load_more_complete_to_default_scrolling_duration" format="integer" />
+        <attr name="default_to_loading_more_scrolling_duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="mlpb_inner_radius" format="dimension"/>
+        <attr name="mlpb_background_color" format="color"/>
+        <attr name="mlpb_progress_color" format="color"/>
+        <attr name="mlpb_progress_stoke_width" format="dimension"/>
+        <attr name="mlpb_show_arrow" format="boolean"/>
+        <attr name="mlpb_enable_circle_background" format="boolean"/>
+        <attr name="mlpb_arrow_width" format="dimension"/>
+        <attr name="mlpb_arrow_height" format="dimension"/>
+
+        <attr name="mlpb_progress" format="integer"/>
+        <attr name="mlpb_max" format="integer"/>
+
+
+        <attr name="mlpb_progress_text_size" format="dimension"/>
+        <attr name="mlpb_progress_text_color" format="color"/>
+
+        <!--<attr name="mlpb_progress_text_offset" format="dimension"/>-->
+
+        <attr name="mlpb_progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="EasyTextView">
+        <attr name="textPressedColor" format="color"/>
+        <attr name="textDisabledColor" format="color"/>
+        <attr name="textNormalColor" format="color"/>
+
+        <attr name="backgroundPressedColor" format="color"/>
+        <attr name="backgroundDisabledColor" format="color"/>
+        <attr name="backgroundNormalColor" format="color"/>
+
+        <attr name="backgroundRadius" format="dimension"/>
+        <attr name="backgroundStrokeWidth" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension"/>
+        <attr name="ci_height" format="dimension"/>
+        <attr name="ci_margin" format="dimension"/>
+        <attr name="ci_animator" format="reference"/>
+        <attr name="ci_animator_reverse" format="reference"/>
+        <attr name="ci_drawable" format="reference"/>
+        <attr name="ci_drawable_unselected" format="reference"/>
+
+        <attr name="ci_orientation" format="enum">
+            <!-- Defines an horizontal widget. -->
+            <enum name="horizontal" value="0"/>
+            <!-- Defines a vertical widget. -->
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr name="ci_gravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03"/>
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05"/>
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70"/>
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01"/>
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07"/>
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11"/>
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77"/>
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the vertical gravity: a top gravity will clip the bottom
+            edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80"/>
+            <!-- Additional option that can be set to have the left and/or right edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the horizontal gravity: a left gravity will clip the right
+            edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08"/>
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="BGABanner">
+        <!-- 指示点容器背景 -->
+        <attr name="banner_pointContainerBackground" format="reference|color" />
+        <!-- 指示点背景 -->
+        <attr name="banner_pointDrawable" format="reference" />
+        <!-- 指示点容器左右内间距 -->
+        <attr name="banner_pointContainerLeftRightPadding" format="dimension" />
+        <!-- 指示点上下外间距 -->
+        <attr name="banner_pointTopBottomMargin" format="dimension" />
+        <!-- 指示点左右外间距 -->
+        <attr name="banner_pointLeftRightMargin" format="dimension" />
+        <!-- 指示器的位置 -->
+        <attr name="banner_indicatorGravity">
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+            <flag name="center_horizontal" value="0x01" />
+        </attr>
+        <!-- 是否开启自动轮播 -->
+        <attr name="banner_pointAutoPlayAble" format="boolean" />
+        <!-- 自动轮播的时间间隔 -->
+        <attr name="banner_pointAutoPlayInterval" format="integer" />
+        <!-- 页码切换过程的时间长度 -->
+        <attr name="banner_pageChangeDuration" format="integer" />
+        <!-- 页面切换的动画效果 -->
+        <attr name="banner_transitionEffect" format="enum">
+            <enum name="defaultEffect" value="0" />
+            <enum name="alpha" value="1" />
+            <enum name="rotate" value="2" />
+            <enum name="cube" value="3" />
+            <enum name="flip" value="4" />
+            <enum name="accordion" value="5" />
+            <enum name="zoomFade" value="6" />
+            <enum name="fade" value="7" />
+            <enum name="zoomCenter" value="8" />
+            <enum name="zoomStack" value="9" />
+            <enum name="stack" value="10" />
+            <enum name="depth" value="11" />
+            <enum name="zoom" value="12" />
+        </attr>
+        <!-- 提示文案的文字颜色 -->
+        <attr name="banner_tipTextColor" format="reference|color" />
+        <!-- 提示文案的文字大小 -->
+        <attr name="banner_tipTextSize" format="dimension" />
+        <!-- 加载网络数据时覆盖在BGABanner最上层的占位图 -->
+        <attr name="banner_placeholderDrawable" format="reference" />
+        <!-- 是否是数字指示器 -->
+        <attr name="banner_isNumberIndicator" format="boolean" />
+        <!-- 数字指示器文字颜色 -->
+        <attr name="banner_numberIndicatorTextColor" format="reference|color" />
+        <!-- 数字指示器文字大小 -->
+        <attr name="banner_numberIndicatorTextSize" format="dimension" />
+        <!-- 数字指示器背景 -->
+        <attr name="banner_numberIndicatorBackground" format="reference" />
+        <!-- 当只有一页数据时是否显示指示器，默认值为false -->
+        <attr name="banner_isNeedShowIndicatorOnOnlyOnePage" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TableView">
+        <attr name="leftTitle" format="string"/>
+        <attr name="rightTitle" format="string"/>
+        <attr name="middleTitle" format="string"/>
+        <attr name="middleEditTextTitle" format="string"/>
+        <attr name="middleEditTextHintTitle" format="string"/>
+        <attr name="leftIcon" format="reference"/>
+        <attr name="rightIcon" format="reference"/>
+        <attr name="leftTitleColor" format="reference"/>
+        <attr name="rightTitleColor" format="reference"/>
+        <attr name="middleTitleColor" format="reference"/>
+        <!-- 是否显示右边的箭头 -->
+        <attr name="showRightArrowIcon" format="boolean"/>
+        <attr name="headIcon" format="reference"/>
+        <attr name="showRightToggle" format="boolean"/>
+        <attr name="showRightToggleCloseIcon" format="reference"/>
+        <attr name="showRightToggleOpenIcon" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="VerifyCodeEditText">
+        <attr name="editHeight" format="dimension"/>
+        <attr name="editAlignCenterVertical" format="boolean"/>
+        <attr name="editViewBackground" format="reference"/>
+        <attr name="hint" format="reference"/>
+        <attr name="hintColor" format="color"/>
+        <!-- 获取验证码按钮的文字颜色 -->
+        <attr name="verifyCodeColor" format="reference"/>
+        <!-- 获取验证码按钮的背景 -->
+        <attr name="verifyCodeBackground" format="reference"/>
+        <attr name="verifyCodeMarginBottom" format="dimension"/>
+        <attr name="verifyCodeAlignCenterVertical" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ImprovedSwipeLayoutAttrs">
+        <attr name="scrollableChildId" format="reference" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ExpandableTextViewAttr">
+        <!-- 允许显示最大行数 -->
+        <attr name="maxExpandLines" format="integer"/>
+        <!-- 动画执行时间 -->
+        <attr name="duration" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="AboutTableView">
+        <attr name="leftAboutTitle" format="string"/>
+        <attr name="rightAboutTitle" format="string"/>
+        <attr name="leftAboutToRightTitle" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="TableInputView">
+        <attr name="textNote" format="string"/>
+        <attr name="editTextHint" format="string"/>
+        <attr name="showEditText" format="boolean"/>
+        <attr name="showRightArrow" format="boolean"/>
+        <attr name="inputEditTextLength" format="integer"/>
+        <attr name="inputType" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="NumberCodeView">
+        <attr name="isPassword" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="InputAccountView">
+        <attr name="textAccountNote" format="string"/>
+        <attr name="textNoteSize" format="dimension"/>
+        <attr name="textNoteColor" format="color"/>
+        <attr name="textPhoneSize" format="dimension"/>
+        <attr name="textPhoneColor" format="color"/>
+    </declare-styleable>
+
+
+
+</resources>

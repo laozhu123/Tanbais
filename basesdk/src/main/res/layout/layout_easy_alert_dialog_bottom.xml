@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/light_line_size"
+        android:background="@color/color_gray_e5e5e5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_dialog_center"
+            style="@style/DialogButtonTextStyle"
+            android:layout_width="match_parent"
+            android:textColor="@color/text_color"
+            android:background="@drawable/selector_btn_dialog_center"
+            android:visibility="gone"/>
+
+        <!-- 左边按钮 -->
+        <Button
+            android:id="@+id/btn_dialog_left"
+            style="@style/DialogButtonTextStyle"
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:text="@string/cancel"
+            android:textColor="@color/text_color"
+            android:background="@drawable/selector_btn_dialog_left"/>
+
+        <View
+            android:id="@+id/v_easy_dialog_btn_divide"
+            android:layout_width="@dimen/light_line_size"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_e5e5e5"/>
+
+        <!-- 右边按钮 -->
+        <Button
+            android:id="@+id/btn_dialog_right"
+            style="@style/DialogButtonTextStyle"
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/color_fb4e23"
+            android:background="@drawable/selector_btn_dialog_right"/>
+    </LinearLayout>
+
+</LinearLayout>

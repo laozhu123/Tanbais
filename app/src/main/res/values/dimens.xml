@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_divider_height">10dp</dimen>
+
+    <dimen name="tab_icon_size">22dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

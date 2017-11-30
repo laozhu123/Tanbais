@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290dp"
+    android:layout_height="150dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/person_image_of_cpm">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:id="@+id/dialog_tltle"
+        android:textSize="16sp"
+        android:textColor="@color/color_666666"
+        android:text="非wifi情况下....."
+        />
+
+
+    <TextView
+        android:id="@+id/dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"
+        android:textColor="@color/color_7f7f7f"
+        tools:text="是否删除该景点语音介绍包"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/shape_audio_delete_detail"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_gray_e5e5e5"/>
+
+    <LinearLayout
+        android:id="@+id/dialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:id="@+id/dialog_btn_left"
+            style="@style/dialog_button"
+            android:textColor="@color/color_dddddd"
+            tools:text="是"
+            android:background="@drawable/audio_delete_yes_selector"
+            android:clickable="true"
+            />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_e5e5e5" />
+
+
+        <TextView
+            android:id="@+id/dialog_btn_right"
+            android:textColor="#7dba50"
+            style="@style/dialog_button"
+            android:background="@drawable/audio_delete_no_selector"
+            tools:text="否"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_easy_alert_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/white_shape_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_easy_dialog_title"
+        layout="@layout/layout_easy_alert_dialog_title" />
+
+
+    <RelativeLayout
+        android:id="@+id/dialog_content_lay"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_easy_dialog_message"
+            style="@style/DialogMessageTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true" />
+
+        <EditText
+            android:id="@+id/et_easy_dialog_message"
+            style="@style/DialogMessageTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textCursorDrawable="@drawable/shape_color_cursor"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <include layout="@layout/layout_easy_alert_dialog_bottom" />
+
+</LinearLayout>

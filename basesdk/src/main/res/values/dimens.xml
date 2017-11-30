@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- common -->
+    <dimen name="action_bar_height">45dp</dimen>
+    <dimen name="text_title_do_size">14sp</dimen>
+    <dimen name="text_title_size">19dp</dimen>
+    <dimen name="item_my_height">55dip</dimen>
+
+    <dimen name="light_line_size">0.5dp</dimen>
+    <dimen name="big_text_size">17dp</dimen>
+    <dimen name="dialog_padding_vertical">20dip</dimen>
+    <dimen name="dialog_text_margin_horizontal">15dip</dimen>
+
+    <dimen name="verify_code_paddingLeft">10dp</dimen>
+    <dimen name="verify_code_paddingRight">10dp</dimen>
+    <dimen name="verify_code_paddingTop">5dp</dimen>
+    <dimen name="verify_code_paddingBottom">5dp</dimen>
+    <dimen name="verify_code_corner">3dp</dimen>
+    <dimen name="verify_code_stroke_width">1dp</dimen>
+
+    <dimen name="action_bar_back_width">45dp</dimen>
+    <dimen name="action_bar_title_text_size">18sp</dimen>
+    <dimen name="action_bar_right_text_size">15sp</dimen>
+
+    <dimen name="about_table_height">50dp</dimen>
+
+
+    <dimen name="load_more_footer_height_classic">60dp</dimen>
+
+    <dimen name="refresh_header_height_twitter">80dp</dimen>
+    <dimen name="load_more_footer_height_twitter">60dp</dimen>
+
+    <!-- google -->
+    <dimen name="refresh_header_height_google">100dp</dimen>
+    <dimen name="refresh_trigger_offset_google">100dp</dimen>
+    <dimen name="refresh_final_offset_google">150dp</dimen>
+    <dimen name="refresh_drawable_size_google">40dp</dimen>
+
+    <dimen name="load_more_footer_height_google">72dp</dimen>
+    <dimen name="load_more_trigger_offset_google">88dp</dimen>
+    <dimen name="load_more_final_offset_google">120dp</dimen>
+    <dimen name="load_more_drawable_size_google">36dp</dimen>
+
+    <!-- jd -->
+    <dimen name="refresh_header_height_jd">100dp</dimen>
+    <dimen name="load_more_footer_height_jd">100dp</dimen>
+</resources>

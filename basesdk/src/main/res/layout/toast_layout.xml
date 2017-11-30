@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:alpha="0.7"
+    android:background="@drawable/shape_toast_background">
+
+    <!-- 提示 -->
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"
+        android:textColor="@color/white"/>
+
+    <!-- 描述 -->
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_below="@id/text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+
+</RelativeLayout>

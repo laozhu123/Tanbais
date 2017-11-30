@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">坦白说</string>
+
+    <string name="loading">loading....</string>
+    <string name="push">推送</string>
+    <string name="message">消息</string>
+    <string name="my">我的</string>
+
+    <string name="authorized">信息认证</string>
+    <string name="u_member">会员服务</string>
+    <string name="stamp">邮票</string>
+    <string name="personal_info">个人资料</string>
+    <string name="select_standard">择偶标准</string>
+    <string name="setting">设置</string>
+
+    <string name="push_time_left">推送倒计时</string>
+    <string name="how_to_get_good_push">如何获取优质的推送</string>
+
+</resources>
