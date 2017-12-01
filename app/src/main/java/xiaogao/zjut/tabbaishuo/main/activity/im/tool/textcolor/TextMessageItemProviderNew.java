@@ -1,4 +1,4 @@
-package xiaogao.zjut.tabbaishuo.main.activity.im.tool;
+package xiaogao.zjut.tabbaishuo.main.activity.im.tool.textcolor;
 
 import android.view.View;
 

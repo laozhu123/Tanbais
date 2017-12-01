@@ -7,14 +7,13 @@ import android.view.View;
 import javax.inject.Inject;
 
 import io.rong.imkit.RongContext;
-import xgn.com.basesdk.base.activity.ActivityBase;
-import xgn.com.basesdk.base.mvp.BasePresenter;
 import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.base.activity.MyBaseBindPresentActivity;
 import xiaogao.zjut.tabbaishuo.injecter.component.ActivityComponent;
 import xiaogao.zjut.tabbaishuo.interfaces.IUISplash;
 import xiaogao.zjut.tabbaishuo.main.MainActivity;
-import xiaogao.zjut.tabbaishuo.main.activity.im.tool.TextMessageItemProviderNew;
+import xiaogao.zjut.tabbaishuo.main.activity.im.tool.textcolor.TextMessageItemProviderNew;
+import xiaogao.zjut.tabbaishuo.main.activity.im.tool.textcolor.VoiceMessageItemProviderNew;
 import xiaogao.zjut.tabbaishuo.main.persenter.PresenterSplash;
 
 /**
@@ -52,6 +51,7 @@ public class ActivitySplash extends MyBaseBindPresentActivity<PresenterSplash> i
         });
         thread.start();
         RongContext.getInstance().registerMessageTemplate(new TextMessageItemProviderNew());
+        RongContext.getInstance().registerMessageTemplate(new VoiceMessageItemProviderNew(getApplicationContext()));
     }
 
     private boolean isLogined() {

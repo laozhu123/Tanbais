@@ -14,16 +14,20 @@
         android:cacheColorHint="@android:color/transparent"
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp"
-        android:listSelector="@android:color/transparent" />
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarSize="3dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb" />
 
     <LinearLayout
         android:id="@+id/rc_unread_message_layout"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_gravity="end"
-        android:gravity="center_vertical"
         android:layout_marginTop="30dp"
         android:background="@drawable/rc_unread_msg_bg_style"
+        android:gravity="center_vertical"
         android:orientation="horizontal"
         android:visibility="gone">
 
@@ -31,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="7dp"
-            android:background="@drawable/rc_unread_msg_arrow"/>
+            android:background="@drawable/rc_unread_msg_arrow" />
 
         <TextView
             android:id="@+id/rc_unread_message_count"
@@ -41,7 +45,7 @@
             android:layout_marginRight="5dp"
             android:text="@string/rc_new_messages"
             android:textColor="#3bc2ff"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
     </LinearLayout>
 
     <RelativeLayout
