@@ -53,4 +53,6 @@ dependencies {
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.11'
     compile project(':library')
     compile project(':IMKit')
+
+    compile 'org.greenrobot:eventbus:3.0.0'
 }

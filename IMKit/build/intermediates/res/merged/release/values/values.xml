@@ -442,6 +442,7 @@
     <color name="rc_voice_color_left">#4385bf</color>
     <color name="rc_voice_color_right">#a2a2a2</color>
     <color name="rc_web_progress_bar">#9fcdfd</color>
+    <color name="white">#fff</color>
     <declare-styleable name="AsyncImageView"><attr format="dimension" name="RCMinShortSideSize"/><attr format="dimension" name="RCCornerRadius"/><attr format="boolean" name="RCMask"/><attr name="RCShape">
             <flag name="square" value="0"/>
             <flag name="circle" value="1"/>
@@ -864,6 +865,15 @@
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:background">@android:color/transparent</item>
     </style>
+    <style name="dialog_white_redius_4">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:background">@drawable/rect_white_redius_4</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
     <style name="horizontal_light_thin_divider">
         <item name="android:layout_height">0.5dp</item>
         <item name="android:layout_width">match_parent</item>
@@ -891,7 +901,7 @@
         <item name="android:layout_gravity">center_vertical</item>
     </style>
     <style name="rc_ac_file_manager_title">
-         <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">40dp</item>
         <item name="android:layout_marginLeft">14sp</item>
         <item name="android:gravity">center_vertical</item>

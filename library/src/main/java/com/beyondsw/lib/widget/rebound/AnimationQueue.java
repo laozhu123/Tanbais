@@ -21,7 +21,6 @@ import java.util.Queue;
  * the number of animation frames equal to its position in the callback list. This makes it easy
  * to build cascading animations.
  *
- * TODO: Add options for changing the delay after which a callback receives a value from the
  *       animation queue value stream.
  */
 public class AnimationQueue {

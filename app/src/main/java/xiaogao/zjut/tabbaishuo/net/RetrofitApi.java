@@ -24,4 +24,17 @@ public interface RetrofitApi {
                     String token,
             @Body
                     Object object);
+
+    /**
+     * 获取nickName
+     */
+    @Headers(HeaderKey.MOCK_HOST + ":change")
+    @POST("task/getNickName")
+    Observable<Helo> getNickName(
+            @Header("Authorization")
+                    String token,
+            @Body
+                    Object object);
+
+
 }

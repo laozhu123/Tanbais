@@ -110,4 +110,8 @@ public class MyApplication extends CoreApplication {
         return mAppComponent;
     }
 
+    public static String getToken(){
+        return "token";
+    }
+
 }

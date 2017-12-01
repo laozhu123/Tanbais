@@ -531,7 +531,7 @@ public class SwipeTouchHelper implements ISwipeTouchHelper {
             @Override
             public void onAnimationEnd(Animator animation) {
                 mDisappearingCnt--;
-                mSwipeView.onCardDismissed(0); //// // FIXME
+                mSwipeView.onCardDismissed(0);
                 mSwipeView.onCoverStatusChanged(isCoverIdle());
             }
 

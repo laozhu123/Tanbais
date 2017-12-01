@@ -4,12 +4,12 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f46b.png"
     },
     {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_menu_text.png",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_menu_text.png"
-    },
-    {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_keyboard.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_keyboard.png"
+    },
+    {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_menu_text.png",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_menu_text.png"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_tab_emoji.png",
@@ -20,12 +20,12 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_picsel_catalog_pic_shadow.png"
     },
     {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_btn_send_hover.9.png",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_btn_send_hover.9.png"
-    },
-    {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_setting_friends_delete.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_setting_friends_delete.png"
+    },
+    {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_btn_send_hover.9.png",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_btn_send_hover.9.png"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_icon_admin.png",
@@ -170,6 +170,10 @@
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_voide_message_unread.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_voide_message_unread.png"
+    },
+    {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon_shiping.png",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\icon_shiping.png"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f62f.png",
@@ -352,6 +356,10 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_file_icon_word.png"
     },
     {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon_paishe.png",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\icon_paishe.png"
+    },
+    {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_star_hover.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_star_hover.png"
     },
@@ -382,6 +390,10 @@
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_volume_cancel.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_volume_cancel.png"
+    },
+    {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon_weizhi.png",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\icon_weizhi.png"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_cs_delete.png",
@@ -806,6 +818,10 @@
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_read_receipt_request_hover.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_read_receipt_request_hover.png"
+    },
+    {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\icon_zhaopian.png",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\icon_zhaopian.png"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f603.png",

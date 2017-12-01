@@ -24,12 +24,12 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable\\rc_ic_bubble_left_file.xml"
     },
     {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_emoji_grid_item_selector.xml",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable\\rc_emoji_grid_item_selector.xml"
-    },
-    {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_message_checkbox.xml",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable\\rc_message_checkbox.xml"
+    },
+    {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_emoji_grid_item_selector.xml",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable\\rc_emoji_grid_item_selector.xml"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_ic_location.xml",
@@ -114,6 +114,10 @@
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_ext_plugin_image_selector.xml",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable\\rc_ext_plugin_image_selector.xml"
+    },
+    {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rect_white_redius_4.xml",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable\\rect_white_redius_4.xml"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_corner_voice_style.xml",
