@@ -51,7 +51,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.11'
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.11'
-    compile project(':library')
+    compile project(':StackCardsView')
     compile project(':IMKit')
 
     compile 'org.greenrobot:eventbus:3.0.0'

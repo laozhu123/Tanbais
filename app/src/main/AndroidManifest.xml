@@ -83,6 +83,7 @@
         <activity android:name=".main.activity.ActivityYp"></activity>
         <activity android:name=".main.activity.ActivityXxrz"></activity>
         <activity android:name=".main.activity.ActivityZobz"></activity>
+        <activity android:name=".main.activity.ActivityJuBao"/>
     </application>
 
 </manifest>

@@ -1,1 +1,1 @@
-include ':app', ':basesdk', ':library', ':IMLib', ':IMKit'
+include ':app', ':basesdk', ':StackCardsView', ':IMLib', ':IMKit', ':imagepicker', ':ucrop-lib'

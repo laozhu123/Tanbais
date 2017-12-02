@@ -4,10 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" />
       <module fileurl="file://$PROJECT_DIR$/IMLib/IMLib.iml" filepath="$PROJECT_DIR$/IMLib/IMLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackCardsView/StackCardsView.iml" filepath="$PROJECT_DIR$/StackCardsView/StackCardsView.iml" />
       <module fileurl="file://$PROJECT_DIR$/TabBaiShuo.iml" filepath="$PROJECT_DIR$/TabBaiShuo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basesdk/basesdk.iml" filepath="$PROJECT_DIR$/basesdk/basesdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagepicker/imagepicker.iml" filepath="$PROJECT_DIR$/imagepicker/imagepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ucrop-lib/ucrop-lib.iml" filepath="$PROJECT_DIR$/ucrop-lib/ucrop-lib.iml" />
     </modules>
   </component>
 </project>

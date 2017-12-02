@@ -1,5 +1,6 @@
 package xiaogao.zjut.tabbaishuo.main.activity.im;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,6 +15,7 @@ import io.rong.imkit.fragment.ConversationFragment;
 import io.rong.imkit.R;
 import io.rong.imlib.model.UserInfo;
 import xiaogao.zjut.tabbaishuo.interfaces.IUIFragmentConversation;
+import xiaogao.zjut.tabbaishuo.main.activity.ActivityJuBao;
 import xiaogao.zjut.tabbaishuo.main.persenter.PresenterFragmentConversation;
 
 /**
@@ -31,6 +33,8 @@ public class ConversationFragmentSub extends ConversationFragment implements Vie
     private ViewStub mVsDialog2;
     private View mDialog1;
     private View mDialog2;
+
+    final int JUBAOREQUEST = 1;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -68,6 +72,8 @@ public class ConversationFragmentSub extends ConversationFragment implements Vie
                 showSecondDialog();
                 break;
             case R.id.jubao:
+                startActivityForResult(new Intent(getActivity(), ActivityJuBao.class),JUBAOREQUEST);
+                mDialog1.setVisibility(View.GONE);
                 break;
             case R.id.bg1:
             case R.id.cancel1:
@@ -140,5 +146,17 @@ public class ConversationFragmentSub extends ConversationFragment implements Vie
     @Override
     public void setNickName(String nickName) {
         mNickName.setText(nickName);
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        switch (requestCode){
+            case JUBAOREQUEST:
+                //FIXME 显示举报成功
+                break;
+            default:
+                break;
+        }
     }
 }

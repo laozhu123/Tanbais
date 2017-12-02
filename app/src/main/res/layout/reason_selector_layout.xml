@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#456c6868"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/id1"
+        style="@style/reason_item"
+        android:text="骚扰/广告" />
+
+    <TextView
+        android:id="@+id/id2"
+        style="@style/reason_item"
+        android:text="色情/暴恐/辱骂" />
+
+    <TextView
+        android:id="@+id/id3"
+        style="@style/reason_item"
+        android:text="酒托/婚托/饭托" />
+
+    <TextView
+        android:id="@+id/id4"
+        style="@style/reason_item"
+        android:text="诈骗钱财" />
+
+    <TextView
+        android:id="@+id/id5"
+        style="@style/reason_item"
+        android:layout_marginBottom="10dp"
+        android:text="其它" />
+
+</LinearLayout>

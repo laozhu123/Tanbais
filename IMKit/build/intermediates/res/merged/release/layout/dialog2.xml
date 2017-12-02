@@ -16,11 +16,11 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="32dp"
             android:gravity="center"
             android:text="拉黑后将永远不会再联系此人"
             android:textColor="#e3e3e3"
-            android:textSize="16sp" />
+            android:textSize="13sp" />
 
         <View
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
             android:layout_height="50dp"
             android:text="拉黑"
             android:textColor="#f0f51616"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:gravity="center"/>
     </LinearLayout>
 

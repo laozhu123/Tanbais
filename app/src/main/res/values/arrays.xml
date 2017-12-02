@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="reasonList">
+        <item>骚扰/广告</item>
+        <item>色情/暴恐/辱骂</item>
+        <item>酒托/婚托/饭托</item>
+        <item>诈骗钱财</item>
+        <item>其它</item>
+    </array>
+</resources>
