@@ -1,23 +1,18 @@
 package xiaogao.zjut.tabbaishuo.main.fragmentTab;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import xgn.com.basesdk.base.activity.ActivityBase;
 import xgn.com.basesdk.base.mvp.BasePresenter;
 import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.adapter.FunctionListAdapter;
@@ -26,10 +21,12 @@ import xiaogao.zjut.tabbaishuo.base.fragment.MyBindPresentFragment;
 import xiaogao.zjut.tabbaishuo.bean.FunctionItemBean;
 import xiaogao.zjut.tabbaishuo.injecter.component.FragmentComponent;
 import xiaogao.zjut.tabbaishuo.main.activity.ActivityGrzl;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityHyfw;
+import xiaogao.zjut.tabbaishuo.main.activity.ActivityPersonalDetail;
+import xiaogao.zjut.tabbaishuo.main.activity.ActivityRzzx;
 import xiaogao.zjut.tabbaishuo.main.activity.ActivitySz;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityXxrz;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityYp;
+import xiaogao.zjut.tabbaishuo.main.activity.ActivityWdxy;
+import xiaogao.zjut.tabbaishuo.main.activity.ActivityYqhy;
+import xiaogao.zjut.tabbaishuo.main.activity.ActivityYywt;
 import xiaogao.zjut.tabbaishuo.main.activity.ActivityZobz;
 import xiaogao.zjut.tabbaishuo.net.responses.Picture;
 
@@ -103,12 +100,15 @@ public class FragmentThird extends MyBindPresentFragment<BasePresenter> implemen
 
     private void initFunctionList() {
         List<FunctionItemBean> lists = new ArrayList<>();
-        lists.add(new FunctionItemBean(R.mipmap.icon_xinxirenz, R.string.authorized));
-        lists.add(new FunctionItemBean(R.mipmap.icon_huiyuan, R.string.u_member));
-        lists.add(new FunctionItemBean(R.mipmap.icon_youpiao, R.string.stamp));
+
         lists.add(new FunctionItemBean(R.mipmap.icon_gerenziliao, R.string.personal_info));
         lists.add(new FunctionItemBean(R.mipmap.icon_zeou, R.string.select_standard));
+        lists.add(new FunctionItemBean(R.mipmap.icon_huiyuan, R.string.yywt));
+        lists.add(new FunctionItemBean(R.mipmap.icon_xinxirenz, R.string.authorized_center));
+        lists.add(new FunctionItemBean(R.mipmap.icon_huiyuan, R.string.wdxy));
+        lists.add(new FunctionItemBean(R.mipmap.icon_youpiao, R.string.yqhy));
         lists.add(new FunctionItemBean(R.mipmap.icon_shezhi, R.string.setting));
+
         FunctionListAdapter mAdapter = new FunctionListAdapter(_mActivity, lists);
         mAdapter.setmOnItemClickListener(this);
         listFunction.setLayoutManager(new LinearLayoutManager(_mActivity));
@@ -131,21 +131,24 @@ public class FragmentThird extends MyBindPresentFragment<BasePresenter> implemen
         Intent intent;
         switch (index) {
             case 0:
-                intent = new Intent(_mActivity, ActivityXxrz.class);
+                intent = new Intent(_mActivity, ActivityPersonalDetail.class);
                 break;
             case 1:
-                intent = new Intent(_mActivity, ActivityHyfw.class);
-                break;
-            case 2:
-                intent = new Intent(_mActivity, ActivityYp.class);
-                break;
-            case 3:
-                intent = new Intent(_mActivity, ActivityGrzl.class);
-                break;
-            case 4:
                 intent = new Intent(_mActivity, ActivityZobz.class);
                 break;
+            case 2:
+                intent = new Intent(_mActivity, ActivityYywt.class);
+                break;
+            case 3:
+                intent = new Intent(_mActivity, ActivityRzzx.class);
+                break;
+            case 4:
+                intent = new Intent(_mActivity, ActivityWdxy.class);
+                break;
             case 5:
+                intent = new Intent(_mActivity, ActivityYqhy.class);
+                break;
+            case 6:
                 intent = new Intent(_mActivity, ActivitySz.class);
                 break;
             default:

@@ -11,8 +11,10 @@ import xgn.com.basesdk.base.injector.ContextLife;
 import xiaogao.zjut.tabbaishuo.injecter.ActivityScope;
 import xiaogao.zjut.tabbaishuo.injecter.module.ActivityModule;
 import xiaogao.zjut.tabbaishuo.main.MainActivity;
+import xiaogao.zjut.tabbaishuo.main.activity.ActivityBaseInfo;
 import xiaogao.zjut.tabbaishuo.main.activity.ActivityJuBao;
 import xiaogao.zjut.tabbaishuo.main.activity.ActivitySplash;
+import xiaogao.zjut.tabbaishuo.main.activity.ActivityZobz;
 
 @ActivityScope
 @Component(
@@ -28,6 +30,10 @@ public interface ActivityComponent extends AppComponent {
     void inject(ActivitySplash activitySplash);
 
     void inject(ActivityJuBao activityJuBao);
+
+    void inject(ActivityZobz activityZobz);
+
+    void inject(ActivityBaseInfo activityBaseInfo);
 
 //    void inject(ActivityListPage activityListPage);
 }

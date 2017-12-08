@@ -77,13 +77,16 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".main.activity.ActivityGrzl"></activity>
-        <activity android:name=".main.activity.ActivityHyfw"></activity>
-        <activity android:name=".main.activity.ActivitySz"></activity>
-        <activity android:name=".main.activity.ActivityYp"></activity>
-        <activity android:name=".main.activity.ActivityXxrz"></activity>
-        <activity android:name=".main.activity.ActivityZobz"></activity>
-        <activity android:name=".main.activity.ActivityJuBao"/>
+        <activity android:name=".main.activity.ActivityGrzl" />
+        <activity android:name=".main.activity.ActivityRzzx" />
+        <activity android:name=".main.activity.ActivitySz" />
+        <activity android:name=".main.activity.ActivityYywt" />
+        <activity android:name=".main.activity.ActivityWdxy" />
+        <activity android:name=".main.activity.ActivityZobz" />
+        <activity android:name=".main.activity.ActivityYqhy" />
+        <activity android:name=".main.activity.ActivityJuBao" />
+        <activity android:name=".main.activity.ActivityBaseInfo"/>
+        <activity android:name=".main.activity.ActivityPersonalDetail"/>
     </application>
 
 </manifest>

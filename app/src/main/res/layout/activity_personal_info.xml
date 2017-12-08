@@ -3,20 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:orientation="vertical">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="60dp">
+        android:layout_marginBottom="60dp"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
-            <include layout="@layout/common_head_title" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -75,9 +72,7 @@
                     android:textColor="@color/color_282828"
                     android:textSize="17sp" />
 
-                <ImageView
-                    android:id="@+id/seePicture"
-                    style="@style/personal_info_right_icon_img" />
+                <ImageView style="@style/personal_info_right_icon_img" />
             </RelativeLayout>
 
             <android.support.v7.widget.RecyclerView
@@ -190,9 +185,7 @@
                     android:textColor="@color/color_282828"
                     android:textSize="17sp" />
 
-                <ImageView
-                    android:id="@+id/seeBaseInfo"
-                    style="@style/personal_info_right_icon_img" />
+                <ImageView style="@style/personal_info_right_icon_img" />
             </RelativeLayout>
 
             <!--SOMETHING VIEW CONTENT-->
@@ -220,9 +213,7 @@
                     android:textColor="@color/color_282828"
                     android:textSize="17sp" />
 
-                <ImageView
-                    android:id="@+id/seeZobz"
-                    style="@style/personal_info_right_icon_img" />
+                <ImageView style="@style/personal_info_right_icon_img" />
             </RelativeLayout>
 
             <!--SOMETHING VIEW CONTENT-->

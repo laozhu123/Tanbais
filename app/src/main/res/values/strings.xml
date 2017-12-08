@@ -6,15 +6,43 @@
     <string name="message">消息</string>
     <string name="my">我的</string>
 
-    <string name="authorized">信息认证</string>
-    <string name="u_member">会员服务</string>
-    <string name="stamp">邮票</string>
+    <string name="authorized_center">认证中心</string>
+    <string name="wdxy">我的信用</string>
+
+    <string name="yywt">语言问题</string>
+
+    <string name="yqhy">邀请好友</string>
     <string name="personal_info">个人资料</string>
+    <string name="base_info">基础资料</string>
     <string name="select_standard">择偶标准</string>
     <string name="setting">设置</string>
 
     <string name="push_time_left">推送倒计时</string>
     <string name="how_to_get_good_push">如何获取优质的推送</string>
+    <array name="base_info">
+        <item>昵称</item>
+        <item>性别</item>
+        <item>出生日期</item>
+        <item>身高</item>
+        <item>职业</item>
+        <item>年收入</item>
+        <item>现居地</item>
+        <item>户籍</item>
+        <item>婚姻状况</item>
+        <item>期望结婚时间</item>
+    </array>
 
+    <array name="zobz">
+        <item>性别</item>
+        <item>出生日期</item>
+        <item>身高</item>
+        <item>年收入</item>
+        <item>现居住地</item>
+        <item>户籍</item>
+        <item>婚姻状况</item>
+        <item>期望结婚时间</item>
+        <item>购车状况</item>
+        <item>购房状况</item>
+    </array>
 
 </resources>

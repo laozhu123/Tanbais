@@ -1,13 +1,11 @@
 package xiaogao.zjut.tabbaishuo.main.activity;
 
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,14 +18,19 @@ import butterknife.ButterKnife;
 import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.adapter.InfoCommonAdapter;
 import xiaogao.zjut.tabbaishuo.base.activity.MyBaseBindPresentActivity;
-import xiaogao.zjut.tabbaishuo.bean.InfoCommonBean;
 import xiaogao.zjut.tabbaishuo.injecter.component.ActivityComponent;
+import xiaogao.zjut.tabbaishuo.interfaces.IUIActivityBaseInfo;
 import xiaogao.zjut.tabbaishuo.interfaces.IUIActivityZobz;
+import xiaogao.zjut.tabbaishuo.main.persenter.PresenterActivityBaseInfo;
 import xiaogao.zjut.tabbaishuo.main.persenter.PresenterActivityZobz;
 
-public class ActivityZobz extends MyBaseBindPresentActivity<PresenterActivityZobz> implements IUIActivityZobz, View.OnClickListener {
+/**
+ * Created by Administrator on 2017/12/8.
+ */
+
+public class ActivityBaseInfo extends MyBaseBindPresentActivity<PresenterActivityBaseInfo> implements IUIActivityBaseInfo, View.OnClickListener {
     @Inject
-    PresenterActivityZobz mPresenter;
+    PresenterActivityBaseInfo mPresenter;
     @Bind(R.id.back)
     ImageView back;
     @Bind(R.id.title)
@@ -43,7 +46,7 @@ public class ActivityZobz extends MyBaseBindPresentActivity<PresenterActivityZob
     List<String> rights;
 
     @Override
-    public PresenterActivityZobz getPresenter() {
+    public PresenterActivityBaseInfo getPresenter() {
         return mPresenter;
     }
 
@@ -54,14 +57,14 @@ public class ActivityZobz extends MyBaseBindPresentActivity<PresenterActivityZob
 
     @Override
     protected int getContentLayoutResId() {
-        return R.layout.activity_zobz;
+        return R.layout.activity_base_info;
     }
 
     @Override
     protected void initActivity(View var1) {
         ButterKnife.bind(this);
         hideTitleBar();
-        lefts = Arrays.asList(getResources().getStringArray(R.array.zobz));
+        lefts = Arrays.asList(getResources().getStringArray(R.array.base_info));
         rights = new ArrayList<>();
         for (int i = 0; i < lefts.size(); i++) {
             rights.add("");
@@ -73,7 +76,7 @@ public class ActivityZobz extends MyBaseBindPresentActivity<PresenterActivityZob
     private void initView() {
         back.setOnClickListener(this);
         caoZuo.setVisibility(View.GONE);
-        title.setText(R.string.select_standard);
+        title.setText(R.string.base_info);
         mAdapter = new InfoCommonAdapter(this, lefts, rights);
         mAdapter.setmOnItemClickListener(new InfoCommonAdapter.OnItemClickListener() {
             @Override
@@ -106,3 +109,4 @@ public class ActivityZobz extends MyBaseBindPresentActivity<PresenterActivityZob
         ButterKnife.unbind(this);
     }
 }
+
