@@ -55,4 +55,6 @@ dependencies {
     compile project(':IMKit')
 
     compile 'org.greenrobot:eventbus:3.0.0'
+
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
 }

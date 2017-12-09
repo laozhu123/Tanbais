@@ -19,17 +19,21 @@
         android:text="打个招呼"
         android:textSize="17sp" />
 
+    <include
+        android:id="@+id/hah"
+        layout="@layout/common_head_title1" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/sayHello">
+        android:layout_above="@id/sayHello"
+        android:layout_below="@id/hah">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <include layout="@layout/common_head_title1" />
 
             <ImageView
                 android:id="@+id/img"

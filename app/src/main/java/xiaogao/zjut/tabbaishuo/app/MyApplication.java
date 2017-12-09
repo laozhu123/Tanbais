@@ -23,6 +23,7 @@ import xiaogao.zjut.tabbaishuo.injecter.component.AppComponent;
 import xiaogao.zjut.tabbaishuo.injecter.component.DaggerAppComponent;
 import xiaogao.zjut.tabbaishuo.net.TokenInterceptor;
 import xiaogao.zjut.tabbaishuo.utils.CrashHandler;
+import xiaogao.zjut.tabbaishuo.utils.LeakcanaryIniter;
 
 /**
  * Created by Administrator on 2017/8/9.
@@ -46,12 +47,15 @@ public class MyApplication extends CoreApplication implements Application.Activi
         inject();
         initNetWork();
         RongIM.init(this);
-        initCrashHandler();
+        initCrashHandlerAndLeak();
+
+
     }
 
-    private void initCrashHandler() {
+    private void initCrashHandlerAndLeak() {
         if (BuildConfig.DEBUG == true) {
             CrashHandler.getInstance().init();
+            LeakcanaryIniter.init(this);
         }
     }
 
