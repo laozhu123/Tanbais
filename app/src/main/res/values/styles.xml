@@ -14,6 +14,13 @@
         <attr name="border_overlay" format="boolean" />
     </declare-styleable>
 
+    <declare-styleable name="RectRediusImageView">
+        <attr name="border_width1" format="dimension" />
+        <attr name="border_color1" format="color" />
+        <attr name="border_overlay1" format="boolean" />
+        <attr name="redius" format="dimension"/>
+    </declare-styleable>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

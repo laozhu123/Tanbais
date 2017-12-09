@@ -92,12 +92,12 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_ext_emoticon_tab_item.xml"
     },
     {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_sub_menu_container.xml",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_ext_sub_menu_container.xml"
-    },
-    {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_conversation.xml",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_fr_conversation.xml"
+    },
+    {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_sub_menu_container.xml",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_ext_sub_menu_container.xml"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_group_conversation.xml",
@@ -136,16 +136,16 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_ext_input_edit_text.xml"
     },
     {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_refresh_list_view.xml",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_refresh_list_view.xml"
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_picsel_grid_item.xml",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_picsel_grid_item.xml"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_app_service_conversation.xml",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_item_app_service_conversation.xml"
     },
     {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_picsel_grid_item.xml",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_picsel_grid_item.xml"
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_refresh_list_view.xml",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_refresh_list_view.xml"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\dialog1.xml",

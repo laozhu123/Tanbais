@@ -1,7 +1,13 @@
 package xiaogao.zjut.tabbaishuo.app;
 
+import android.annotation.TargetApi;
+import android.app.Activity;
+import android.app.Application;
+import android.os.Build;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 
+import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,27 +22,83 @@ import xiaogao.zjut.tabbaishuo.injecter.AppModule;
 import xiaogao.zjut.tabbaishuo.injecter.component.AppComponent;
 import xiaogao.zjut.tabbaishuo.injecter.component.DaggerAppComponent;
 import xiaogao.zjut.tabbaishuo.net.TokenInterceptor;
+import xiaogao.zjut.tabbaishuo.utils.CrashHandler;
 
 /**
  * Created by Administrator on 2017/8/9.
  */
 
-public class MyApplication extends CoreApplication {
+public class MyApplication extends CoreApplication implements Application.ActivityLifecycleCallbacks {
 
     private AppComponent mAppComponent;
     public static MyApplication mInstance;
+
+    //当前Activity的弱引用
+    private WeakReference<Activity> mActivityReference;
+
 
     @Override
     public void onCreate() {
         super.onCreate();
         mInstance = this;
-
+        registerActivityLifecycleCallbacks(this);
         setupMyGraph();
         inject();
         initNetWork();
         RongIM.init(this);
+        initCrashHandler();
+    }
+
+    private void initCrashHandler() {
+        if (BuildConfig.DEBUG == true) {
+            CrashHandler.getInstance().init();
+        }
+    }
+
+    public Activity getCurrentActivity() {
+        if (mActivityReference != null) {
+            return mActivityReference.get();
+        }
+        return null;
+    }
+
+
+    @Override
+    public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
+        mActivityReference = new WeakReference<>(activity);
+    }
+
+    @Override
+    public void onActivityStarted(Activity activity) {
 
     }
+
+
+    @Override
+    public void onActivityResumed(Activity activity) {
+        mActivityReference = new WeakReference<>(activity);
+    }
+
+    @Override
+    public void onActivityPaused(Activity activity) {
+
+    }
+
+    @Override
+    public void onActivityStopped(Activity activity) {
+
+    }
+
+    @Override
+    public void onActivitySaveInstanceState(Activity activity, Bundle bundle) {
+
+    }
+
+    @Override
+    public void onActivityDestroyed(Activity activity) {
+
+    }
+
 
     private void initNetWork() {
         List<Interceptor> intercepteors = new ArrayList<>();
@@ -110,7 +172,7 @@ public class MyApplication extends CoreApplication {
         return mAppComponent;
     }
 
-    public static String getToken(){
+    public static String getToken() {
         return "token";
     }
 

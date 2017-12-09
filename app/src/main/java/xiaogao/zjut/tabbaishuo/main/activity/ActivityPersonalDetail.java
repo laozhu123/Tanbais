@@ -45,6 +45,37 @@ public class ActivityPersonalDetail extends MyBaseBindPresentActivity<PresenterA
     TextView sayHello;
     @Bind(R.id.dialog1)
     ViewStub dialog1;
+    @Bind(R.id.title)
+    TextView title;
+    @Bind(R.id.caoZuo)
+    View caoZuo;
+    @Bind(R.id.img)
+    ImageView img;
+    View dialogView;
+
+
+    boolean isMine;
+    public final static String ISMINE = "is_mine";
+
+    private View.OnClickListener onClickListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            switch (view.getId()) {
+                case R.id.bg1:
+                case R.id.cancel1:
+                    dialogView.setVisibility(View.GONE);
+                    break;
+                case R.id.fenxiang:
+                    //fixme 分享
+                    break;
+                case R.id.jubao:
+                    //fixme 举报
+                    break;
+                default:
+                    break;
+            }
+        }
+    };
 
     @Override
     public PresenterActivityPersonalDetail getPresenter() {
@@ -63,7 +94,25 @@ public class ActivityPersonalDetail extends MyBaseBindPresentActivity<PresenterA
 
     @Override
     protected void initActivity(View var1) {
+        hideTitleBar();
         ButterKnife.bind(this);
+        isMine = getIntent().getBooleanExtra(ISMINE, false);
+        initView();
+    }
+
+    private void initView() {
+        title.setText(R.string.personal_info);
+        if (isMine == false) {
+            sayHello.setVisibility(View.VISIBLE);
+            caoZuo.setVisibility(View.VISIBLE);
+        } else {
+            sayHello.setVisibility(View.GONE);
+            caoZuo.setVisibility(View.GONE);
+        }
+
+        img.setFocusable(true);
+        img.setFocusableInTouchMode(true);
+        img.requestFocus();
     }
 
     @Override
@@ -72,11 +121,12 @@ public class ActivityPersonalDetail extends MyBaseBindPresentActivity<PresenterA
         ButterKnife.unbind(this);
     }
 
-    @OnClick({R.id.seePicture, R.id.seeBaseInfo, R.id.seeZobz})
+    @OnClick({R.id.seePicture, R.id.seeBaseInfo, R.id.seeZobz, R.id.back, R.id.caoZuo})
     public void onViewClicked(View view) {
         Intent intent;
         switch (view.getId()) {
             case R.id.seePicture:
+                //fixme 看相册
                 break;
             case R.id.seeBaseInfo:
                 intent = new Intent(ActivityPersonalDetail.this, ActivityBaseInfo.class);
@@ -85,6 +135,20 @@ public class ActivityPersonalDetail extends MyBaseBindPresentActivity<PresenterA
             case R.id.seeZobz:
                 intent = new Intent(ActivityPersonalDetail.this, ActivityZobz.class);
                 startActivity(intent);
+                break;
+            case R.id.back:
+                finish();
+                break;
+            case R.id.caoZuo:
+                if (dialogView == null) {
+                    dialogView = dialog1.inflate();
+                    dialogView.findViewById(R.id.bg1).setOnClickListener(onClickListener);
+                    dialogView.findViewById(R.id.cancel1).setOnClickListener(onClickListener);
+                    dialogView.findViewById(R.id.fenxiang).setOnClickListener(onClickListener);
+                    dialogView.findViewById(R.id.jubao).setOnClickListener(onClickListener);
+                } else {
+                    dialogView.setVisibility(View.VISIBLE);
+                }
                 break;
             default:
                 break;

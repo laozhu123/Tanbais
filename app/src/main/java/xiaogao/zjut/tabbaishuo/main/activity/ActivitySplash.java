@@ -46,6 +46,7 @@ public class ActivitySplash extends MyBaseBindPresentActivity<PresenterSplash> i
 
     @Override
     protected void initActivity(View var1) {
+        hideTitleBar();
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {

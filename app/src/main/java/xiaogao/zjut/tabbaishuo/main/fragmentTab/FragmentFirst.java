@@ -1,10 +1,12 @@
 package xiaogao.zjut.tabbaishuo.main.fragmentTab;
 
+import android.content.Intent;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Message;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.beyondsw.lib.widget.StackCardsView;
 
@@ -21,13 +23,16 @@ import xiaogao.zjut.tabbaishuo.adapter.CardAdapter;
 import xiaogao.zjut.tabbaishuo.base.fragment.MyBindPresentFragment;
 import xiaogao.zjut.tabbaishuo.bean.BaseCardItem;
 import xiaogao.zjut.tabbaishuo.injecter.component.FragmentComponent;
+import xiaogao.zjut.tabbaishuo.main.activity.ActivityPersonalDetail;
+
+import static xiaogao.zjut.tabbaishuo.main.activity.ActivityPersonalDetail.ISMINE;
 
 /**
  * Created by Administrator on 2017/11/18.
  */
 
 public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implements Handler.Callback, StackCardsView.OnCardSwipedListener
-        , View.OnClickListener {
+        , View.OnClickListener, CardAdapter.OnItemClickListener {
 
 
     @Bind(R.id.hour)
@@ -72,6 +77,13 @@ public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implemen
         return true;
     }
 
+    @Override
+    public void onItemClick(int index) {
+        Intent intent = new Intent(_mActivity, ActivityPersonalDetail.class);
+        intent.putExtra(ISMINE, false);
+        startActivity(intent);
+    }
+
     public interface Callback {
         void onViewPagerCbChanged(boolean checked);
     }
@@ -101,6 +113,7 @@ public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implemen
         ButterKnife.bind(this, view);
         cards.addOnCardSwipedListener(this);
         mAdapter = new CardAdapter(_mActivity);
+        mAdapter.setOnItemClickListener(this);
         cards.setAdapter(mAdapter);
         mMainHandler = new Handler(this);
         mWorkThread = new HandlerThread("data_loader");

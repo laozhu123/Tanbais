@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:background="@drawable/rect_white_redius_4_size_305"
-            android:scaleType="fitCenter"
+            android:scaleType="centerCrop"
             android:src="@mipmap/helo" />
 
         <TextView
@@ -26,17 +26,18 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="36dp"
             android:layout_marginLeft="15dp"
-            android:textColor="@color/white"
-            android:textSize="21sp"
+            android:textColor="@color/color_3bc2ff"
+            android:textSize="19sp"
             android:textStyle="bold"
             tools:text="千千厥歌" />
 
         <ImageView
             android:id="@+id/vip"
-            android:layout_width="20dp"
+            android:layout_width="18dp"
             android:layout_height="10dp"
             android:layout_alignTop="@id/nickName"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
             android:layout_toRightOf="@id/nickName"
             android:src="@mipmap/vip" />
 
@@ -47,7 +48,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="15dp"
             android:layout_marginLeft="15dp"
-            android:textColor="@color/white"
+            android:textColor="@color/color_3bc2ff"
             android:textSize="14sp"
             tools:text="24岁·现在浙江杭州·演员" />
     </RelativeLayout>

@@ -22,9 +22,14 @@ public class CardAdapter extends StackCardsView.Adapter {
 
     private List<BaseCardItem> mItems;
     private Context mContext;
+    private OnItemClickListener onItemClickListener;
 
     public CardAdapter(Context mContext) {
         this.mContext = mContext;
+    }
+
+    public void setOnItemClickListener(OnItemClickListener onItemClickListener) {
+        this.onItemClickListener = onItemClickListener;
     }
 
     public void appendItems(List<BaseCardItem> items) {
@@ -58,11 +63,17 @@ public class CardAdapter extends StackCardsView.Adapter {
             convertView = LayoutInflater.from(mContext).inflate(R.layout.item_card, parent, false);
             viewHolder = new CardItemViewHolder(convertView);
             convertView.setTag(viewHolder);
+            viewHolder.onItemClickListener = onItemClickListener;
         } else {
             viewHolder = (CardItemViewHolder) convertView.getTag();
         }
-        viewHolder.renderView(mItems.get(position));
+        viewHolder.renderView(mItems.get(position),position);
         return convertView;
+    }
+
+
+    public interface OnItemClickListener {
+        void onItemClick(int index);
     }
 
 //    @Override

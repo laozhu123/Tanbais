@@ -6,19 +6,33 @@
     android:background="@color/white"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/sayHello"
+        style="@style/btn_3bc2ff_white_tx"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="打个招呼"
+        android:textSize="17sp" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="60dp">
+        android:layout_above="@id/sayHello">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <include layout="@layout/common_head_title" />
+            <include layout="@layout/common_head_title1" />
 
             <ImageView
+                android:id="@+id/img"
                 android:layout_width="match_parent"
                 android:layout_height="375dp"
                 android:scaleType="centerCrop"
@@ -41,10 +55,11 @@
 
                 <ImageView
                     android:id="@+id/vip"
-                    android:layout_width="20dp"
+                    android:layout_width="18dp"
                     android:layout_height="10dp"
                     android:layout_alignTop="@id/nickName"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
                     android:layout_toRightOf="@id/nickName"
                     android:src="@mipmap/vip" />
 
@@ -230,18 +245,6 @@
         </LinearLayout>
     </ScrollView>
 
-    <TextView
-        android:id="@+id/sayHello"
-        style="@style/btn_3bc2ff_white_tx"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:gravity="center"
-        android:text="打个招呼"
-        android:textSize="17sp" />
 
     <ViewStub
         android:id="@+id/dialog1"

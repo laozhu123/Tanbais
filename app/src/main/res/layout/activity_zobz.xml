@@ -8,7 +8,7 @@
     android:background="@color/white"
     tools:context="xiaogao.zjut.tabbaishuo.main.activity.ActivityWdxy">
 
-    <include layout="@layout/common_head_title"/>
+    <include layout="@layout/common_head_title1"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"

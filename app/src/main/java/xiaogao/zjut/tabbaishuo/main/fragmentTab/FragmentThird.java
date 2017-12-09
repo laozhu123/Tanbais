@@ -30,6 +30,8 @@ import xiaogao.zjut.tabbaishuo.main.activity.ActivityYywt;
 import xiaogao.zjut.tabbaishuo.main.activity.ActivityZobz;
 import xiaogao.zjut.tabbaishuo.net.responses.Picture;
 
+import static xiaogao.zjut.tabbaishuo.main.activity.ActivityPersonalDetail.ISMINE;
+
 /**
  * Created by Administrator on 2017/11/18.
  */
@@ -155,6 +157,7 @@ public class FragmentThird extends MyBindPresentFragment<BasePresenter> implemen
                 intent = new Intent();
                 break;
         }
+        intent.putExtra(ISMINE,true);
         startActivity(intent);
     }
 }

@@ -33,7 +33,7 @@ public class FunctionListAdapter extends RecyclerView.Adapter<FunctionItemViewHo
 
     @Override
     public FunctionItemViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.item_list_function, null);
+        View view = LayoutInflater.from(context).inflate(R.layout.item_list_function, parent,false);
         FunctionItemViewHolder holder = new FunctionItemViewHolder(view);
         holder.setmOnItemClickListner(mOnItemClickListener);
         return holder;
