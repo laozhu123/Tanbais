@@ -3,6 +3,7 @@
 
     <string name="loading">loading....</string>
     <string name="push">推送</string>
+    <string name="appName">21:15</string>
     <string name="message">消息</string>
     <string name="my">我的</string>
 
@@ -16,6 +17,9 @@
     <string name="base_info">基础资料</string>
     <string name="select_standard">择偶标准</string>
     <string name="setting">设置</string>
+
+
+
 
     <string name="xiang_ce">相册</string>
 

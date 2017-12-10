@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/rc_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/message"
+        android:textColor="#3bc2ff"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/title"
+        android:background="#f3f3f3" />
+
     <LinearLayout
         android:id="@+id/rc_status_bar"
         android:layout_width="match_parent"
         android:layout_height="46dp"
+        android:layout_below="@id/line1"
         android:background="#ffdfdf"
         android:orientation="horizontal"
         android:visibility="gone">
@@ -32,31 +49,11 @@
             android:textSize="14sp" />
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/rc_status_bar"
-        android:background="#fff">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="30dp"
-            android:text="@string/message"
-            android:textColor="#282828"
-            android:textSize="28sp" />
-
-    </LinearLayout>
-
-
     <ListView
         android:id="@id/rc_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/title"
+        android:layout_below="@id/line1"
         android:background="@color/rc_text_color_primary_inverse"
         android:divider="@color/rc_conversation_list_divider_color"
         android:dividerHeight="0.5dp" />
@@ -66,6 +63,7 @@
         android:id="@+id/rc_conversation_list_empty_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
         android:layout_marginTop="127dp"
         android:gravity="center"
         android:orientation="vertical"
