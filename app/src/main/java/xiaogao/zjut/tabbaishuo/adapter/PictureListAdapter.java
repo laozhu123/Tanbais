@@ -25,6 +25,11 @@ public class PictureListAdapter extends RecyclerView.Adapter<PictureItemViewHold
     private int resLayoutId = 0;
     private int type = 0;
     private int itemHeight;
+    private OnItemClickListener onItemClickListener;
+
+    public void setOnItemClickListener(OnItemClickListener onItemClickListener) {
+        this.onItemClickListener = onItemClickListener;
+    }
 
     public PictureListAdapter(Context context, List<Picture> lists) {
         this.context = context;
@@ -53,6 +58,7 @@ public class PictureListAdapter extends RecyclerView.Adapter<PictureItemViewHold
         PictureItemViewHolder holder = new PictureItemViewHolder(view);
         holder.setType(type);
         holder.setItemHeight(itemHeight);
+        holder.setOnItemClickListener(onItemClickListener);
         return holder;
     }
 
@@ -64,6 +70,10 @@ public class PictureListAdapter extends RecyclerView.Adapter<PictureItemViewHold
     @Override
     public int getItemCount() {
         return lists.size();
+    }
+
+    public interface OnItemClickListener {
+        void onItemClick(int index);
     }
 
 }

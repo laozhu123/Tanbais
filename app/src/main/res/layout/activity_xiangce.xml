@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:orientation="vertical">
+    android:background="@color/white">
 
     <include layout="@layout/common_head_title1" />
 
@@ -11,7 +10,14 @@
         android:id="@+id/picRv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@id/head"
         android:layout_marginTop="15dp"
         android:paddingLeft="12dp"
         android:paddingRight="12dp" />
-</LinearLayout>
+
+    <ViewStub
+        android:id="@+id/bigPic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/big_pic" />
+</RelativeLayout>

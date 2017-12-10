@@ -24,6 +24,7 @@ import xiaogao.zjut.tabbaishuo.interfaces.IUIActivityPersonalDetail;
 import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityXiangCe;
 import xiaogao.zjut.tabbaishuo.main.persenter.PresenterActivityPersonalDetail;
 import xiaogao.zjut.tabbaishuo.net.responses.Picture;
+import xiaogao.zjut.tabbaishuo.views.MyImageView;
 import xiaogao.zjut.tabbaishuo.views.tags.Tag;
 import xiaogao.zjut.tabbaishuo.views.tags.TagListView;
 
@@ -31,7 +32,7 @@ import xiaogao.zjut.tabbaishuo.views.tags.TagListView;
  * Created by Administrator on 2017/12/2.
  */
 
-public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPersonalDetail> implements IUIActivityPersonalDetail {
+public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPersonalDetail> implements IUIActivityPersonalDetail ,PictureListAdapter.OnItemClickListener{
     @Inject
     PresenterActivityPersonalDetail mPresenter;
     @Bind(R.id.nickName)
@@ -73,6 +74,11 @@ public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPer
     private final List<Tag> mTagsZobz = new ArrayList<>();
     private final String[] baseInfoTitle = {"24岁", "现住浙江杭州", "程序员", "175cm", "10W-20W", "期望2年内结婚", "从未结婚"};
     private final String[] zobzTitle = {"24-26岁", "170-180cm", "10W-20W", "现住浙江杭州", "户籍浙江杭州", "从未结婚"};
+
+    @Bind(R.id.bigPic)
+    ViewStub vsBigPic;
+    View vBigPic;
+    ImageView vsImg;
 
     boolean isMine;
     public final static String ISMINE = "is_mine";
@@ -174,6 +180,7 @@ public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPer
         pictures = new ArrayList<>();
         picAdapter = new PictureListAdapter(this, pictures);
         picAdapter.setResLayoutId(R.layout.item_list_picture_big);
+        picAdapter.setOnItemClickListener(this);
         LinearLayoutManager ms = new LinearLayoutManager(this);
         ms.setOrientation(LinearLayoutManager.HORIZONTAL);
         picRecyclerView.setLayoutManager(ms);
@@ -220,5 +227,33 @@ public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPer
                 break;
         }
 
+    }
+
+    @Override
+    public void onItemClick(int index) {
+        if (vBigPic == null) {
+            vBigPic = vsBigPic.inflate();
+            vsImg = (ImageView) vBigPic.findViewById(R.id.vsImg);
+            vsImg.setImageDrawable(getResources().getDrawable(R.mipmap.helo));
+            vBigPic.findViewById(R.id.vsClose).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    vBigPic.setVisibility(View.GONE);
+                }
+            });
+
+        } else {
+            ((MyImageView) vsImg).initImgeView();
+            vBigPic.setVisibility(View.VISIBLE);
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (vBigPic != null && vBigPic.getVisibility() == View.VISIBLE) {
+            vBigPic.setVisibility(View.GONE);
+        } else {
+            super.onBackPressed();
+        }
     }
 }

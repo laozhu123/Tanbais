@@ -285,4 +285,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout="@layout/info_dialog" />
+
+    <ViewStub
+        android:id="@+id/bigPic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/big_pic" />
 </RelativeLayout>

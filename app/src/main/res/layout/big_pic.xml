@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vsBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65555555">
 
-</android.support.constraint.ConstraintLayout>
+
+    <xiaogao.zjut.tabbaishuo.views.MyImageView
+        android:id="@+id/vsImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:src="@mipmap/helo" />
+
+    <ImageView
+        android:id="@+id/vsClose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/forum_tag_close" />
+</RelativeLayout>

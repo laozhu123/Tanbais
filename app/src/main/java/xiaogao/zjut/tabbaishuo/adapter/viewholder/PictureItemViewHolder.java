@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.adapter.FunctionListAdapter;
+import xiaogao.zjut.tabbaishuo.adapter.PictureListAdapter;
 import xiaogao.zjut.tabbaishuo.bean.FunctionItemBean;
 import xiaogao.zjut.tabbaishuo.net.responses.Picture;
 import xiaogao.zjut.tabbaishuo.utils.SizeChange;
@@ -21,6 +22,11 @@ public class PictureItemViewHolder extends RecyclerView.ViewHolder {
     private ImageView img;
     private int type = 0;  //0是普通类型  1是相册类型
     private int itemHeight;
+    private PictureListAdapter.OnItemClickListener onItemClickListener;
+
+    public void setOnItemClickListener(PictureListAdapter.OnItemClickListener onItemClickListener) {
+        this.onItemClickListener = onItemClickListener;
+    }
 
     public PictureItemViewHolder(View itemView) {
         super(itemView);
@@ -52,6 +58,13 @@ public class PictureItemViewHolder extends RecyclerView.ViewHolder {
         }
         img.setLayoutParams(lp);
         img.setImageResource(R.mipmap.helo);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (onItemClickListener != null)
+                    onItemClickListener.onItemClick(index);
+            }
+        });
     }
 
 }

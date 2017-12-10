@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.DisplayMetrics;
 import android.view.View;
+import android.view.ViewStub;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -24,12 +25,13 @@ import xiaogao.zjut.tabbaishuo.injecter.component.ActivityComponent;
 import xiaogao.zjut.tabbaishuo.main.persenter.PresenterActivityXiangCe;
 import xiaogao.zjut.tabbaishuo.net.responses.Picture;
 import xiaogao.zjut.tabbaishuo.utils.SizeChange;
+import xiaogao.zjut.tabbaishuo.views.MyImageView;
 
 /**
  * Created by Administrator on 2017/12/10.
  */
 
-public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivityXiangCe> {
+public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivityXiangCe> implements PictureListAdapter.OnItemClickListener {
 
     @Inject
     PresenterActivityXiangCe mPresenter;
@@ -41,6 +43,10 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
     ImageView caoZuo;
     @Bind(R.id.picRv)
     RecyclerView picRv;
+    @Bind(R.id.bigPic)
+    ViewStub vsBigPic;
+    View vBigPic;
+    ImageView vsImg;
 
     List<Picture> pics = new ArrayList<>();
     PictureListAdapter picAdapter;
@@ -87,6 +93,7 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
         int itemHeight = (screenWidth - SizeChange.Dp2Px(this, 10 + 10 + 12)) / 3;
         picAdapter.setItemHeight(itemHeight);
         picAdapter.setType(1);
+        picAdapter.setOnItemClickListener(this);
         //GridLayout 3列
         GridLayoutManager mgr = new GridLayoutManager(this, 3);
         picRv.setLayoutManager(mgr);
@@ -105,6 +112,34 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
             case R.id.back:
                 finish();
                 break;
+        }
+    }
+
+    @Override
+    public void onItemClick(int index) {
+        if (vBigPic == null) {
+            vBigPic = vsBigPic.inflate();
+            vsImg = (ImageView) vBigPic.findViewById(R.id.vsImg);
+            vsImg.setImageDrawable(getResources().getDrawable(R.mipmap.helo));
+            vBigPic.findViewById(R.id.vsClose).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    vBigPic.setVisibility(View.GONE);
+                }
+            });
+
+        } else {
+            ((MyImageView) vsImg).initImgeView();
+            vBigPic.setVisibility(View.VISIBLE);
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (vBigPic != null && vBigPic.getVisibility() == View.VISIBLE) {
+            vBigPic.setVisibility(View.GONE);
+        } else {
+            super.onBackPressed();
         }
     }
 }
