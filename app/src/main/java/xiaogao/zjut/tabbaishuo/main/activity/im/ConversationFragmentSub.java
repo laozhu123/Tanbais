@@ -9,13 +9,10 @@ import android.view.ViewGroup;
 import android.view.ViewStub;
 import android.widget.TextView;
 
-import org.greenrobot.eventbus.Subscribe;
-
 import io.rong.imkit.fragment.ConversationFragment;
 import io.rong.imkit.R;
-import io.rong.imlib.model.UserInfo;
 import xiaogao.zjut.tabbaishuo.interfaces.IUIFragmentConversation;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityJuBao;
+import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityJuBao;
 import xiaogao.zjut.tabbaishuo.main.persenter.PresenterFragmentConversation;
 
 /**

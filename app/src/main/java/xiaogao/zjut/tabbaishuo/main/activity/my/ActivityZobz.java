@@ -1,4 +1,4 @@
-package xiaogao.zjut.tabbaishuo.main.activity;
+package xiaogao.zjut.tabbaishuo.main.activity.my;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;

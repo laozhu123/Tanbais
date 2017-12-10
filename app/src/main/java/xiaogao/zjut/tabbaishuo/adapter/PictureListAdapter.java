@@ -22,16 +22,37 @@ public class PictureListAdapter extends RecyclerView.Adapter<PictureItemViewHold
 
     private Context context;
     private List<Picture> lists;
+    private int resLayoutId = 0;
+    private int type = 0;
+    private int itemHeight;
 
     public PictureListAdapter(Context context, List<Picture> lists) {
         this.context = context;
         this.lists = lists;
     }
 
+    public void setItemHeight(int itemHeight) {
+        this.itemHeight = itemHeight;
+    }
+
+    public void setResLayoutId(int resLayoutId) {
+        this.resLayoutId = resLayoutId;
+    }
+
+    public void setType(int type) {
+        this.type = type;
+    }
+
     @Override
     public PictureItemViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.item_list_picture, null);
+        View view;
+        if (resLayoutId == 0)
+            view = LayoutInflater.from(context).inflate(R.layout.item_list_picture, parent, false);
+        else
+            view = LayoutInflater.from(context).inflate(resLayoutId, parent, false);
         PictureItemViewHolder holder = new PictureItemViewHolder(view);
+        holder.setType(type);
+        holder.setItemHeight(itemHeight);
         return holder;
     }
 

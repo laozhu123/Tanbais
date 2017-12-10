@@ -1,4 +1,4 @@
-package xiaogao.zjut.tabbaishuo.main.activity;
+package xiaogao.zjut.tabbaishuo.main.activity.my;
 
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;

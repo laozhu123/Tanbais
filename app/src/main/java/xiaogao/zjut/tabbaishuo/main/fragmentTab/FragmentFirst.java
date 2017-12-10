@@ -6,7 +6,6 @@ import android.os.HandlerThread;
 import android.os.Message;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.beyondsw.lib.widget.StackCardsView;
 
@@ -23,9 +22,9 @@ import xiaogao.zjut.tabbaishuo.adapter.CardAdapter;
 import xiaogao.zjut.tabbaishuo.base.fragment.MyBindPresentFragment;
 import xiaogao.zjut.tabbaishuo.bean.BaseCardItem;
 import xiaogao.zjut.tabbaishuo.injecter.component.FragmentComponent;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityPersonalDetail;
+import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityGrzl;
 
-import static xiaogao.zjut.tabbaishuo.main.activity.ActivityPersonalDetail.ISMINE;
+import static xiaogao.zjut.tabbaishuo.main.activity.my.ActivityGrzl.ISMINE;
 
 /**
  * Created by Administrator on 2017/11/18.
@@ -79,7 +78,7 @@ public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implemen
 
     @Override
     public void onItemClick(int index) {
-        Intent intent = new Intent(_mActivity, ActivityPersonalDetail.class);
+        Intent intent = new Intent(_mActivity, ActivityGrzl.class);
         intent.putExtra(ISMINE, false);
         startActivity(intent);
     }

@@ -5,4 +5,11 @@
     <dimen name="tab_icon_size">22dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 
+
+    <dimen name="tag_horizontal_spacing">10dp</dimen>
+    <dimen name="tag_vertical_spacing">10dp</dimen>
+    <dimen name="common_margin">12dp</dimen>
+    <dimen name="common_margin_10">10dp</dimen>
+
+
 </resources>

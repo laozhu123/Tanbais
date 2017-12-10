@@ -18,7 +18,7 @@
         <attr name="border_width1" format="dimension" />
         <attr name="border_color1" format="color" />
         <attr name="border_overlay1" format="boolean" />
-        <attr name="redius" format="dimension"/>
+        <attr name="redius" format="dimension" />
     </declare-styleable>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
@@ -84,11 +84,19 @@
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:layout_marginRight">15dp</item>
-        <item name="android:src">@drawable/icon_fanhui</item>
+        <item name="android:src">@mipmap/icon_qianjin</item>
     </style>
 
     <style name="btn_3bc2ff_white_tx">
         <item name="android:background">@drawable/rect_btn_6_3bc2ff_tx_white</item>
         <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="line_f3f3f3_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#f3f3f3</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
     </style>
 </resources>

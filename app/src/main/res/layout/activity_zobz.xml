@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context="xiaogao.zjut.tabbaishuo.main.activity.ActivityWdxy">
+    tools:context="xiaogao.zjut.tabbaishuo.main.activity.my.ActivityWdxy">
 
     <include layout="@layout/common_head_title1"/>
 

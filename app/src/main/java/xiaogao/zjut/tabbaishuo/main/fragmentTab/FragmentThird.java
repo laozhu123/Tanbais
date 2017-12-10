@@ -20,17 +20,16 @@ import xiaogao.zjut.tabbaishuo.adapter.PictureListAdapter;
 import xiaogao.zjut.tabbaishuo.base.fragment.MyBindPresentFragment;
 import xiaogao.zjut.tabbaishuo.bean.FunctionItemBean;
 import xiaogao.zjut.tabbaishuo.injecter.component.FragmentComponent;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityGrzl;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityPersonalDetail;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityRzzx;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivitySz;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityWdxy;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityYqhy;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityYywt;
-import xiaogao.zjut.tabbaishuo.main.activity.ActivityZobz;
+import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityGrzl;
+import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityRzzx;
+import xiaogao.zjut.tabbaishuo.main.activity.my.ActivitySz;
+import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityWdxy;
+import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityYqhy;
+import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityYywt;
+import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityZobz;
 import xiaogao.zjut.tabbaishuo.net.responses.Picture;
 
-import static xiaogao.zjut.tabbaishuo.main.activity.ActivityPersonalDetail.ISMINE;
+import static xiaogao.zjut.tabbaishuo.main.activity.my.ActivityGrzl.ISMINE;
 
 /**
  * Created by Administrator on 2017/11/18.
@@ -133,7 +132,7 @@ public class FragmentThird extends MyBindPresentFragment<BasePresenter> implemen
         Intent intent;
         switch (index) {
             case 0:
-                intent = new Intent(_mActivity, ActivityPersonalDetail.class);
+                intent = new Intent(_mActivity, ActivityGrzl.class);
                 break;
             case 1:
                 intent = new Intent(_mActivity, ActivityZobz.class);

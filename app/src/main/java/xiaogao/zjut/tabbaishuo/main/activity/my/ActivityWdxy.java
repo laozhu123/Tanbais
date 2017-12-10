@@ -1,15 +1,15 @@
-package xiaogao.zjut.tabbaishuo.main.activity;
+package xiaogao.zjut.tabbaishuo.main.activity.my;
 
 import android.view.View;
 
 import xgn.com.basesdk.base.activity.ActivityBase;
 import xiaogao.zjut.tabbaishuo.R;
 
-public class ActivityRzzx extends ActivityBase {
+public class ActivityWdxy extends ActivityBase {
 
     @Override
     protected int getContentLayoutResId() {
-        return R.layout.activity_hyfw;
+        return R.layout.activity_xxrz;
     }
 
     @Override
@@ -18,6 +18,7 @@ public class ActivityRzzx extends ActivityBase {
     }
 
     private void initView() {
+        setTitle(R.string.authorized_center);
     }
 
 }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -27,7 +28,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/sayHello"
-        android:layout_below="@id/hah">
+        android:layout_below="@id/hah"
+        android:overScrollMode="never">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,6 +47,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
                 android:layout_marginTop="20dp">
 
                 <TextView
@@ -80,10 +83,24 @@
             </RelativeLayout>
 
 
+            <TextView
+                android:id="@+id/selfDescribe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#bbb"
+                android:textSize="14sp"
+                tools:text="我自认为是一个喜欢自由而又充满活力的人，我想做的事情一般马上就去做，大概除了秘密，心里一般也不会有不愿意跟人家说的话。我的性格，有时候会被人觉得有些冲动，但还好朋友们都觉得我还不错。" />
+
+            <View
+                style="@style/line_f3f3f3_vertical"
+                android:layout_marginTop="15dp" />
+
             <RelativeLayout
+                android:id="@+id/seePicture"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="25dp"
                 android:paddingLeft="15dp">
 
                 <TextView
@@ -94,23 +111,19 @@
                     android:textColor="@color/color_282828"
                     android:textSize="17sp" />
 
-                <ImageView
-                    android:id="@+id/seePicture"
-                    style="@style/personal_info_right_icon_img" />
+                <ImageView style="@style/personal_info_right_icon_img" />
             </RelativeLayout>
 
             <android.support.v7.widget.RecyclerView
+                android:id="@+id/pics"
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
-                android:layout_marginTop="10dp" />
+                android:layout_marginTop="10dp"
+                android:scrollbars="none" />
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="30dp"
-                android:background="#f3f3f3" />
+                style="@style/line_f3f3f3_vertical"
+                android:layout_marginTop="30dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -169,7 +182,9 @@
 
                 <View style="@style/personal_info_item_view" />
 
-                <TextView style="@style/personal_info_item_content" />
+                <TextView
+                    android:id="@+id/chezi"
+                    style="@style/personal_info_item_content" />
             </LinearLayout>
 
             <LinearLayout style="@style/rect_light_blue">
@@ -184,18 +199,17 @@
 
                 <View style="@style/personal_info_item_view" />
 
-                <TextView style="@style/personal_info_item_content" />
+                <TextView
+                    android:id="@+id/fangzi"
+                    style="@style/personal_info_item_content" />
             </LinearLayout>
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="30dp"
-                android:background="#f3f3f3" />
+                style="@style/line_f3f3f3_vertical"
+                android:layout_marginTop="30dp" />
 
             <RelativeLayout
+                android:id="@+id/seeBaseInfo"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_marginTop="15dp"
@@ -210,22 +224,28 @@
                     android:textSize="17sp" />
 
                 <ImageView
-                    android:id="@+id/seeBaseInfo"
+
                     style="@style/personal_info_right_icon_img" />
             </RelativeLayout>
 
-            <!--SOMETHING VIEW CONTENT-->
+            <xiaogao.zjut.tabbaishuo.views.tags.TagListView
+                android:id="@+id/tagBaseInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                f:horizontalSpacing="@dimen/tag_horizontal_spacing"
+                f:orientation="horizontal"
+                f:verticalSpacing="@dimen/tag_vertical_spacing" />
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="30dp"
-                android:background="#f3f3f3" />
+                style="@style/line_f3f3f3_vertical"
+                android:layout_marginTop="30dp" />
 
 
             <RelativeLayout
+                android:id="@+id/seeZobz"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_marginTop="15dp"
@@ -240,11 +260,21 @@
                     android:textSize="17sp" />
 
                 <ImageView
-                    android:id="@+id/seeZobz"
+
                     style="@style/personal_info_right_icon_img" />
             </RelativeLayout>
 
-            <!--SOMETHING VIEW CONTENT-->
+            <xiaogao.zjut.tabbaishuo.views.tags.TagListView
+                android:id="@+id/tagZobz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                f:horizontalSpacing="@dimen/tag_horizontal_spacing"
+                f:orientation="horizontal"
+                android:layout_marginBottom="40dp"
+                f:verticalSpacing="@dimen/tag_vertical_spacing" />
 
         </LinearLayout>
     </ScrollView>
