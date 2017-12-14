@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="VsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/toolbar_background_black</item>
+        <item name="colorPrimaryDark">@color/toolbar_background_black</item>
+        <item name="colorAccent">@color/color_979797</item>
+    </style>
+
+
+    <!--全屏显示-->
+    <style name="AppTheme.FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- 无标题透明栏主题 -->
+    <style name="TranslucentAppTheme" parent="VsTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Popup.Zhihu" parent="Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/zhihu_album_popup_bg</item>
+    </style>
+    <style name="Toolbar.Zhihu" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+</resources>

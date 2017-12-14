@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DownloadDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+</resources>

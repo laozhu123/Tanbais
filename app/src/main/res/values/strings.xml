@@ -18,10 +18,11 @@
     <string name="select_standard">择偶标准</string>
     <string name="setting">设置</string>
 
-
-
+    <string name="camera">相机</string>
+    <string name="upload">上传</string>
 
     <string name="xiang_ce">相册</string>
+    <string name="add_picture">添加</string>
 
     <string name="push_time_left">推送倒计时</string>
     <string name="how_to_get_good_push">如何获取优质的推送</string>

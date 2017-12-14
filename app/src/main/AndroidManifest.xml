@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="xiaogao.zjut.tabbaishuo">
 
     <!--获取运营商信息，用于支持提供运营商信息相关的接口-->
@@ -35,7 +36,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme">
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -84,9 +86,10 @@
         <activity android:name=".main.activity.my.ActivityZobz" />
         <activity android:name=".main.activity.my.ActivityYqhy" />
         <activity android:name=".main.activity.common.ActivityJuBao" />
-        <activity android:name=".main.activity.my.ActivityBaseInfo"/>
-        <activity android:name=".main.activity.my.ActivityGrzl"/>
-        <activity android:name=".main.activity.common.ActivityXiangCe"/>
+        <activity android:name=".main.activity.my.ActivityBaseInfo" />
+        <activity android:name=".main.activity.my.ActivityGrzl" />
+        <activity android:name=".main.activity.common.ActivityXiangCe" />
+        <activity android:name=".main.activity.my.ActivityChangeHeadNickName" />
     </application>
 
 </manifest>

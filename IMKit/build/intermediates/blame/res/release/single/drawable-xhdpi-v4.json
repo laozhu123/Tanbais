@@ -724,12 +724,12 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_leave_message_bg.png"
     },
     {
-        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f36b.png",
-        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f36b.png"
-    },
-    {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_cs_resolved.png",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_resolved.png"
+    },
+    {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f36b.png",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f36b.png"
     },
     {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_voice_unread.png",

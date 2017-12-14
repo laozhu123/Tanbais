@@ -1003,6 +1003,7 @@ containing a value of this type.
         public static int rc_wi_file_list_adapter=0x7f030066;
         public static int rc_wi_notice=0x7f030067;
         public static int rc_wi_vo_popup=0x7f030068;
+        public static int tab_head=0x7f030069;
     }
     public static final class string {
         public static int message=0x7f0500fa;

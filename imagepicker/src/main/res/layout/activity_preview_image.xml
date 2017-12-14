@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#191919"
+    >
+
+
+    <!--   <TextView
+           android:id="@+id/index"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true"
+           android:layout_margin="20dp"
+           android:visibility="gone"
+           />
+
+       <TextView
+           android:id="@+id/btn_seletct"
+           android:layout_width="30dp"
+           android:layout_height="30dp"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentTop="true"
+           android:layout_margin="20dp"
+           android:gravity="center"
+           android:textColor="#ffffff"
+           android:textSize="16dp"/>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/toolbar_backs"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/preview_icon_back" />
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/toolbar_back"-->
+        <!--android:layout_width="14dp"-->
+        <!--android:layout_height="14dp"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:padding="40dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:background="@drawable/post_icon_back"-->
+        <!--android:visibility="visible"/>-->
+
+
+        <TextView
+            android:id="@+id/btn_seletct"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <!--        <TextView
+                    android:id="@+id/index"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:visibility="visible"
+                    />-->
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000000">
+
+        <TextView
+            android:id="@+id/tv_button_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"
+            android:text="完成"
+            android:textColor="#56c8cc"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

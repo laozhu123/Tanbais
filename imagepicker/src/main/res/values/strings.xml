@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ugallery</string>
+    <string name="image">所有照片</string>
+    <string name="camera">相机</string>
+    <string name="all_photo">所有图像</string>
+    <string name="empty_photo">暂时没有照片哦</string>
+    <string name="select_finish">下一步</string>
+    <string name="cancel">取消</string>
+    <string name="setting">去设置</string>
+    <string name="over_size">超过最大分辨率</string>
+    <string name="over_size_number">16384*16384</string>
+</resources>

@@ -240,6 +240,10 @@
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_location_real_time_activity.xml"
     },
     {
+        "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\tab_head.xml",
+        "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\tab_head.xml"
+    },
+    {
         "merged": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_cs_alert_robot_evaluation.xml",
         "source": "F:\\test_android_demo\\TabBaiShuo\\IMKit\\src\\main\\res\\layout\\rc_cs_alert_robot_evaluation.xml"
     },

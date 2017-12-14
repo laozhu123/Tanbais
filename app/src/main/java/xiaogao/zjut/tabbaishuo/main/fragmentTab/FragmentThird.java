@@ -1,9 +1,13 @@
 package xiaogao.zjut.tabbaishuo.main.fragmentTab;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewStub;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -13,6 +17,7 @@ import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import xgn.com.basesdk.base.mvp.BasePresenter;
 import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.adapter.FunctionListAdapter;
@@ -20,6 +25,8 @@ import xiaogao.zjut.tabbaishuo.adapter.PictureListAdapter;
 import xiaogao.zjut.tabbaishuo.base.fragment.MyBindPresentFragment;
 import xiaogao.zjut.tabbaishuo.bean.FunctionItemBean;
 import xiaogao.zjut.tabbaishuo.injecter.component.FragmentComponent;
+import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityXiangCe;
+import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityChangeHeadNickName;
 import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityGrzl;
 import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityRzzx;
 import xiaogao.zjut.tabbaishuo.main.activity.my.ActivitySz;
@@ -28,6 +35,7 @@ import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityYqhy;
 import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityYywt;
 import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityZobz;
 import xiaogao.zjut.tabbaishuo.net.responses.Picture;
+import xiaogao.zjut.tabbaishuo.views.MyImageView;
 
 import static xiaogao.zjut.tabbaishuo.main.activity.my.ActivityGrzl.ISMINE;
 
@@ -51,8 +59,16 @@ public class FragmentThird extends MyBindPresentFragment<BasePresenter> implemen
     RecyclerView listFunction;
     @Bind(R.id.headIcon)
     ImageView headIcon;
+    @Bind(R.id.title)
+    TextView title;
     private List<Picture> pls;
     private PictureListAdapter pAdapter;
+
+
+    @Bind(R.id.bigPic)
+    ViewStub vsBigPic;
+    View vBigPic;
+    ImageView vsImg;
 
     @Override
     public void onRefresh() {
@@ -77,6 +93,7 @@ public class FragmentThird extends MyBindPresentFragment<BasePresenter> implemen
     @Override
     protected void initFragment(View view) {
         ButterKnife.bind(this, view);
+        title.setText(R.string.my);
         initFunctionList();
         initPictures();
         loadInfo();
@@ -93,6 +110,27 @@ public class FragmentThird extends MyBindPresentFragment<BasePresenter> implemen
     private void initPictures() {
         pls = new ArrayList<>();
         pAdapter = new PictureListAdapter(_mActivity, pls);
+        pAdapter.setOnItemClickListener(new PictureListAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(int index) {
+                //fixme 设置照片
+                if (vBigPic == null) {
+                    vBigPic = vsBigPic.inflate();
+                    vsImg = (ImageView) vBigPic.findViewById(R.id.vsImg);
+                    vsImg.setImageDrawable(getResources().getDrawable(R.mipmap.helo));
+                    vBigPic.findViewById(R.id.vsClose).setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            vBigPic.setVisibility(View.GONE);
+                        }
+                    });
+
+                } else {
+                    ((MyImageView) vsImg).initImgeView();
+                    vBigPic.setVisibility(View.VISIBLE);
+                }
+            }
+        });
         LinearLayoutManager ms = new LinearLayoutManager(_mActivity);
         ms.setOrientation(LinearLayoutManager.HORIZONTAL);
         pictureRv.setLayoutManager(ms);
@@ -156,7 +194,22 @@ public class FragmentThird extends MyBindPresentFragment<BasePresenter> implemen
                 intent = new Intent();
                 break;
         }
-        intent.putExtra(ISMINE,true);
+        intent.putExtra(ISMINE, true);
         startActivity(intent);
+    }
+
+
+    @OnClick({R.id.headIcon, R.id.photo})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.headIcon:
+                startActivity(new Intent(_mActivity, ActivityChangeHeadNickName.class));
+                break;
+            case R.id.photo:
+                //fixme 相册
+                Intent intent = new Intent(_mActivity, ActivityXiangCe.class);
+                startActivity(intent);
+                break;
+        }
     }
 }

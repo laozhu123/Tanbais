@@ -1,14 +1,14 @@
 package xiaogao.zjut.tabbaishuo.main.activity.common;
 
-import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewStub;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.neteaseyx.image.ugallery.UGallery;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,6 +45,10 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
     RecyclerView picRv;
     @Bind(R.id.bigPic)
     ViewStub vsBigPic;
+    @Bind(R.id.titleRightTv)
+    TextView titleRightTv;
+
+    public static int picSize = 6;
     View vBigPic;
     ImageView vsImg;
 
@@ -82,9 +86,11 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
     }
 
     private void initView() {
+
         hideTitleBar();
         caoZuo.setVisibility(View.GONE);
         title.setText(R.string.xiang_ce);
+        titleRightTv.setText(R.string.add_picture);
         picAdapter = new PictureListAdapter(this, pics);
         picAdapter.setResLayoutId(R.layout.xiangce_item);
         DisplayMetrics dm = new DisplayMetrics();
@@ -98,6 +104,15 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
         GridLayoutManager mgr = new GridLayoutManager(this, 3);
         picRv.setLayoutManager(mgr);
         picRv.setAdapter(picAdapter);
+
+        UGallery.Config config = UGallery.getConfig();
+        config.setImageSelectNumIsShow(false);
+        config.setBarRightText(getString(R.string.upload));
+        config.setBarTitle(getString(R.string.camera));
+        config.setCameraImage(R.mipmap.camera_icon);
+        config.setImageBackGround(R.color.color_979797);
+        config.setTitleBarRightBtnTextColor(R.color.color_7dba50);
+        config.setGalleryImageSelect(R.mipmap.choose_photo_selected, R.mipmap.choose_photo_unselected);
     }
 
     @Override
@@ -106,11 +121,17 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
         ButterKnife.unbind(this);
     }
 
-    @OnClick(R.id.back)
+    @OnClick({R.id.back, R.id.titleRightTv})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.back:
                 finish();
+                break;
+            case R.id.titleRightTv:
+                UGallery.getConfig().setBarTitle(getString(R.string.xiang_ce));
+                UGallery.selectMultipleImageCompress(this, picSize);
+                break;
+            default:
                 break;
         }
     }

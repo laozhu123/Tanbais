@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/no_permission_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        android:text="没有权限"
+        android:textColor="#333333"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/setting_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_permission_hint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="进去系统设置设置"
+        android:textColor="#333333"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/setting"
+        android:layout_width="139dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/setting_hint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/shape_permision_setting"
+        android:gravity="center"
+        android:text="@string/setting"
+        android:textColor="#000000"
+        android:textSize="15dp"
+
+        />
+
+</RelativeLayout>

@@ -44,6 +44,8 @@ public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implemen
     StackCardsView cards;
     @Bind(R.id.howGetGoodPush)
     TextView howGetGoodPush;
+    @Bind(R.id.title)
+    TextView title;
 
     CardAdapter mAdapter;
     private HandlerThread mWorkThread;
@@ -110,6 +112,7 @@ public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implemen
     @Override
     protected void initFragment(View view) {
         ButterKnife.bind(this, view);
+        title.setText(R.string.appName);
         cards.addOnCardSwipedListener(this);
         mAdapter = new CardAdapter(_mActivity);
         mAdapter.setOnItemClickListener(this);

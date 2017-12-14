@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:layout_centerVertical="true"
+    android:background="@color/toolbar_background">
+
+    <ImageView
+        android:id="@+id/toolbar_back"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/left_common_back_icon" />
+
+    <TextView
+        android:id="@+id/toolbar_left_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/actionbar_title_back"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/selected_album"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:layout_marginLeft="50dp"
+        android:drawableRight="@drawable/ic_arrow_drop_down_white_24dp"
+        android:foreground="?selectableItemBackground"
+        android:gravity="center"
+        android:textColor="@color/tool_bar_text"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/toolbar_right_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:focusable="true"
+        android:gravity="center"
+        tools:text="确定"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/toolbar_right_text_color_gray"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:textColor="@color/actionbar_title_text"
+        android:textSize="19sp"
+        tools:text="相机" />
+
+
+</RelativeLayout>

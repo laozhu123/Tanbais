@@ -8,10 +8,10 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="44dp"
-        android:background="@color/white"
+        android:background="#f9f9f9"
         android:gravity="center"
         android:text="@string/message"
-        android:textColor="#3bc2ff"
+        android:textColor="#484848"
         android:textSize="18sp" />
 
     <View

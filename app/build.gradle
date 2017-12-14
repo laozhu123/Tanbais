@@ -15,11 +15,45 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "armeabi", "arm64-v8a"
         }
+        multiDexEnabled true
 
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
     }
+
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+        jumboMode = true
+    }
+
+    aaptOptions {
+        cruncherEnabled false
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            java {
+                srcDir 'src/main/java'
+            }
+        }
+    }
+
     buildTypes {
         debug {
             minifyEnabled false
+            debuggable true
+            zipAlignEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         release {
@@ -53,8 +87,10 @@ dependencies {
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.11'
     compile project(':StackCardsView')
     compile project(':IMKit')
-
     compile 'org.greenrobot:eventbus:3.0.0'
-
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
+    //    compile 'com.xgn.public:imagepicker:1.1.0-SNAPSHOT'
+    compile project(':imagepicker')
+
+    compile 'com.android.support:multidex:1.0.1'
 }

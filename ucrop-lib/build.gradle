@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionName "1.6.1"
+        generatedDensities = []
+  //      vectorDrawables.useSupportLibrary = true
+    }
+
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+	lintOptions {
+        abortOnError false
+    }
+	
+    resourcePrefix 'ucrop_'
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:25.3.1'
+//    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+}
+
+
+//uploadArchives {
+//    configuration = configurations.archives
+//    repositories {
+//        mavenDeployer {
+//            repository(url: MAVEN_URL) {
+//                authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
+//            }
+//            snapshotRepository(url: MAVEN_SNAPSHOT_URL) {
+//                authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
+//            }
+//            pom.project {
+//                version VERSION
+//                artifactId ARTIFACT_ID
+//                groupId GROUP_ID
+//                packaging TYPE
+//                description DESCRIPTION
+//            }
+//        }
+//    }
+//}
+//
+//artifacts {
+//    archives file(ARCHIVES_FILE)
+//}

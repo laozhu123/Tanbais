@@ -3,9 +3,11 @@ package xiaogao.zjut.tabbaishuo.app;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.Application;
+import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.multidex.MultiDex;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -37,6 +39,12 @@ public class MyApplication extends CoreApplication implements Application.Activi
     //当前Activity的弱引用
     private WeakReference<Activity> mActivityReference;
 
+
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        MultiDex.install(base);
+    }
 
     @Override
     public void onCreate() {

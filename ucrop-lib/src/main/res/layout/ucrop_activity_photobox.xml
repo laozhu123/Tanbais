@@ -1,0 +1,87 @@
+<RelativeLayout
+    android:id="@+id/ucrop_photobox"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/toolbar_background"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="45dp">
+
+           <ImageView
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:layout_centerVertical="true"
+               android:layout_width="45dp"
+               android:layout_height="match_parent"
+               android:id="@+id/iv_back"
+               android:scaleType="centerInside"
+               android:src="@drawable/left_back_icon"
+               />
+
+           <TextView
+               android:layout_centerInParent="true"
+               android:id="@+id/toolbar_title"
+               style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:text="@string/ucrop_label_edit_photo"
+               android:textSize="17sp"
+               android:textColor="@color/toolbar_tootlebar_title"/>
+
+           <TextView
+               android:textSize="13sp"
+               android:gravity="center"
+               android:layout_marginRight="15dp"
+               android:layout_marginEnd="15dp"
+               android:layout_centerVertical="true"
+               android:layout_centerHorizontal="true"
+               android:layout_alignParentEnd="true"
+               android:layout_alignParentRight="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#000"
+               android:text="发布"
+               android:id="@+id/iv_next"
+               />
+       </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/ucrop_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/wrapper_controls"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/ucrop_color_crop_background">
+
+        <ImageView
+            android:id="@+id/image_view_logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ucrop_vector_ic_crop"
+            tools:background="@drawable/ucrop_vector_ic_crop"
+            tools:ignore="MissingPrefix"/>
+
+        <com.yalantis.ucrop.view.UCropView
+            android:id="@+id/ucrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

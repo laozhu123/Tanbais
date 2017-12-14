@@ -925,6 +925,7 @@ int layout rc_wi_block_popup 0x7f030065
 int layout rc_wi_file_list_adapter 0x7f030066
 int layout rc_wi_notice 0x7f030067
 int layout rc_wi_vo_popup 0x7f030068
+int layout tab_head 0x7f030069
 int string message 0x7f0500fa
 int string rc_ac_file_download_btn 0x7f050000
 int string rc_ac_file_download_open_file_btn 0x7f050001

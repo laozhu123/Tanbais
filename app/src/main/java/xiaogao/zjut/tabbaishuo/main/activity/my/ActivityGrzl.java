@@ -231,6 +231,7 @@ public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPer
 
     @Override
     public void onItemClick(int index) {
+        //fixme 设置照片
         if (vBigPic == null) {
             vBigPic = vsBigPic.inflate();
             vsImg = (ImageView) vBigPic.findViewById(R.id.vsImg);
