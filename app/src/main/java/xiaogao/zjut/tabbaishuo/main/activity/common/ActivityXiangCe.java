@@ -47,6 +47,11 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
     ViewStub vsBigPic;
     @Bind(R.id.titleRightTv)
     TextView titleRightTv;
+    @Bind(R.id.dialog)
+    ViewStub vsDialog;
+    @Bind(R.id.cancel_btn)
+    View cancelBtn;
+    View vDialog;
 
     public static int picSize = 6;
     View vBigPic;
@@ -79,7 +84,7 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
 
     private void initData() {
 
-        for (int i = 0; i < 30; i++) {
+        for (int i = 0; i < 6; i++) {
             pics.add(new Picture());
         }
         picAdapter.notifyDataSetChanged();
@@ -90,7 +95,9 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
         hideTitleBar();
         caoZuo.setVisibility(View.GONE);
         title.setText(R.string.xiang_ce);
-        titleRightTv.setText(R.string.add_picture);
+        titleRightTv.setText(R.string.caoZuo);
+
+
         picAdapter = new PictureListAdapter(this, pics);
         picAdapter.setResLayoutId(R.layout.xiangce_item);
         DisplayMetrics dm = new DisplayMetrics();
@@ -108,10 +115,12 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
         UGallery.Config config = UGallery.getConfig();
         config.setImageSelectNumIsShow(false);
         config.setBarRightText(getString(R.string.upload));
-        config.setBarTitle(getString(R.string.camera));
+        config.setBarTitle(getString(R.string.xiang_ce));
         config.setCameraImage(R.mipmap.camera_icon);
+        config.setTitleTextColor(R.color.color_3bc2ff);
         config.setImageBackGround(R.color.color_979797);
-        config.setTitleBarRightBtnTextColor(R.color.color_7dba50);
+        config.setTitleBarRightBtnTextColor(R.color.color_3bc2ff);
+        config.setTitleBarBackBtnImage(R.drawable.icon_fanhui);
         config.setGalleryImageSelect(R.mipmap.choose_photo_selected, R.mipmap.choose_photo_unselected);
     }
 
@@ -121,20 +130,60 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
         ButterKnife.unbind(this);
     }
 
-    @OnClick({R.id.back, R.id.titleRightTv})
+    @OnClick({R.id.back, R.id.titleRightTv, R.id.cancel_btn})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.back:
                 finish();
                 break;
             case R.id.titleRightTv:
-                UGallery.getConfig().setBarTitle(getString(R.string.xiang_ce));
-                UGallery.selectMultipleImageCompress(this, picSize);
+                showCaoZuoDialog();
+                break;
+            case R.id.cancel_btn:
+                titleRightTv.setVisibility(View.VISIBLE);
+                cancelBtn.setVisibility(View.GONE);
+                picAdapter.setShowDelete(false);
+                picAdapter.notifyDataSetChanged();
                 break;
             default:
                 break;
         }
     }
+
+    private void showCaoZuoDialog() {
+        if (vDialog != null) {
+            vDialog.setVisibility(View.VISIBLE);
+        } else {
+            vDialog = vsDialog.inflate();
+            vDialog.findViewById(R.id.bg).setOnClickListener(onClickListener);
+            vDialog.findViewById(R.id.delete).setOnClickListener(onClickListener);
+            vDialog.findViewById(R.id.add).setOnClickListener(onClickListener);
+        }
+    }
+
+    private View.OnClickListener onClickListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            switch (view.getId()) {
+                case R.id.bg:
+                    vDialog.setVisibility(View.GONE);
+                    break;
+                case R.id.delete:
+                    vDialog.setVisibility(View.GONE);
+                    cancelBtn.setVisibility(View.VISIBLE);
+                    picAdapter.setShowDelete(true);
+                    picAdapter.notifyDataSetChanged();
+                    titleRightTv.setVisibility(View.GONE);
+                    break;
+                case R.id.add:
+                    UGallery.selectMultipleImageCompress(ActivityXiangCe.this, 6);
+                    vDialog.setVisibility(View.GONE);
+                    break;
+                default:
+                    break;
+            }
+        }
+    };
 
     @Override
     public void onItemClick(int index) {
@@ -153,6 +202,12 @@ public class ActivityXiangCe extends MyBaseBindPresentActivity<PresenterActivity
             ((MyImageView) vsImg).initImgeView();
             vBigPic.setVisibility(View.VISIBLE);
         }
+    }
+
+    @Override
+    public void delete(int index) {
+        pics.remove(index);
+        picAdapter.notifyDataSetChanged();
     }
 
     @Override

@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:id="@+id/layout"
-    >
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerview_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/ly_bottom"
-        android:layout_marginTop="5.5dp"
-        />
+        android:layout_marginTop="5.5dp" />
 
 
     <RelativeLayout
@@ -22,16 +20,14 @@
         android:layout_alignParentBottom="true"
         android:background="@color/selectToolBar"
         android:gravity="center_vertical"
-        android:visibility="gone"
-        >
+        android:visibility="gone">
 
         <View
             android:id="@+id/divider_line"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_alignParentTop="true"
-            android:background="#dedede"
-            />
+            android:background="#dedede" />
 
         <TextView
             android:id="@+id/folder_name"
@@ -39,8 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="8dp"
-            android:padding="10dp"
-            />
+            android:padding="10dp" />
 
 
     </RelativeLayout>
@@ -52,20 +47,16 @@
         android:layout_height="match_parent"
         android:layout_above="@id/ly_bottom"
         android:background="#66333333"
-        android:visibility="gone"
-        >
+        android:visibility="gone">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerview_folder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginTop="60dp"
-            />
+            android:layout_marginTop="60dp" />
 
     </LinearLayout>
-
-
 
 
 </RelativeLayout>

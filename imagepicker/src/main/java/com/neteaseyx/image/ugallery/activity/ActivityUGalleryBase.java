@@ -174,9 +174,9 @@ public class ActivityUGalleryBase extends AppCompatActivity {
             mTitleBar.setBackgroundColor(config.getTitleBarBgColor());
         }
 
-        if (config.getTitleTextColor() != 0) {
-            mTitleBarTitle.setTextColor(config.getTitleTextColor());
-        }
+//        if (config.getTitleTextColor() != 0) {
+//            mTitleBarTitle.setTextColor(config.getTitleTextColor());
+//        }
 
         if (config.getTitleTextSize() != 0) {
             mTitleBarTitle.setTextSize(config.getTitleTextSize());

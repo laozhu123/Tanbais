@@ -26,6 +26,7 @@ public class PictureListAdapter extends RecyclerView.Adapter<PictureItemViewHold
     private int type = 0;
     private int itemHeight;
     private OnItemClickListener onItemClickListener;
+    private boolean showDelete = false;
 
     public void setOnItemClickListener(OnItemClickListener onItemClickListener) {
         this.onItemClickListener = onItemClickListener;
@@ -48,6 +49,10 @@ public class PictureListAdapter extends RecyclerView.Adapter<PictureItemViewHold
         this.type = type;
     }
 
+    public void setShowDelete(boolean show) {
+        showDelete = show;
+    }
+
     @Override
     public PictureItemViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view;
@@ -59,11 +64,14 @@ public class PictureListAdapter extends RecyclerView.Adapter<PictureItemViewHold
         holder.setType(type);
         holder.setItemHeight(itemHeight);
         holder.setOnItemClickListener(onItemClickListener);
+        holder.setShowDelete(showDelete);
+
         return holder;
     }
 
     @Override
     public void onBindViewHolder(PictureItemViewHolder holder, int position) {
+        holder.setShowDelete(showDelete);
         holder.renderView(lists.get(position), position);
     }
 
@@ -74,6 +82,8 @@ public class PictureListAdapter extends RecyclerView.Adapter<PictureItemViewHold
 
     public interface OnItemClickListener {
         void onItemClick(int index);
+
+        void delete(int index);
     }
 
 }

@@ -93,7 +93,7 @@ public class FragmentThird extends MyBindPresentFragment<BasePresenter> implemen
     @Override
     protected void initFragment(View view) {
         ButterKnife.bind(this, view);
-        title.setText(R.string.my);
+        title.setText(R.string.me);
         initFunctionList();
         initPictures();
         loadInfo();
@@ -129,6 +129,11 @@ public class FragmentThird extends MyBindPresentFragment<BasePresenter> implemen
                     ((MyImageView) vsImg).initImgeView();
                     vBigPic.setVisibility(View.VISIBLE);
                 }
+            }
+
+            @Override
+            public void delete(int index) {
+
             }
         });
         LinearLayoutManager ms = new LinearLayoutManager(_mActivity);

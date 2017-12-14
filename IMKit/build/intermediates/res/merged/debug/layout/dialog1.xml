@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#456c6868"
+    android:id="@+id/bg1"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/seeInfo"
+        style="@style/dialog_white_redius_4"
+        android:text="查看资料"
+        android:textColor="#3bc2ff" />
+
+    <TextView
+        android:id="@+id/lahei1"
+        style="@style/dialog_white_redius_4"
+        android:layout_marginTop="5dp"
+        android:text="拉黑"
+        android:textColor="#f0f51616" />
+
+    <TextView
+        android:id="@+id/jubao"
+        style="@style/dialog_white_redius_4"
+        android:layout_marginTop="5dp"
+        android:text="举报"
+        android:textColor="#f0f51616" />
+
+    <TextView
+        android:id="@+id/cancel1"
+        style="@style/dialog_white_redius_4"
+        android:layout_marginTop="10dp"
+        android:text="取消"
+        android:layout_marginBottom="10dp"
+        android:textColor="#3bc2ff" />
+</LinearLayout>

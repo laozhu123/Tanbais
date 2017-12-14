@@ -60,7 +60,7 @@
         android:clickable="true"
         android:ellipsize="end"
         android:gravity="center_vertical"
-        android:textColor="@color/actionbar_title_text"
+        android:textColor="#3bc2ff"
         android:textSize="19sp"
         tools:text="相机" />
 

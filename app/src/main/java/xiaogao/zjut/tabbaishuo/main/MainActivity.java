@@ -61,7 +61,7 @@ public class MainActivity extends MyBaseBindPresentActivity<PresenterMain> imple
         mBottomBar.addItem(new BottomBarTab(this,
                 R.mipmap.icon_tuisong,
                 R.mipmap.icon_tuisong_s,
-                R.string.push))
+                R.string.appName))
                 .addItem(new BottomBarTab(this,
                         R.mipmap.icon_xiaoxi,
                         R.mipmap.icon_xiaoxi_s,
@@ -69,7 +69,7 @@ public class MainActivity extends MyBaseBindPresentActivity<PresenterMain> imple
                 .addItem(new BottomBarTab(this,
                         R.mipmap.icon_wode,
                         R.mipmap.icon_wode_s,
-                        R.string.my));
+                        R.string.me));
 
         mBottomBar.setOnTabSelectedListener(new BottomBar.OnTabSelectedListener() {
             @Override

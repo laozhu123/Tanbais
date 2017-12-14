@@ -250,6 +250,11 @@ public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPer
     }
 
     @Override
+    public void delete(int index) {
+
+    }
+
+    @Override
     public void onBackPressed() {
         if (vBigPic != null && vBigPic.getVisibility() == View.VISIBLE) {
             vBigPic.setVisibility(View.GONE);

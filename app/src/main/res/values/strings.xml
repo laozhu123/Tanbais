@@ -6,6 +6,7 @@
     <string name="appName">21:15</string>
     <string name="message">消息</string>
     <string name="my">我的</string>
+    <string name="me">我</string>
 
     <string name="authorized_center">认证中心</string>
     <string name="wdxy">我的信用</string>
@@ -23,6 +24,7 @@
 
     <string name="xiang_ce">相册</string>
     <string name="add_picture">添加</string>
+    <string name="caoZuo">操作</string>
 
     <string name="push_time_left">推送倒计时</string>
     <string name="how_to_get_good_push">如何获取优质的推送</string>
@@ -40,16 +42,17 @@
     </array>
 
     <array name="zobz">
-        <item>性别</item>
-        <item>出生日期</item>
-        <item>身高</item>
-        <item>年收入</item>
-        <item>现居住地</item>
+        <item>年龄</item>
         <item>户籍</item>
+        <item>居住在</item>
+        <item>身高</item>
+        <item>学历</item>
+        <item>年收入</item>
         <item>婚姻状况</item>
-        <item>期望结婚时间</item>
-        <item>购车状况</item>
-        <item>购房状况</item>
+        <item>房</item>
+        <item>车</item>
+        <item>其他要求</item>
+
     </array>
 
 </resources>

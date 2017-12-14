@@ -307,6 +307,8 @@ public class UGallery {
             return this;
         }
 
+
+
         public int getTitleBarBgColor() {
             return this.title_bar_bg_color;
         }
