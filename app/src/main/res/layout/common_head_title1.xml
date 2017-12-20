@@ -30,6 +30,7 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="5dp"
+        android:visibility="gone"
         android:padding="3dp"
         android:src="@drawable/icon_caozuo" />
 
@@ -39,6 +40,7 @@
         android:layout_marginRight="5dp"
         android:textColor="#3bc2ff"
         android:padding="3dp"
+        android:visibility="gone"
         android:textSize="16sp"
         android:layout_centerVertical="true"
         android:layout_width="wrap_content"

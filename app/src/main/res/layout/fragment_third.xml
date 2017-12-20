@@ -69,39 +69,6 @@
         </LinearLayout>
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/pictures"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="5dp"
-                android:layout_weight="1"
-                android:orientation="horizontal"
-                android:overScrollMode="never" />
-
-            <LinearLayout
-                android:id="@+id/photo"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@drawable/shape_rect_4_f5f8fa"
-                android:gravity="center">
-
-                <ImageView
-                    android:layout_width="38dp"
-                    android:layout_height="38dp"
-                    android:src="@mipmap/icon_paizhao" />
-            </LinearLayout>
-
-        </LinearLayout>
-
-
         <android.support.v7.widget.RecyclerView
             android:id="@+id/list_function"
             android:layout_width="match_parent"
@@ -111,9 +78,4 @@
 
     </LinearLayout>
 
-    <ViewStub
-        android:id="@+id/bigPic"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout="@layout/big_pic" />
 </RelativeLayout>

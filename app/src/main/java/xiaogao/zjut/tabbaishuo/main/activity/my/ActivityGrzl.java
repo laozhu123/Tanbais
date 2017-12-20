@@ -1,12 +1,17 @@
 package xiaogao.zjut.tabbaishuo.main.activity.my;
 
 import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewStub;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.neteaseyx.image.ugallery.UGallery;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,10 +26,11 @@ import xiaogao.zjut.tabbaishuo.adapter.PictureListAdapter;
 import xiaogao.zjut.tabbaishuo.base.activity.MyBaseBindPresentActivity;
 import xiaogao.zjut.tabbaishuo.injecter.component.ActivityComponent;
 import xiaogao.zjut.tabbaishuo.interfaces.IUIActivityPersonalDetail;
+import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityShowPicture;
 import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityXiangCe;
 import xiaogao.zjut.tabbaishuo.main.persenter.PresenterActivityPersonalDetail;
 import xiaogao.zjut.tabbaishuo.net.responses.Picture;
-import xiaogao.zjut.tabbaishuo.views.MyImageView;
+import xiaogao.zjut.tabbaishuo.utils.SizeChange;
 import xiaogao.zjut.tabbaishuo.views.tags.Tag;
 import xiaogao.zjut.tabbaishuo.views.tags.TagListView;
 
@@ -32,7 +38,7 @@ import xiaogao.zjut.tabbaishuo.views.tags.TagListView;
  * Created by Administrator on 2017/12/2.
  */
 
-public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPersonalDetail> implements IUIActivityPersonalDetail ,PictureListAdapter.OnItemClickListener{
+public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPersonalDetail> implements IUIActivityPersonalDetail, PictureListAdapter.OnItemClickListener {
     @Inject
     PresenterActivityPersonalDetail mPresenter;
     @Bind(R.id.nickName)
@@ -65,23 +71,23 @@ public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPer
     TextView fangzi;
     View dialogView;
     PictureListAdapter picAdapter;
-    List<Picture> pictures;
+    ArrayList<Picture> pictures;
     @Bind(R.id.tagBaseInfo)
     TagListView mTagBaseInfo;
     @Bind(R.id.tagZobz)
     TagListView mTagZobz;
+    UGallery.Config config;
+
     private final List<Tag> mTagsBaseInfo = new ArrayList<>();
     private final List<Tag> mTagsZobz = new ArrayList<>();
     private final String[] baseInfoTitle = {"24岁", "现住浙江杭州", "程序员", "175cm", "10W-20W", "期望2年内结婚", "从未结婚"};
     private final String[] zobzTitle = {"24-26岁", "170-180cm", "10W-20W", "现住浙江杭州", "户籍浙江杭州", "从未结婚"};
 
-    @Bind(R.id.bigPic)
-    ViewStub vsBigPic;
-    View vBigPic;
-    ImageView vsImg;
-
     boolean isMine;
     public final static String ISMINE = "is_mine";
+    private boolean canAdd = false;
+    private final int MaxSize = 6;  //最多6张照片
+    public static final String PICS = "PICS";
 
     private View.OnClickListener onClickListener = new View.OnClickListener() {
         @Override
@@ -138,8 +144,14 @@ public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPer
         fangzi.setText("杭州房产");
 
         for (int i = 0; i < 5; i++) {
-            pictures.add(new Picture());
+            Picture picture = new Picture();
+            picture.resid = R.mipmap.helo;
+            pictures.add(picture);
         }
+        Picture picture = new Picture();
+        picture.resid = R.mipmap.set_add_image;
+        pictures.add(picture);
+        canAdd = true;
         picAdapter.notifyDataSetChanged();
 
         for (int i = 0; i < 7; i++) {
@@ -162,6 +174,7 @@ public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPer
         mTagZobz.setTagViewTextColorRes(getResources().getColor(R.color.color_bbccd4));
         mTagZobz.setTagViewBackgroundRes(R.drawable.tag_checked_normal);
         mTagZobz.setTags(mTagsZobz);
+
     }
 
     private void initView() {
@@ -181,8 +194,16 @@ public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPer
         picAdapter = new PictureListAdapter(this, pictures);
         picAdapter.setResLayoutId(R.layout.item_list_picture_big);
         picAdapter.setOnItemClickListener(this);
-        LinearLayoutManager ms = new LinearLayoutManager(this);
-        ms.setOrientation(LinearLayoutManager.HORIZONTAL);
+        GridLayoutManager ms = new GridLayoutManager(this, 3);
+        ms.setOrientation(LinearLayoutManager.VERTICAL);
+
+        DisplayMetrics dm = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+        int screenWidth = dm.widthPixels;
+        int itemHeight = (screenWidth - SizeChange.Dp2Px(this, 10 + 12 + 14)) / 3;
+        picAdapter.setItemHeight(itemHeight);
+        picAdapter.setType(2);
+
         picRecyclerView.setLayoutManager(ms);
         picRecyclerView.setAdapter(picAdapter);
     }
@@ -232,20 +253,26 @@ public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPer
     @Override
     public void onItemClick(int index) {
         //fixme 设置照片
-        if (vBigPic == null) {
-            vBigPic = vsBigPic.inflate();
-            vsImg = (ImageView) vBigPic.findViewById(R.id.vsImg);
-            vsImg.setImageDrawable(getResources().getDrawable(R.mipmap.helo));
-            vBigPic.findViewById(R.id.vsClose).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    vBigPic.setVisibility(View.GONE);
-                }
-            });
-
+        if (index == pictures.size() - 1 && canAdd) {
+            if (config == null) {
+                config = UGallery.getConfig();
+                config.setImageSelectNumIsShow(false);
+                config.setBarRightText(getString(R.string.upload));
+                config.setBarTitle(getString(R.string.xiang_ce));
+                config.setCameraImage(R.mipmap.camera_icon);
+                config.setTitleTextColor(R.color.color_3bc2ff);
+                config.setImageBackGround(R.color.color_979797);
+                config.setTitleBarRightBtnTextColor(R.color.color_3bc2ff);
+                config.setTitleBarBackBtnImage(R.drawable.icon_fanhui);
+                config.setGalleryImageSelect(R.mipmap.choose_photo_selected, R.mipmap.choose_photo_unselected);
+            }
+            UGallery.selectMultipleImageCompress(this, 6);
         } else {
-            ((MyImageView) vsImg).initImgeView();
-            vBigPic.setVisibility(View.VISIBLE);
+            Intent intent = new Intent(this, ActivityShowPicture.class);
+            Bundle bundle = new Bundle();
+            bundle.putSerializable(PICS, pictures);
+            intent.putExtra(PICS, bundle);
+            startActivity(intent);
         }
     }
 
@@ -254,12 +281,4 @@ public class ActivityGrzl extends MyBaseBindPresentActivity<PresenterActivityPer
 
     }
 
-    @Override
-    public void onBackPressed() {
-        if (vBigPic != null && vBigPic.getVisibility() == View.VISIBLE) {
-            vBigPic.setVisibility(View.GONE);
-        } else {
-            super.onBackPressed();
-        }
-    }
 }

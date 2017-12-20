@@ -93,4 +93,5 @@ dependencies {
     compile project(':imagepicker')
 
     compile 'com.android.support:multidex:1.0.1'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
 }

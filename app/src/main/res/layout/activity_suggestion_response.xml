@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include layout="@layout/common_head_title1" />
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/head"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="left"
+        android:hint="描述一下你遇到的问题"
+        android:maxLength="300"
+        android:padding="15dp"
+        android:textColor="@color/color_bbccd4"
+        android:textColorHint="@color/color_bbccd4"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/count_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/et_input"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/color_bbccd4"
+        android:textSize="12sp"
+        tools:text="0/300" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rec_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_input"
+        android:layout_marginLeft="20dp"
+        android:overScrollMode="never" />
+
+
+
+</RelativeLayout>

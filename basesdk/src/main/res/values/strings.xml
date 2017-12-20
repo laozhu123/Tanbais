@@ -37,6 +37,7 @@
     <string name="please_do_not_use_common_pwd">请不要使用相同数字</string>
     <string name="please_do_not_use_countinuation_pwd">请不要使用连续数字</string>
     <string name="no_finished_list">列表为空</string>
+    <string name="upload">提交</string>
 
     <string-array name="hour_minute_display">
         <item>10:00</item>

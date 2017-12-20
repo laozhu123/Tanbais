@@ -11,11 +11,13 @@ import xgn.com.basesdk.base.injector.ContextLife;
 import xiaogao.zjut.tabbaishuo.injecter.ActivityScope;
 import xiaogao.zjut.tabbaishuo.injecter.module.ActivityModule;
 import xiaogao.zjut.tabbaishuo.main.MainActivity;
+import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityShowPicture;
 import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityXiangCe;
 import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityBaseInfo;
 import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityJuBao;
 import xiaogao.zjut.tabbaishuo.main.activity.ActivitySplash;
 import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityZobz;
+import xiaogao.zjut.tabbaishuo.main.activity.setting.ActivitySuggestionResponse;
 
 @ActivityScope
 @Component(
@@ -38,5 +40,7 @@ public interface ActivityComponent extends AppComponent {
 
     void inject(ActivityXiangCe activityXiangCe);
 
-//    void inject(ActivityListPage activityListPage);
+    void inject(ActivityShowPicture activityShowPicture);
+
+    void inject(ActivitySuggestionResponse activitySuggestionResponse);
 }

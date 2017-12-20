@@ -1,10 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:itemTxArrow="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
     tools:context="xiaogao.zjut.tabbaishuo.main.activity.my.ActivityWdxy">
 
+    <include layout="@layout/common_head_title1" />
 
-</android.support.design.widget.CoordinatorLayout>
+    <xiaogao.zjut.tabbaishuo.views.ItemTxArrow
+        android:id="@+id/modifyPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        itemTxArrow:title="@string/modifyPassword" />
+
+    <View style="@style/line_f3f3f3_vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/noPush"
+            android:textColor="@color/color_282828"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <xiaogao.zjut.tabbaishuo.views.SwitchButton
+            android:id="@+id/switchButton"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="15dp"
+            app:animate="true"
+            app:borderWidth="0.2dp"
+            app:offBorderColor="@color/color_aaaaaa"
+            app:offColor="@color/white"
+            app:onColor="#3bc2ff"
+            app:spotColor="@color/white" />
+
+    </LinearLayout>
+
+    <View style="@style/line_f3f3f3_vertical" />
+
+    <xiaogao.zjut.tabbaishuo.views.ItemTxArrow
+        android:id="@+id/ideaResponse"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        itemTxArrow:title="@string/ideaResponse" />
+
+    <View style="@style/line_f3f3f3_vertical" />
+
+    <xiaogao.zjut.tabbaishuo.views.ItemTxArrow
+        android:id="@+id/contactUs"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        itemTxArrow:title="@string/contactUs" />
+
+    <View style="@style/line_f3f3f3_vertical" />
+
+    <xiaogao.zjut.tabbaishuo.views.ItemTxArrow
+        android:id="@+id/userBook"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        itemTxArrow:title="@string/userBook" />
+
+    <View style="@style/line_f3f3f3_vertical" />
+
+    <xiaogao.zjut.tabbaishuo.views.ItemTxArrow
+        android:id="@+id/judgeUs"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        itemTxArrow:title="@string/judgeUs" />
+
+    <View style="@style/line_f3f3f3_vertical" />
+
+    <xiaogao.zjut.tabbaishuo.views.ItemTxArrow
+        android:id="@+id/logOut"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        itemTxArrow:title="@string/logOut" />
+
+    <View style="@style/line_f3f3f3_vertical" />
+</LinearLayout>

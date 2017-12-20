@@ -111,14 +111,16 @@
                     android:textColor="@color/color_282828"
                     android:textSize="17sp" />
 
-                <ImageView style="@style/personal_info_right_icon_img" />
             </RelativeLayout>
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/pics"
                 android:layout_width="match_parent"
-                android:layout_height="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
+                android:overScrollMode="never"
                 android:scrollbars="none" />
 
             <View
@@ -268,12 +270,12 @@
                 android:id="@+id/tagZobz"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
                 android:layout_marginTop="20dp"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
                 f:horizontalSpacing="@dimen/tag_horizontal_spacing"
                 f:orientation="horizontal"
-                android:layout_marginBottom="40dp"
                 f:verticalSpacing="@dimen/tag_vertical_spacing" />
 
         </LinearLayout>
@@ -286,9 +288,5 @@
         android:layout_height="match_parent"
         android:layout="@layout/info_dialog" />
 
-    <ViewStub
-        android:id="@+id/bigPic"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout="@layout/big_pic" />
+
 </RelativeLayout>

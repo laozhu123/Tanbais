@@ -78,8 +78,14 @@ public class PictureItemViewHolder extends RecyclerView.ViewHolder {
                 }
             });
         }
+        if (type == 2){
+            RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) img.getLayoutParams();
+            lp.setMargins(SizeChange.Dp2Px(img.getContext(), 3), SizeChange.Dp2Px(img.getContext(), 3), SizeChange.Dp2Px(img.getContext(), 3), SizeChange.Dp2Px(img.getContext(), 3));
+            lp.height = itemHeight;
+            img.setLayoutParams(lp);
+        }
 
-        img.setImageResource(R.mipmap.helo);
+        img.setImageResource(picture.resid);
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

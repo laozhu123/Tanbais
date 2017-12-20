@@ -26,6 +26,17 @@
     <string name="add_picture">添加</string>
     <string name="caoZuo">操作</string>
 
+    <string name="preview">预览</string>
+
+    <string name="modifyPassword">修改密码</string>
+    <string name="noPush">资料不向任何人推送</string>
+    <string name="ideaResponse">意见反馈</string>
+    <string name="contactUs">联系我们</string>
+    <string name="userBook">用户协议</string>
+    <string name="judgeUs">评分</string>
+    <string name="logOut">推出登录</string>
+
+
     <string name="push_time_left">推送倒计时</string>
     <string name="how_to_get_good_push">如何获取优质的推送</string>
     <array name="base_info">

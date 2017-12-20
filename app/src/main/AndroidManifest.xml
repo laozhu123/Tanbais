@@ -90,6 +90,11 @@
         <activity android:name=".main.activity.my.ActivityGrzl" />
         <activity android:name=".main.activity.common.ActivityXiangCe" />
         <activity android:name=".main.activity.my.ActivityChangeHeadNickName" />
+        <activity android:name=".main.activity.common.ActivityShowPicture"/>
+
+        //setting
+        <activity android:name=".main.activity.setting.ActivitySuggestionResponse"/>
+
     </application>
 
 </manifest>
