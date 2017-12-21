@@ -4,9 +4,9 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.SimpleItemAnimator;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -26,11 +26,12 @@ import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.adapter.AdapterImageList;
 import xiaogao.zjut.tabbaishuo.adapter.viewholder.VHolderCommitImage;
 import xiaogao.zjut.tabbaishuo.base.activity.MyBaseBindPresentActivity;
+import xiaogao.zjut.tabbaishuo.config.GlobalConfig;
 import xiaogao.zjut.tabbaishuo.injecter.component.ActivityComponent;
 import xiaogao.zjut.tabbaishuo.interfaces.IUIActivitySuggestionResponse;
 import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityStoreImage;
 import xiaogao.zjut.tabbaishuo.main.persenter.PresenterSuggestionResponse;
-import xiaogao.zjut.tabbaishuo.views.SpaceBaseItemDecoration;
+import xiaogao.zjut.tabbaishuo.utils.SizeChange;
 
 /**
  * Created by Administrator on 2017/12/20.
@@ -50,10 +51,12 @@ public class ActivitySuggestionResponse extends MyBaseBindPresentActivity<Presen
     TextView countTx;
     @Bind(R.id.rec_img)
     RecyclerView recImg;
+    @Bind(R.id.count_img)
+    TextView countImg;
 
     UGallery.Config config;
 
-    public static final int SPAN_COUNT = 3;
+    public static final int SPAN_COUNT = 6;
 
     /**
      * 图片列表,MIME为image/jpeg
@@ -88,7 +91,7 @@ public class ActivitySuggestionResponse extends MyBaseBindPresentActivity<Presen
         ButterKnife.bind(this);
         hideTitleBar();
         title.setText(R.string.ideaResponse);
-        titleRightTv.setText(R.string.upload);
+        titleRightTv.setText(R.string.commit);
         titleRightTv.setVisibility(View.VISIBLE);
         etInput.addTextChangedListener(new TextWatcher() {
             @Override
@@ -107,16 +110,23 @@ public class ActivitySuggestionResponse extends MyBaseBindPresentActivity<Presen
             }
         });
 
-        GridLayoutManager layoutManager = new GridLayoutManager(this, SPAN_COUNT);
+        GridLayoutManager layoutManager = new GridLayoutManager(this, 3);
         layoutManager.setOrientation(LinearLayout.VERTICAL);
         recImg.setLayoutManager(layoutManager);
-        ((SimpleItemAnimator) recImg.getItemAnimator()).setSupportsChangeAnimations(false);
-        recImg.addItemDecoration(new SpaceBaseItemDecoration(10));
+//        ((SimpleItemAnimator) recImg.getItemAnimator()).setSupportsChangeAnimations(false);
+//        recImg.addItemDecoration(new SpaceBaseItemDecoration(10));
 
+        GlobalConfig.context = this;
         View.OnClickListener onAddClickListener = new AddImageListener();
         VHolderCommitImage.RemoveDeliveredImage onRemoveClickListener = new RemoveImageListener();
         VHolderCommitImage.ShowDeliverImage showDeliverImage = new ShowImageListener();
         mAdapter = new AdapterImageList(onAddClickListener, onRemoveClickListener, showDeliverImage, mUris);
+
+        DisplayMetrics dm = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+        int screenWidth = dm.widthPixels;
+        int itemHeight = (screenWidth - SizeChange.Dp2Px(this, 30 + 18)) / 3;
+        mAdapter.setItemHeight(itemHeight);
 
         recImg.setAdapter(mAdapter);
     }
@@ -125,6 +135,7 @@ public class ActivitySuggestionResponse extends MyBaseBindPresentActivity<Presen
     @Override
     public void onDestroy() {
         ButterKnife.unbind(this);
+        GlobalConfig.context = null;
         super.onDestroy();
     }
 
@@ -151,6 +162,16 @@ public class ActivitySuggestionResponse extends MyBaseBindPresentActivity<Presen
                 default:
                     break;
             }
+            changeImgCount();
+        }
+    }
+
+    private void changeImgCount() {
+        if (mUris.size() < 6){
+            countImg.setText(mUris.size()+"/6");
+            countImg.setVisibility(View.VISIBLE);
+        }else{
+            countImg.setVisibility(View.GONE);
         }
     }
 
@@ -161,7 +182,7 @@ public class ActivitySuggestionResponse extends MyBaseBindPresentActivity<Presen
                 finish();
                 break;
             case R.id.titleRightTv:
-                showToast(R.string.upload);
+                showToast(R.string.commit);
                 break;
         }
     }
@@ -196,6 +217,7 @@ public class ActivitySuggestionResponse extends MyBaseBindPresentActivity<Presen
         public void remove(int position) {
             mUris.remove(position);
             mSourceUris.remove(position);
+            changeImgCount();
             mAdapter.notifyDataSetChanged();
         }
     }

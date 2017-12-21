@@ -94,4 +94,5 @@ dependencies {
 
     compile 'com.android.support:multidex:1.0.1'
     compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'jp.wasabeef:glide-transformations:2.0.2'        //glide-transformations是一个图像转换类库，为Glide（一个快速高效的Android媒体管理框架）提供各种各样的图像转换
 }

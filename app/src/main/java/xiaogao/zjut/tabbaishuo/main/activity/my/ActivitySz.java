@@ -66,6 +66,7 @@ public class ActivitySz extends ActivityBase {
                 break;
             case R.id.ideaResponse:
                 intent.setClass(ActivitySz.this,ActivitySuggestionResponse.class);
+                startActivity(intent);
                 break;
             case R.id.contactUs:
                 break;
@@ -76,6 +77,6 @@ public class ActivitySz extends ActivityBase {
             case R.id.logOut:
                 break;
         }
-        startActivity(intent);
+
     }
 }

@@ -14,8 +14,8 @@ import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 
-import io.rong.photoview.PhotoView;
 import xiaogao.zjut.tabbaishuo.R;
+import xiaogao.zjut.tabbaishuo.views.PhotoView;
 
 
 /**

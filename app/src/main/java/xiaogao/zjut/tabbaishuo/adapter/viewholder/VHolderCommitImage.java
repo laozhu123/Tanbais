@@ -5,10 +5,13 @@ import android.support.v7.widget.RecyclerView;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 
 import xgn.com.basesdk.utils.ScreenUtil;
 import xiaogao.zjut.tabbaishuo.R;
+import xiaogao.zjut.tabbaishuo.config.GlobalConfig;
+import xiaogao.zjut.tabbaishuo.load.ImageLoader;
 import xiaogao.zjut.tabbaishuo.main.activity.setting.ActivitySuggestionResponse;
 
 
@@ -23,6 +26,7 @@ public class VHolderCommitImage extends RecyclerView.ViewHolder {
     private ImageView mRemove;
     private final Context mContext;
     private int mHeight;
+    private int itemHeight;
 
     public VHolderCommitImage(View itemView) {
         super(itemView);
@@ -37,6 +41,17 @@ public class VHolderCommitImage extends RecyclerView.ViewHolder {
         }
 //        RelativeLayout layout =itemView.findViewById(R.id.root_layout);
 //        layout.setLayoutParams(new RecyclerView.LayoutParams(ScreenUtil.dip2px(mContext, 72f), ScreenUtil.dip2px(mContext, 72f)));
+    }
+
+    public void setItemHeight(int itemHeight) {
+        this.itemHeight = itemHeight;
+    }
+
+    public void renderView(){
+        RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) mImageView.getLayoutParams();
+        lp.height = itemHeight;
+        lp.setMargins(ScreenUtil.dip2px(mContext, 3f),ScreenUtil.dip2px(mContext, 3f),ScreenUtil.dip2px(mContext, 3f),ScreenUtil.dip2px(mContext, 3f));
+        mImageView.setLayoutParams(lp);
     }
 
     public void onBindViewHolder(String url, final RemoveDeliveredImage removeCreatePostImage, final ShowDeliverImage showDeliverImage, final int position) {
@@ -54,12 +69,13 @@ public class VHolderCommitImage extends RecyclerView.ViewHolder {
             }
         });
 
-//        ImageLoader.with(mContext)
-//                .url(url)
-//                .placeHolder(R.color.image_bg)
-//                .error(R.mipmap.loading_error_icon)
-//                .thumbnail(0.1f)
-//                .into(mImageView);
+
+        ImageLoader.with(mContext)
+                .url(url)
+                .placeHolder(R.color.image_bg)
+                .error(R.mipmap.loading_error_icon)
+                .thumbnail(0.1f)
+                .into(mImageView);
     }
 
     /**
