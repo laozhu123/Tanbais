@@ -219,7 +219,6 @@ public class ImageUtil {
     /**
      * Image Save
      */
-    // TODO 应该是可配置的
     private static String IMAGE_SAVE_PATH;
 
     private  String getSavePath() {

@@ -3,9 +3,9 @@ package xiaogao.zjut.tabbaishuo.net;
 import io.reactivex.Observable;
 import retrofit2.http.Body;
 import retrofit2.http.Header;
-import retrofit2.http.Headers;
 import retrofit2.http.POST;
-import xgn.com.basesdk.network.utils.HeaderKey;
+import xiaogao.zjut.tabbaishuo.bean.LoginRequestBean;
+import xiaogao.zjut.tabbaishuo.bean.LoginResponseBean;
 import xiaogao.zjut.tabbaishuo.net.responses.Helo;
 
 /**
@@ -17,7 +17,7 @@ public interface RetrofitApi {
     /**
      * 重新申请骑士
      */
-    @Headers(HeaderKey.MOCK_HOST + ":change")
+//    @Headers(HeaderKey.MOCK_HOST + ":change")
     @POST("task/doing")
     Observable<Helo> helo(
             @Header("Authorization")
@@ -28,13 +28,23 @@ public interface RetrofitApi {
     /**
      * 获取nickName
      */
-    @Headers(HeaderKey.MOCK_HOST + ":change")
+//    @Headers(HeaderKey.MOCK_HOST + ":change")
     @POST("task/getNickName")
     Observable<Helo> getNickName(
             @Header("Authorization")
                     String token,
             @Body
                     Object object);
+
+    /**
+     * login
+     * @param object
+     * @return
+     */
+    @POST("user/login")
+    Observable<LoginResponseBean> logIn(
+            @Body
+                    LoginRequestBean object);
 
 
 }

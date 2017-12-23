@@ -1,10 +1,13 @@
 package xiaogao.zjut.tabbaishuo.main.fragmentTab;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Message;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.beyondsw.lib.widget.StackCardsView;
@@ -14,15 +17,20 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import javax.inject.Inject;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import xgn.com.basesdk.base.mvp.BasePresenter;
 import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.adapter.CardAdapter;
 import xiaogao.zjut.tabbaishuo.base.fragment.MyBindPresentFragment;
 import xiaogao.zjut.tabbaishuo.bean.BaseCardItem;
 import xiaogao.zjut.tabbaishuo.injecter.component.FragmentComponent;
+import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityBetterPush;
 import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityGrzl;
+import xiaogao.zjut.tabbaishuo.main.persenter.PresenterFragmentFirst;
 
 import static xiaogao.zjut.tabbaishuo.main.activity.my.ActivityGrzl.ISMINE;
 
@@ -30,9 +38,11 @@ import static xiaogao.zjut.tabbaishuo.main.activity.my.ActivityGrzl.ISMINE;
  * Created by Administrator on 2017/11/18.
  */
 
-public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implements Handler.Callback, StackCardsView.OnCardSwipedListener
+public class FragmentFirst extends MyBindPresentFragment<PresenterFragmentFirst> implements Handler.Callback, StackCardsView.OnCardSwipedListener
         , View.OnClickListener, CardAdapter.OnItemClickListener {
 
+    @Inject
+    PresenterFragmentFirst mPresenter;
 
     @Bind(R.id.hour)
     TextView hourV;
@@ -42,8 +52,6 @@ public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implemen
     TextView secondsV;
     @Bind(R.id.cards)
     StackCardsView cards;
-    @Bind(R.id.howGetGoodPush)
-    TextView howGetGoodPush;
     @Bind(R.id.title)
     TextView title;
 
@@ -85,8 +93,29 @@ public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implemen
         startActivity(intent);
     }
 
+
+    @Override
+    public void onDestroy() {
+        ButterKnife.unbind(this);
+        super.onDestroy();
+    }
+
+    @OnClick(R.id.howGetGoodPush)
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.howGetGoodPush:
+                startActivity(new Intent(_mActivity, ActivityBetterPush.class));
+                break;
+        }
+    }
+
     public interface Callback {
         void onViewPagerCbChanged(boolean checked);
+    }
+
+    @Override
+    public PresenterFragmentFirst getPresenter() {
+        return mPresenter;
     }
 
     @Override
@@ -101,7 +130,7 @@ public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implemen
 
     @Override
     protected void inject(FragmentComponent pFragmentComponent) {
-
+        pFragmentComponent.inject(this);
     }
 
     @Override
@@ -135,6 +164,8 @@ public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implemen
                     tick();
             }
         }, 0, 1000);
+
+        title.setOnClickListener(this);
 
     }
 
@@ -201,6 +232,7 @@ public class FragmentFirst extends MyBindPresentFragment<BasePresenter> implemen
 
     @Override
     public void onClick(View view) {
-
+        //TODO delete me after test network
+        mPresenter.testInterface();
     }
 }

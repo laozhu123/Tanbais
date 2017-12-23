@@ -1,6 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <include layout="@layout/common_head_title1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="需要客服帮助"
+        android:textColor="@color/color_282828"
+        android:textSize="21sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请发邮件至："
+        android:textSize="17sp"
+        android:textColor="@color/color_282828"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        tools:text="help@email.com"
+        android:textColor="@color/color_282828"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="14sp"
+        android:textColor="#bbb"
+        android:text="我们将在一个工作日内尽快处理您的问题"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_f3f3f3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广告及其它商务合作"
+        android:textColor="@color/color_282828"
+        android:textSize="21sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请发邮件至："
+        android:textSize="17sp"
+        android:textColor="@color/color_282828"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        tools:text="help@email.com"
+        android:textColor="@color/color_282828"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp"
+        android:textColor="#bbb"
+        android:text="邮件中请注明公司名称，联系方式，具体合作需求，我们将在一个工作日之内尽快与您联系。"/>
+
+</LinearLayout>

@@ -6,6 +6,7 @@ import dagger.Component;
 import xgn.com.basesdk.base.injector.ContextLife;
 import xgn.com.basesdk.commonui.injector.FragmentScope;
 import xiaogao.zjut.tabbaishuo.injecter.module.FragmentModule;
+import xiaogao.zjut.tabbaishuo.main.fragmentTab.FragmentFirst;
 import xiaogao.zjut.tabbaishuo.main.fragmentTab.FragmentSecond;
 
 
@@ -20,4 +21,6 @@ public interface FragmentComponent {
     Fragment getContext();
 
 	void inject(FragmentSecond fragmentSecond);
+
+	void inject(FragmentFirst fragmentFirst);
 }

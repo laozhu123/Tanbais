@@ -95,6 +95,11 @@
         //setting
         <activity android:name=".main.activity.setting.ActivitySuggestionResponse" />
         <activity android:name=".main.activity.common.ActivityStoreImage" />
+        <activity android:name=".main.activity.setting.ActivityContactUs"/>
+        <activity android:name=".main.activity.setting.ActivityUserBook"/>
+        <activity android:name=".main.activity.common.ActivityBetterPush"/>
+        <activity android:name=".main.activity.common.ActivitySetNickname"/>
+        <activity android:name=".main.activity.common.ActivitySetOccuption"/>
     </application>
 
 </manifest>

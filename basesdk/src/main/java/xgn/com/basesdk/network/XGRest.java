@@ -28,16 +28,16 @@ public class XGRest {
     public XGRest() {
         INetExternalParams networkParams = XgNetWork.get().externalParams();
         OkHttpClient.Builder builder = generateDefaultOkHttpBuilder(networkParams.connectTimeOut());
-        HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
-        HostSelectionInterceptor hostSelectionInterceptor = new HostSelectionInterceptor();
-        MockHostInterceptor mockHostInterceptor = new MockHostInterceptor();
-        if(networkParams.isRelease()) {
-            loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.NONE);
-        } else {
-            loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-        }
+//        HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
+//        HostSelectionInterceptor hostSelectionInterceptor = new HostSelectionInterceptor();
+//        MockHostInterceptor mockHostInterceptor = new MockHostInterceptor();
+//        if(networkParams.isRelease()) {
+//            loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.NONE);
+//        } else {
+//            loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
+//        }
 
-        builder.addInterceptor(hostSelectionInterceptor).addInterceptor(mockHostInterceptor).addNetworkInterceptor(loggingInterceptor);
+//        builder.addInterceptor(hostSelectionInterceptor).addInterceptor(mockHostInterceptor).addNetworkInterceptor(loggingInterceptor);
         List interceptorList = XgNetWork.get().interceptors();
         Iterator networkInterceptorsList = interceptorList.iterator();
 

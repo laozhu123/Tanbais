@@ -115,7 +115,7 @@ public class MyApplication extends CoreApplication implements Application.Activi
     private void initNetWork() {
         List<Interceptor> intercepteors = new ArrayList<>();
         List<Interceptor> networkIntercepteors = new ArrayList<>();
-        intercepteors.add(new TokenInterceptor());
+//        intercepteors.add(new TokenInterceptor());
         StethoIniter.init(this);
         if (StethoIniter.getInterptor() != null) {
             networkIntercepteors.add(StethoIniter.getInterptor());

@@ -14,7 +14,7 @@ public class Servers {
 //    private static final String TBB_PUBLIC_API_DEV = "http://172.16.1.181:8005/";
 //    private static final String TBB_WS_URL_DEV = "ws://172.16.1.181:2001/ws";
 
-    private static final String TBB_API_DEV = "http://tubobo-driver.dev.ops.com/";
+    private static final String TBB_API_DEV = "http://106.15.225.82:8080/JiuDians/";
     private static final String TBB_USER_API_DEV = "http://usercenter-gate.dev.ops.com/";
     private static final String TBB_PUBLIC_API_DEV = "http://tubobo.dev.ops.com/";
     private static final String TBB_WS_URL_DEV = "ws://172.16.1.181:2001/ws";

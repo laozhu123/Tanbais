@@ -79,18 +79,29 @@
     <View style="@style/line_f3f3f3_vertical" />
 
     <xiaogao.zjut.tabbaishuo.views.ItemTxArrow
-        android:id="@+id/judgeUs"
+        android:id="@+id/clearCash"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        itemTxArrow:title="@string/judgeUs" />
+        itemTxArrow:title="@string/clearCash" />
 
     <View style="@style/line_f3f3f3_vertical" />
 
-    <xiaogao.zjut.tabbaishuo.views.ItemTxArrow
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
         android:id="@+id/logOut"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        itemTxArrow:title="@string/logOut" />
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/rect_4_logout"
+        android:gravity="center"
+        android:text="@string/logOut"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
 
-    <View style="@style/line_f3f3f3_vertical" />
 </LinearLayout>

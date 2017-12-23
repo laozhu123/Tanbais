@@ -1,6 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <include layout="@layout/common_head_title1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="特别提示"
+                android:textColor="@color/color_282828"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/teBieTiShi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/userBook1"
+                android:textColor="@color/color_686868"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="一、总则"
+                android:textColor="@color/color_282828"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/zongZe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/zhongZe"
+                android:lineSpacingExtra="3dp"
+                android:textColor="@color/color_686868"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="二、服务费用"
+                android:textColor="@color/color_282828"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/fuWuFeiYong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/fuWuFeiYong"
+                android:lineSpacingExtra="3dp"
+                android:textColor="@color/color_686868"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="三、服务内容"
+                android:textColor="@color/color_282828"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/fuWuNeiRong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/fuWuNeiRong"
+                android:lineSpacingExtra="3dp"
+                android:textColor="@color/color_686868"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="四、服务的开通和终止"
+                android:textColor="@color/color_282828"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/serviceStartEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/startEnd"
+                android:lineSpacingExtra="3dp"
+                android:textColor="@color/color_686868"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="五、会员的权利和义务"
+                android:textColor="@color/color_282828"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/userRightDuty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/rightDuty"
+                android:lineSpacingExtra="3dp"
+                android:textColor="@color/color_686868"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="六、四宜科技的权利和义务"
+                android:textColor="@color/color_282828"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/companyRightDuty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/companyRightDuty"
+                android:lineSpacingExtra="3dp"
+                android:textColor="@color/color_686868"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="七、其他"
+                android:textColor="@color/color_282828"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/others"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/others"
+                android:lineSpacingExtra="3dp"
+                android:textColor="@color/color_686868"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
