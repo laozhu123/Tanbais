@@ -53,8 +53,6 @@ public class FragmentThird extends MyBindPresentFragment<BasePresenter> implemen
     TextView title;
     @Bind(R.id.title_right_tv)
     TextView titleRightTv;
-    private List<Picture> pls;
-    private PictureListAdapter pAdapter;
 
     @Override
     public void onRefresh() {

@@ -36,7 +36,7 @@ public class InfoCommonViewHolder extends RecyclerView.ViewHolder {
 
         switch (index) {
             case 0:
-            case 5:
+            case 4:
                 if (bean.right.equals("")) {
                     rightTx.setText("请填写");
                     rightTx.setTextColor(rightTx.getContext().getResources().getColor(R.color.color_bbccd4));

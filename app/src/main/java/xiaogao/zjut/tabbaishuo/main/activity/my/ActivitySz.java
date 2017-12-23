@@ -7,14 +7,21 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import xgn.com.basesdk.base.activity.ActivityBase;
 import xiaogao.zjut.tabbaishuo.R;
+import xiaogao.zjut.tabbaishuo.contants.SharePrefrenceString;
+import xiaogao.zjut.tabbaishuo.events.EventLogout;
+import xiaogao.zjut.tabbaishuo.main.activity.login.ActivityLogin;
 import xiaogao.zjut.tabbaishuo.main.activity.setting.ActivityContactUs;
 import xiaogao.zjut.tabbaishuo.main.activity.setting.ActivitySuggestionResponse;
 import xiaogao.zjut.tabbaishuo.main.activity.setting.ActivityUserBook;
+import xiaogao.zjut.tabbaishuo.utils.SPHelper;
 import xiaogao.zjut.tabbaishuo.views.ItemTxArrow;
 import xiaogao.zjut.tabbaishuo.views.SwitchButton;
 
@@ -51,6 +58,7 @@ public class ActivitySz extends ActivityBase {
     }
 
 
+
     @Override
     protected void onDestroy() {
         ButterKnife.unbind(this);
@@ -84,6 +92,12 @@ public class ActivitySz extends ActivityBase {
                 break;
             case R.id.logOut:
                 //fixme 到登录页面
+                EventBus.getDefault().post(new EventLogout());
+                SPHelper helper = new SPHelper(ActivitySz.this, SharePrefrenceString.USER_LOGIN);
+                helper.putValues(new SPHelper.ContentValue(SharePrefrenceString.IS_LOGIN, false));
+                intent.setClass(ActivitySz.this, ActivityLogin.class);
+                startActivity(intent);
+                finish();
                 break;
         }
 

@@ -12,6 +12,10 @@ buildscript {
                 password "admin123"
             }
         }
+
+        maven {
+            url "http://mvn.mob.com/android"
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.2'
@@ -19,6 +23,7 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
+
 }
 
 allprojects {
@@ -31,9 +36,6 @@ allprojects {
                 username "admin"
                 password "123"
             }
-        }
-        maven {
-            url 'http://172.16.2.73:8081/repository/maven-snapshots/'
         }
     }
 }

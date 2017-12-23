@@ -11,13 +11,17 @@ import io.rong.imkit.RongContext;
 import io.rong.imkit.RongExtensionManager;
 import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.base.activity.MyBaseBindPresentActivity;
+import xiaogao.zjut.tabbaishuo.contants.SharePrefrenceString;
 import xiaogao.zjut.tabbaishuo.injecter.component.ActivityComponent;
 import xiaogao.zjut.tabbaishuo.interfaces.IUISplash;
 import xiaogao.zjut.tabbaishuo.main.MainActivity;
 import xiaogao.zjut.tabbaishuo.main.activity.im.tool.extension.MyExtensionModule;
 import xiaogao.zjut.tabbaishuo.main.activity.im.tool.textcolor.TextMessageItemProviderNew;
 import xiaogao.zjut.tabbaishuo.main.activity.im.tool.textcolor.VoiceMessageItemProviderNew;
+import xiaogao.zjut.tabbaishuo.main.activity.login.ActivityLogin;
+import xiaogao.zjut.tabbaishuo.main.activity.login.ActivityRegisterFirst;
 import xiaogao.zjut.tabbaishuo.main.persenter.PresenterSplash;
+import xiaogao.zjut.tabbaishuo.utils.SPHelper;
 
 /**
  * Created by Administrator on 2017/11/29.
@@ -62,7 +66,10 @@ public class ActivitySplash extends MyBaseBindPresentActivity<PresenterSplash> i
     }
 
     private boolean isLogined() {
-        return true;
+        SPHelper helper = new SPHelper(ActivitySplash.this, SharePrefrenceString.USER_LOGIN);
+        if (helper.getBoolean(SharePrefrenceString.IS_LOGIN))
+            return true;
+        return false;
     }
 
     @Override
@@ -82,7 +89,7 @@ public class ActivitySplash extends MyBaseBindPresentActivity<PresenterSplash> i
                 if (isLogined()) {
                     startActivity(new Intent(ActivitySplash.this, MainActivity.class));
                 } else {
-//                    startActivity(new Intent(ActivitySplash.this, ActivityLogin.class));
+                    startActivity(new Intent(ActivitySplash.this, ActivityRegisterFirst.class));
                 }
                 finish();
             }

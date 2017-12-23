@@ -161,9 +161,6 @@ public class ActivityShowPicture extends MyBaseBindPresentActivity<PresenterActi
 
     @Override
     public void onDestroy() {
-        super.onDestroy();
-        ButterKnife.unbind(this);
-
         for (int i = 0; i < mViewPager.getChildCount(); i++) {
             GestureBaseImageView view = (GestureBaseImageView) mViewPager.getChildAt(i);
             Bitmap bitmap = view.getViewBitmap();
@@ -172,5 +169,7 @@ public class ActivityShowPicture extends MyBaseBindPresentActivity<PresenterActi
                 bitmap = null;
             }
         }
+        ButterKnife.unbind(this);
+        super.onDestroy();
     }
 }

@@ -29,6 +29,11 @@
     <uses-permission android:name="android.permission.READ_LOGS" />
 
 
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
     <application
         android:name=".app.MyApplication"
         android:allowBackup="true"
@@ -95,11 +100,17 @@
         //setting
         <activity android:name=".main.activity.setting.ActivitySuggestionResponse" />
         <activity android:name=".main.activity.common.ActivityStoreImage" />
-        <activity android:name=".main.activity.setting.ActivityContactUs"/>
-        <activity android:name=".main.activity.setting.ActivityUserBook"/>
-        <activity android:name=".main.activity.common.ActivityBetterPush"/>
-        <activity android:name=".main.activity.common.ActivitySetNickname"/>
-        <activity android:name=".main.activity.common.ActivitySetOccuption"/>
+        <activity android:name=".main.activity.setting.ActivityContactUs" />
+        <activity android:name=".main.activity.setting.ActivityUserBook" />
+        <activity android:name=".main.activity.common.ActivityBetterPush" />
+        <activity android:name=".main.activity.common.ActivitySetNickname" />
+        <activity android:name=".main.activity.common.ActivitySetOccuption" />
+        <activity android:name=".main.activity.login.ActivityRegisterFirst" />
+        <activity android:name=".main.activity.login.ActivityRegisterSecond" />
+        <activity
+            android:name=".main.activity.login.ActivityLogin"
+            android:launchMode="singleTop" />
+
     </application>
 
 </manifest>

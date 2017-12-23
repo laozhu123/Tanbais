@@ -4,6 +4,9 @@ import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.view.View;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+
 import javax.inject.Inject;
 
 import butterknife.Bind;
@@ -12,6 +15,7 @@ import xgn.com.basesdk.base.mvp.BasePresenter;
 import xgn.com.basesdk.commonui.utils.XgFragmentManager;
 import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.base.activity.MyBaseBindPresentActivity;
+import xiaogao.zjut.tabbaishuo.events.EventLogout;
 import xiaogao.zjut.tabbaishuo.injecter.component.ActivityComponent;
 import xiaogao.zjut.tabbaishuo.interfaces.IUIMain;
 import xiaogao.zjut.tabbaishuo.main.fragmentTab.FragmentFirst;
@@ -48,6 +52,11 @@ public class MainActivity extends MyBaseBindPresentActivity<PresenterMain> imple
         mXgFragmentManager.switchFragmentWithCache(mFragmentFirst, null);
     }
 
+    @Subscribe
+    public void Logout(EventLogout eventLogout) {
+        finish();
+    }
+
     private void initFragments() {
         mXgFragmentManager = new XgFragmentManager(this);
         mFragmentFirst = FragmentFirst.class.getName();
@@ -57,7 +66,7 @@ public class MainActivity extends MyBaseBindPresentActivity<PresenterMain> imple
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     private void initView() {
-
+        EventBus.getDefault().register(this);
         mBottomBar.addItem(new BottomBarTab(this,
                 R.mipmap.icon_tuisong,
                 R.mipmap.icon_tuisong_s,
@@ -102,6 +111,12 @@ public class MainActivity extends MyBaseBindPresentActivity<PresenterMain> imple
             public void onTabReselected(int position) {
             }
         });
+    }
+
+    @Override
+    public void onDestroy() {
+        EventBus.getDefault().unregister(this);
+        super.onDestroy();
     }
 
     @Override

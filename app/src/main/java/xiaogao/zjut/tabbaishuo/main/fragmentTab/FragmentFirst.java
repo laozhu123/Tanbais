@@ -28,6 +28,7 @@ import xiaogao.zjut.tabbaishuo.adapter.CardAdapter;
 import xiaogao.zjut.tabbaishuo.base.fragment.MyBindPresentFragment;
 import xiaogao.zjut.tabbaishuo.bean.BaseCardItem;
 import xiaogao.zjut.tabbaishuo.injecter.component.FragmentComponent;
+import xiaogao.zjut.tabbaishuo.interfaces.IUIFragmentFirst;
 import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityBetterPush;
 import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityGrzl;
 import xiaogao.zjut.tabbaishuo.main.persenter.PresenterFragmentFirst;
@@ -38,7 +39,7 @@ import static xiaogao.zjut.tabbaishuo.main.activity.my.ActivityGrzl.ISMINE;
  * Created by Administrator on 2017/11/18.
  */
 
-public class FragmentFirst extends MyBindPresentFragment<PresenterFragmentFirst> implements Handler.Callback, StackCardsView.OnCardSwipedListener
+public class FragmentFirst extends MyBindPresentFragment<PresenterFragmentFirst> implements IUIFragmentFirst, Handler.Callback, StackCardsView.OnCardSwipedListener
         , View.OnClickListener, CardAdapter.OnItemClickListener {
 
     @Inject
@@ -65,7 +66,8 @@ public class FragmentFirst extends MyBindPresentFragment<PresenterFragmentFirst>
     private static final int PAGE_COUNT = 10;
 
     private Handler.Callback mCallback;
-    int leaveTime = 10;
+    int leaveTime = 500;
+    private Timer timer;
 
     @Override
     public boolean handleMessage(Message msg) {
@@ -96,6 +98,7 @@ public class FragmentFirst extends MyBindPresentFragment<PresenterFragmentFirst>
 
     @Override
     public void onDestroy() {
+        timer.cancel();
         ButterKnife.unbind(this);
         super.onDestroy();
     }
@@ -154,7 +157,7 @@ public class FragmentFirst extends MyBindPresentFragment<PresenterFragmentFirst>
         List<BaseCardItem> data = loadData(0);
         mAdapter.appendItems(data);
 
-        final Timer timer = new Timer();
+        timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
@@ -170,6 +173,7 @@ public class FragmentFirst extends MyBindPresentFragment<PresenterFragmentFirst>
     }
 
     private void tick() {
+
         _mActivity.runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -177,18 +181,34 @@ public class FragmentFirst extends MyBindPresentFragment<PresenterFragmentFirst>
                 int hour = leaveTime / 3600;
                 int minute = leaveTime % 3600 / 60;
                 int second = leaveTime % 60;
-                if (hour < 10)
+
+                if (hour < 10) {
+                    if (hourV == null)
+                        return;
                     hourV.setText("0" + hour);
-                else
+                } else {
+                    if (hourV == null)
+                        return;
                     hourV.setText("" + hour);
+                }
+
                 if (minute < 10) {
+                    if (minuteV == null)
+                        return;
                     minuteV.setText("0" + minute);
                 } else {
+                    if (minuteV == null)
+                        return;
                     minuteV.setText("" + minute);
                 }
+
                 if (second < 10) {
+                    if (secondsV == null)
+                        return;
                     secondsV.setText("0" + second);
                 } else {
+                    if (secondsV == null)
+                        return;
                     secondsV.setText("" + second);
                 }
             }
@@ -206,13 +226,13 @@ public class FragmentFirst extends MyBindPresentFragment<PresenterFragmentFirst>
 
     @Override
     public void onDestroyView() {
-        super.onDestroyView();
-        ButterKnife.unbind(this);
         cards.removeOnCardSwipedListener(this);
         mWorkThread.quit();
         mWorkHandler.removeMessages(MSG_START_LOAD_DATA);
         mMainHandler.removeMessages(MSG_DATA_LOAD_DONE);
         mStartIndex = 0;
+        ButterKnife.unbind(this);
+        super.onDestroyView();
     }
 
     @Override

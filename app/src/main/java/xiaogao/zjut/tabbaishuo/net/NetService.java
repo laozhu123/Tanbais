@@ -1,8 +1,10 @@
 package xiaogao.zjut.tabbaishuo.net;
 
-import io.reactivex.Observable;
+import retrofit2.http.Body;
 import retrofit2.http.POST;
 import retrofit2.http.Query;
+import rx.Observable;
+import xiaogao.zjut.tabbaishuo.bean.LoginRequestBean;
 import xiaogao.zjut.tabbaishuo.bean.LoginResponseBean;
 
 /**
@@ -12,13 +14,7 @@ import xiaogao.zjut.tabbaishuo.bean.LoginResponseBean;
 public interface NetService {
     @POST("user/login")
     Observable<LoginResponseBean> login(
-            @Query("sid") String sid,
-            @Query("tsp") String tsp,
-            @Query("sig") String sig,
-            @Query("phone") String phone,
-            @Query("password") String password,
-            @Query("device") String device,
-            @Query("cid") String cid
-    );
+             @Body LoginRequestBean loginRequestBean
+            );
 
 }

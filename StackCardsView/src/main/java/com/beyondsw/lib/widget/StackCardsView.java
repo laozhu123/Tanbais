@@ -7,10 +7,12 @@ import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.TypedValue;
+import android.view.Display;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.FrameLayout;
 
 import java.util.ArrayList;
@@ -139,6 +141,9 @@ public class StackCardsView extends FrameLayout {
         if (mItemWidth == INVALID_SIZE) {
             throw new IllegalArgumentException("itemWidth must be specified");
         }
+        WindowManager wm = (WindowManager) getContext().getSystemService(Context.WINDOW_SERVICE);
+        Display display = wm.getDefaultDisplay();
+        mItemWidth = display.getWidth();
         mItemHeight = a.getDimensionPixelSize(R.styleable.StackCardsView_itemHeight, INVALID_SIZE);
         if (mItemHeight == INVALID_SIZE) {
             throw new IllegalArgumentException("itemHeight must be specified");

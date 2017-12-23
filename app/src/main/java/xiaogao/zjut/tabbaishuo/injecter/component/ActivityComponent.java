@@ -15,6 +15,9 @@ import xiaogao.zjut.tabbaishuo.main.activity.common.ActivitySetNickname;
 import xiaogao.zjut.tabbaishuo.main.activity.common.ActivitySetOccuption;
 import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityShowPicture;
 import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityXiangCe;
+import xiaogao.zjut.tabbaishuo.main.activity.login.ActivityLogin;
+import xiaogao.zjut.tabbaishuo.main.activity.login.ActivityRegisterFirst;
+import xiaogao.zjut.tabbaishuo.main.activity.login.ActivityRegisterSecond;
 import xiaogao.zjut.tabbaishuo.main.activity.my.ActivityBaseInfo;
 import xiaogao.zjut.tabbaishuo.main.activity.common.ActivityJuBao;
 import xiaogao.zjut.tabbaishuo.main.activity.ActivitySplash;
@@ -52,4 +55,10 @@ public interface ActivityComponent extends AppComponent {
     void inject(ActivitySetOccuption activitySetOccuption);
 
     void inject(ActivityUserBook activityUserBook);
+
+    void inject(ActivityRegisterFirst activityRegisterFirst);
+
+    void inject(ActivityRegisterSecond activityRegisterSecond);
+
+    void inject(ActivityLogin activityLogin);
 }
