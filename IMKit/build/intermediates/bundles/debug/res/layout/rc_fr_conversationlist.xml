@@ -12,7 +12,8 @@
         android:gravity="center"
         android:text="@string/message"
         android:textColor="#484848"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <View
         android:id="@+id/line1"

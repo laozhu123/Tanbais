@@ -874,6 +874,7 @@ containing a value of this type.
         public static int square=0x7f0a0038;
         public static int text=0x7f0a00fd;
         public static int title=0x7f0a00aa;
+        public static int title_right_tv=0x7f0a0118;
         public static int toolbar_bottom=0x7f0a00fa;
         public static int toolbar_top=0x7f0a00f7;
         public static int tv_line=0x7f0a00e1;
@@ -883,7 +884,7 @@ containing a value of this type.
         public static int type_text=0x7f0a0103;
         public static int unfollow=0x7f0a00c9;
         public static int viewpager=0x7f0a00c0;
-        public static int volume_animation=0x7f0a0118;
+        public static int volume_animation=0x7f0a0119;
         public static int whole_layout=0x7f0a00f6;
     }
     public static final class integer {
