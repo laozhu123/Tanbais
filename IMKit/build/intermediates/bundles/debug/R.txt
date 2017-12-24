@@ -800,6 +800,7 @@ int id send 0x7f0a00f9
 int id square 0x7f0a0038
 int id text 0x7f0a00fd
 int id title 0x7f0a00aa
+int id title_right_tv 0x7f0a0118
 int id toolbar_bottom 0x7f0a00fa
 int id toolbar_top 0x7f0a00f7
 int id tv_line 0x7f0a00e1
@@ -809,7 +810,7 @@ int id type_image 0x7f0a0104
 int id type_text 0x7f0a0103
 int id unfollow 0x7f0a00c9
 int id viewpager 0x7f0a00c0
-int id volume_animation 0x7f0a0118
+int id volume_animation 0x7f0a0119
 int id whole_layout 0x7f0a00f6
 int integer rc_audio_encoding_bit_rate 0x7f0b0000
 int integer rc_chatroom_first_pull_message_count 0x7f0b0001

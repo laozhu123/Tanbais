@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/title"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/head"
     android:layout_width="match_parent"
-    android:layout_height="44dp"
-    android:background="#f9f9f9"
-    android:gravity="center"
-    android:textColor="#484848"
-    android:textSize="18sp" />
+    android:layout_height="45dp"
+    android:background="#f9f9f9">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#484848"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title_right_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:text="预览"
+        android:textColor="#484848"
+        android:textSize="14sp"
+        android:visibility="gone" />
+</RelativeLayout>
+
