@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/daisycc/StudioProjects/Tanbais/IMKit/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/guoweirong/AsProjects/Tanbais/IMKit/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 441
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 4713
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_emoji.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_emoji.xml",
                     "position": {
                         "startLine": 133,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 9604
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_emoji.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_emoji.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -75,7 +75,7 @@
                     "endOffset": 9840
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
                     "position": {
                         "startLine": 84,
                         "startColumn": 4,
@@ -96,7 +96,7 @@
                     "endOffset": 10279
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -117,7 +117,7 @@
                     "endOffset": 10907
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -138,7 +138,7 @@
                     "endOffset": 11299
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 4,
@@ -159,7 +159,7 @@
                     "endOffset": 11376
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
                     "position": {
                         "startLine": 97,
                         "startColumn": 4,
@@ -180,7 +180,7 @@
                     "endOffset": 11480
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
                     "position": {
                         "startLine": 93,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 11789
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -222,7 +222,7 @@
                     "endOffset": 12340
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -243,7 +243,7 @@
                     "endOffset": 12471
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_file_suffix.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 4,
@@ -263,7 +263,7 @@
                     "endOffset": 12529
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -282,7 +282,7 @@
                     "endOffset": 12584
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -301,7 +301,7 @@
                     "endOffset": 12641
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -320,7 +320,7 @@
                     "endOffset": 12692
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -339,7 +339,7 @@
                     "endOffset": 12753
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -358,7 +358,7 @@
                     "endOffset": 12807
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -377,7 +377,7 @@
                     "endOffset": 12853
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -396,7 +396,7 @@
                     "endOffset": 12915
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -415,7 +415,7 @@
                     "endOffset": 12962
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -434,7 +434,7 @@
                     "endOffset": 13038
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -453,7 +453,7 @@
                     "endOffset": 13111
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -472,7 +472,7 @@
                     "endOffset": 13180
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -491,7 +491,7 @@
                     "endOffset": 13237
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -510,7 +510,7 @@
                     "endOffset": 13288
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -529,7 +529,7 @@
                     "endOffset": 13338
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -548,7 +548,7 @@
                     "endOffset": 13387
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -567,7 +567,7 @@
                     "endOffset": 13443
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -586,7 +586,7 @@
                     "endOffset": 13497
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -605,7 +605,7 @@
                     "endOffset": 13543
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -624,7 +624,7 @@
                     "endOffset": 13596
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -643,7 +643,7 @@
                     "endOffset": 13649
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -662,7 +662,7 @@
                     "endOffset": 13697
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -681,7 +681,7 @@
                     "endOffset": 13750
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -700,7 +700,7 @@
                     "endOffset": 13805
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -719,7 +719,7 @@
                     "endOffset": 13852
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -738,7 +738,7 @@
                     "endOffset": 13905
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -757,7 +757,7 @@
                     "endOffset": 13954
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -776,7 +776,7 @@
                     "endOffset": 14008
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -795,7 +795,7 @@
                     "endOffset": 14061
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -814,7 +814,7 @@
                     "endOffset": 14155
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -833,7 +833,7 @@
                     "endOffset": 14216
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -852,7 +852,7 @@
                     "endOffset": 14272
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -871,7 +871,7 @@
                     "endOffset": 14336
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -890,7 +890,7 @@
                     "endOffset": 14388
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -909,7 +909,7 @@
                     "endOffset": 14453
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -928,7 +928,7 @@
                     "endOffset": 14517
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -947,7 +947,7 @@
                     "endOffset": 14582
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -966,7 +966,7 @@
                     "endOffset": 14652
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -985,7 +985,7 @@
                     "endOffset": 14721
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1004,7 +1004,7 @@
                     "endOffset": 14787
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1023,7 +1023,7 @@
                     "endOffset": 14835
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1042,7 +1042,7 @@
                     "endOffset": 14904
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -1061,7 +1061,7 @@
                     "endOffset": 14974
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -1080,7 +1080,7 @@
                     "endOffset": 15043
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -1099,7 +1099,7 @@
                     "endOffset": 15109
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -1118,7 +1118,7 @@
                     "endOffset": 15170
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -1137,7 +1137,7 @@
                     "endOffset": 15227
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -1156,7 +1156,7 @@
                     "endOffset": 15283
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1175,7 +1175,7 @@
                     "endOffset": 15360
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1194,7 +1194,7 @@
                     "endOffset": 15418
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1213,7 +1213,7 @@
                     "endOffset": 15475
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1232,7 +1232,7 @@
                     "endOffset": 15523
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1251,7 +1251,7 @@
                     "endOffset": 15576
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -1270,7 +1270,7 @@
                     "endOffset": 15625
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -1289,7 +1289,7 @@
                     "endOffset": 15679
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -1308,7 +1308,7 @@
                     "endOffset": 15734
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -1327,7 +1327,7 @@
                     "endOffset": 15788
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_color.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1346,7 +1346,7 @@
                     "endOffset": 15825
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_color.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -1365,7 +1365,7 @@
                     "endOffset": 16585
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1384,7 +1384,7 @@
                     "endOffset": 16647
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1403,7 +1403,7 @@
                     "endOffset": 16709
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1422,7 +1422,7 @@
                     "endOffset": 16757
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1441,7 +1441,7 @@
                     "endOffset": 16805
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1460,7 +1460,7 @@
                     "endOffset": 16851
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1479,7 +1479,7 @@
                     "endOffset": 16899
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1498,7 +1498,7 @@
                     "endOffset": 16947
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1517,7 +1517,7 @@
                     "endOffset": 16993
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1536,7 +1536,7 @@
                     "endOffset": 17041
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1555,7 +1555,7 @@
                     "endOffset": 17087
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1574,7 +1574,7 @@
                     "endOffset": 17133
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_dimens.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1593,7 +1593,7 @@
                     "endOffset": 17191
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1612,7 +1612,7 @@
                     "endOffset": 17255
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_dimens.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1631,7 +1631,7 @@
                     "endOffset": 17297
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1650,7 +1650,7 @@
                     "endOffset": 17334
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1669,7 +1669,7 @@
                     "endOffset": 17377
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
@@ -1688,7 +1688,7 @@
                     "endOffset": 17416
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -1707,7 +1707,7 @@
                     "endOffset": 17457
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -1726,7 +1726,7 @@
                     "endOffset": 17497
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1745,7 +1745,7 @@
                     "endOffset": 17550
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -1764,7 +1764,7 @@
                     "endOffset": 17605
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -1783,7 +1783,7 @@
                     "endOffset": 17657
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -1802,7 +1802,7 @@
                     "endOffset": 17707
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
@@ -1821,7 +1821,7 @@
                     "endOffset": 17758
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -1840,7 +1840,7 @@
                     "endOffset": 17800
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 4,
@@ -1859,7 +1859,7 @@
                     "endOffset": 17841
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
@@ -1878,7 +1878,7 @@
                     "endOffset": 17879
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -1897,7 +1897,7 @@
                     "endOffset": 17916
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1916,7 +1916,7 @@
                     "endOffset": 17952
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1935,7 +1935,7 @@
                     "endOffset": 18000
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -1954,7 +1954,7 @@
                     "endOffset": 18043
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -1973,7 +1973,7 @@
                     "endOffset": 18088
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -1992,7 +1992,7 @@
                     "endOffset": 18126
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -2011,7 +2011,7 @@
                     "endOffset": 18164
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -2030,7 +2030,7 @@
                     "endOffset": 18202
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -2049,7 +2049,7 @@
                     "endOffset": 18240
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -2068,7 +2068,7 @@
                     "endOffset": 18278
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -2087,7 +2087,7 @@
                     "endOffset": 18316
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -2106,7 +2106,7 @@
                     "endOffset": 18354
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -2125,7 +2125,7 @@
                     "endOffset": 18392
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -2144,7 +2144,7 @@
                     "endOffset": 18430
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -2163,7 +2163,7 @@
                     "endOffset": 18468
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -2182,7 +2182,7 @@
                     "endOffset": 18518
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
@@ -2201,7 +2201,7 @@
                     "endOffset": 18557
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2220,7 +2220,7 @@
                     "endOffset": 18605
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -2239,7 +2239,7 @@
                     "endOffset": 18642
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -2258,7 +2258,7 @@
                     "endOffset": 18679
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2277,7 +2277,7 @@
                     "endOffset": 18716
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -2296,7 +2296,7 @@
                     "endOffset": 18768
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -2315,7 +2315,7 @@
                     "endOffset": 18804
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2334,7 +2334,7 @@
                     "endOffset": 18840
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -2353,7 +2353,7 @@
                     "endOffset": 18878
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -2372,7 +2372,7 @@
                     "endOffset": 18919
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -2391,7 +2391,7 @@
                     "endOffset": 18966
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -2410,7 +2410,7 @@
                     "endOffset": 19007
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2429,7 +2429,7 @@
                     "endOffset": 19052
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2448,7 +2448,7 @@
                     "endOffset": 19105
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -2467,7 +2467,7 @@
                     "endOffset": 19157
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -2486,7 +2486,7 @@
                     "endOffset": 19195
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -2505,7 +2505,7 @@
                     "endOffset": 19232
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
@@ -2524,7 +2524,7 @@
                     "endOffset": 19276
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
@@ -2543,7 +2543,7 @@
                     "endOffset": 19313
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -2562,7 +2562,7 @@
                     "endOffset": 19351
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -2581,7 +2581,7 @@
                     "endOffset": 19396
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -2600,7 +2600,7 @@
                     "endOffset": 19432
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2619,7 +2619,7 @@
                     "endOffset": 19479
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -2638,7 +2638,7 @@
                     "endOffset": 19532
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -2657,7 +2657,7 @@
                     "endOffset": 19572
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ids.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -2676,7 +2676,7 @@
                     "endOffset": 19634
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -2695,7 +2695,7 @@
                     "endOffset": 19704
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2714,7 +2714,7 @@
                     "endOffset": 19775
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -2733,7 +2733,7 @@
                     "endOffset": 19842
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_extension_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_extension_config.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2752,7 +2752,7 @@
                     "endOffset": 19909
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_extension_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_extension_config.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2771,7 +2771,7 @@
                     "endOffset": 19959
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -2790,7 +2790,7 @@
                     "endOffset": 20007
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -2809,7 +2809,7 @@
                     "endOffset": 20068
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -2828,7 +2828,7 @@
                     "endOffset": 20135
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -2847,7 +2847,7 @@
                     "endOffset": 20174
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2866,7 +2866,7 @@
                     "endOffset": 20231
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 172,
                         "startColumn": 4,
@@ -2885,7 +2885,7 @@
                     "endOffset": 20301
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 174,
                         "startColumn": 4,
@@ -2904,7 +2904,7 @@
                     "endOffset": 20362
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 156,
                         "startColumn": 4,
@@ -2923,7 +2923,7 @@
                     "endOffset": 20441
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 173,
                         "startColumn": 4,
@@ -2942,7 +2942,7 @@
                     "endOffset": 20522
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 193,
                         "startColumn": 4,
@@ -2961,7 +2961,7 @@
                     "endOffset": 20599
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 195,
                         "startColumn": 4,
@@ -2980,7 +2980,7 @@
                     "endOffset": 20674
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 194,
                         "startColumn": 4,
@@ -2999,7 +2999,7 @@
                     "endOffset": 20733
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 164,
                         "startColumn": 4,
@@ -3018,7 +3018,7 @@
                     "endOffset": 20797
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 165,
                         "startColumn": 4,
@@ -3037,7 +3037,7 @@
                     "endOffset": 20861
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 166,
                         "startColumn": 4,
@@ -3056,7 +3056,7 @@
                     "endOffset": 20926
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 160,
                         "startColumn": 4,
@@ -3075,7 +3075,7 @@
                     "endOffset": 20990
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 158,
                         "startColumn": 4,
@@ -3094,7 +3094,7 @@
                     "endOffset": 21057
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 161,
                         "startColumn": 4,
@@ -3113,7 +3113,7 @@
                     "endOffset": 21125
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 157,
                         "startColumn": 4,
@@ -3132,7 +3132,7 @@
                     "endOffset": 21190
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 159,
                         "startColumn": 4,
@@ -3151,7 +3151,7 @@
                     "endOffset": 21253
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 162,
                         "startColumn": 4,
@@ -3170,7 +3170,7 @@
                     "endOffset": 21319
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 163,
                         "startColumn": 4,
@@ -3189,7 +3189,7 @@
                     "endOffset": 21386
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 187,
                         "startColumn": 4,
@@ -3208,7 +3208,7 @@
                     "endOffset": 21458
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 186,
                         "startColumn": 4,
@@ -3227,7 +3227,7 @@
                     "endOffset": 21524
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 191,
                         "startColumn": 4,
@@ -3246,7 +3246,7 @@
                     "endOffset": 21593
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 190,
                         "startColumn": 4,
@@ -3265,7 +3265,7 @@
                     "endOffset": 21660
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 189,
                         "startColumn": 4,
@@ -3284,7 +3284,7 @@
                     "endOffset": 21722
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 188,
                         "startColumn": 4,
@@ -3303,7 +3303,7 @@
                     "endOffset": 21778
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 175,
                         "startColumn": 4,
@@ -3322,7 +3322,7 @@
                     "endOffset": 21828
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3341,7 +3341,7 @@
                     "endOffset": 21876
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -3360,7 +3360,7 @@
                     "endOffset": 21928
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 171,
                         "startColumn": 4,
@@ -3379,7 +3379,7 @@
                     "endOffset": 21990
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 169,
                         "startColumn": 4,
@@ -3398,7 +3398,7 @@
                     "endOffset": 22045
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 170,
                         "startColumn": 4,
@@ -3417,7 +3417,7 @@
                     "endOffset": 22107
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 176,
                         "startColumn": 4,
@@ -3436,7 +3436,7 @@
                     "endOffset": 22175
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 177,
                         "startColumn": 4,
@@ -3455,7 +3455,7 @@
                     "endOffset": 22226
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 124,
                         "startColumn": 4,
@@ -3474,7 +3474,7 @@
                     "endOffset": 22304
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 219,
                         "startColumn": 4,
@@ -3493,7 +3493,7 @@
                     "endOffset": 22380
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 218,
                         "startColumn": 4,
@@ -3512,7 +3512,7 @@
                     "endOffset": 22440
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 217,
                         "startColumn": 4,
@@ -3531,7 +3531,7 @@
                     "endOffset": 22517
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 221,
                         "startColumn": 4,
@@ -3550,7 +3550,7 @@
                     "endOffset": 22584
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 220,
                         "startColumn": 4,
@@ -3569,7 +3569,7 @@
                     "endOffset": 22662
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 222,
                         "startColumn": 4,
@@ -3588,7 +3588,7 @@
                     "endOffset": 22747
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
@@ -3607,7 +3607,7 @@
                     "endOffset": 22796
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -3626,7 +3626,7 @@
                     "endOffset": 22851
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -3645,7 +3645,7 @@
                     "endOffset": 22921
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_defaults.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_defaults.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -3664,7 +3664,7 @@
                     "endOffset": 22978
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 151,
                         "startColumn": 4,
@@ -3683,7 +3683,7 @@
                     "endOffset": 23033
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 135,
                         "startColumn": 4,
@@ -3702,7 +3702,7 @@
                     "endOffset": 23090
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 131,
                         "startColumn": 4,
@@ -3721,7 +3721,7 @@
                     "endOffset": 23145
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 134,
                         "startColumn": 4,
@@ -3740,7 +3740,7 @@
                     "endOffset": 23197
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 130,
                         "startColumn": 4,
@@ -3759,7 +3759,7 @@
                     "endOffset": 23238
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -3778,7 +3778,7 @@
                     "endOffset": 23290
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 154,
                         "startColumn": 4,
@@ -3797,7 +3797,7 @@
                     "endOffset": 23332
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
@@ -3816,7 +3816,7 @@
                     "endOffset": 23404
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -3835,7 +3835,7 @@
                     "endOffset": 23479
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -3854,7 +3854,7 @@
                     "endOffset": 23558
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -3873,7 +3873,7 @@
                     "endOffset": 23630
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -3892,7 +3892,7 @@
                     "endOffset": 23702
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -3911,7 +3911,7 @@
                     "endOffset": 23772
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -3930,7 +3930,7 @@
                     "endOffset": 23843
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -3949,7 +3949,7 @@
                     "endOffset": 23910
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -3968,7 +3968,7 @@
                     "endOffset": 23984
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -3987,7 +3987,7 @@
                     "endOffset": 24053
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -4006,7 +4006,7 @@
                     "endOffset": 24116
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -4025,7 +4025,7 @@
                     "endOffset": 24196
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -4044,7 +4044,7 @@
                     "endOffset": 24267
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -4063,7 +4063,7 @@
                     "endOffset": 24338
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -4082,7 +4082,7 @@
                     "endOffset": 24405
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -4101,7 +4101,7 @@
                     "endOffset": 24474
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -4120,7 +4120,7 @@
                     "endOffset": 24548
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -4139,7 +4139,7 @@
                     "endOffset": 24593
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 234,
                         "startColumn": 4,
@@ -4158,7 +4158,7 @@
                     "endOffset": 24637
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 144,
                         "startColumn": 4,
@@ -4177,7 +4177,7 @@
                     "endOffset": 24683
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 230,
                         "startColumn": 4,
@@ -4196,7 +4196,7 @@
                     "endOffset": 24743
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 141,
                         "startColumn": 4,
@@ -4215,7 +4215,7 @@
                     "endOffset": 24805
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 142,
                         "startColumn": 4,
@@ -4234,7 +4234,7 @@
                     "endOffset": 24868
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 231,
                         "startColumn": 4,
@@ -4253,7 +4253,7 @@
                     "endOffset": 24919
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 241,
                         "startColumn": 4,
@@ -4272,7 +4272,7 @@
                     "endOffset": 24978
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 243,
                         "startColumn": 4,
@@ -4291,7 +4291,7 @@
                     "endOffset": 25040
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 239,
                         "startColumn": 4,
@@ -4310,7 +4310,7 @@
                     "endOffset": 25111
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 240,
                         "startColumn": 4,
@@ -4329,7 +4329,7 @@
                     "endOffset": 25173
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 237,
                         "startColumn": 4,
@@ -4348,7 +4348,7 @@
                     "endOffset": 25223
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 233,
                         "startColumn": 4,
@@ -4367,7 +4367,7 @@
                     "endOffset": 25278
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 152,
                         "startColumn": 4,
@@ -4386,7 +4386,7 @@
                     "endOffset": 25322
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 143,
                         "startColumn": 4,
@@ -4405,7 +4405,7 @@
                     "endOffset": 25385
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 238,
                         "startColumn": 4,
@@ -4424,7 +4424,7 @@
                     "endOffset": 25439
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 242,
                         "startColumn": 4,
@@ -4443,7 +4443,7 @@
                     "endOffset": 25492
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 235,
                         "startColumn": 4,
@@ -4462,7 +4462,7 @@
                     "endOffset": 25549
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 232,
                         "startColumn": 4,
@@ -4481,7 +4481,7 @@
                     "endOffset": 25609
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 236,
                         "startColumn": 4,
@@ -4500,7 +4500,7 @@
                     "endOffset": 25653
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 113,
                         "startColumn": 4,
@@ -4519,7 +4519,7 @@
                     "endOffset": 25703
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 121,
                         "startColumn": 4,
@@ -4538,7 +4538,7 @@
                     "endOffset": 25757
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 226,
                         "startColumn": 4,
@@ -4557,7 +4557,7 @@
                     "endOffset": 25805
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
@@ -4576,7 +4576,7 @@
                     "endOffset": 25866
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -4595,7 +4595,7 @@
                     "endOffset": 25929
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
@@ -4614,7 +4614,7 @@
                     "endOffset": 25992
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -4633,7 +4633,7 @@
                     "endOffset": 26036
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 4,
@@ -4652,7 +4652,7 @@
                     "endOffset": 26117
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -4671,7 +4671,7 @@
                     "endOffset": 26198
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -4690,7 +4690,7 @@
                     "endOffset": 26270
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -4709,7 +4709,7 @@
                     "endOffset": 26359
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -4728,7 +4728,7 @@
                     "endOffset": 26447
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -4747,7 +4747,7 @@
                     "endOffset": 26525
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -4766,7 +4766,7 @@
                     "endOffset": 26606
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -4785,7 +4785,7 @@
                     "endOffset": 26692
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -4804,7 +4804,7 @@
                     "endOffset": 26753
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -4823,7 +4823,7 @@
                     "endOffset": 26807
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 132,
                         "startColumn": 4,
@@ -4842,7 +4842,7 @@
                     "endOffset": 26852
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -4861,7 +4861,7 @@
                     "endOffset": 26919
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -4880,7 +4880,7 @@
                     "endOffset": 26989
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -4899,7 +4899,7 @@
                     "endOffset": 27065
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -4918,7 +4918,7 @@
                     "endOffset": 27108
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -4937,7 +4937,7 @@
                     "endOffset": 27154
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -4956,7 +4956,7 @@
                     "endOffset": 27206
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 127,
                         "startColumn": 4,
@@ -4975,7 +4975,7 @@
                     "endOffset": 27272
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 105,
                         "startColumn": 4,
@@ -4994,7 +4994,7 @@
                     "endOffset": 27335
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 182,
                         "startColumn": 4,
@@ -5013,7 +5013,7 @@
                     "endOffset": 27398
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 183,
                         "startColumn": 4,
@@ -5032,7 +5032,7 @@
                     "endOffset": 27461
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 185,
                         "startColumn": 4,
@@ -5051,7 +5051,7 @@
                     "endOffset": 27522
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 184,
                         "startColumn": 4,
@@ -5070,7 +5070,7 @@
                     "endOffset": 27584
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 180,
                         "startColumn": 4,
@@ -5089,7 +5089,7 @@
                     "endOffset": 27647
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 181,
                         "startColumn": 4,
@@ -5108,7 +5108,7 @@
                     "endOffset": 27724
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 192,
                         "startColumn": 4,
@@ -5127,7 +5127,7 @@
                     "endOffset": 27786
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 179,
                         "startColumn": 4,
@@ -5146,7 +5146,7 @@
                     "endOffset": 27845
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 178,
                         "startColumn": 4,
@@ -5165,7 +5165,7 @@
                     "endOffset": 27921
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 168,
                         "startColumn": 4,
@@ -5184,7 +5184,7 @@
                     "endOffset": 27985
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 167,
                         "startColumn": 4,
@@ -5203,7 +5203,7 @@
                     "endOffset": 28033
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 118,
                         "startColumn": 4,
@@ -5222,7 +5222,7 @@
                     "endOffset": 28087
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -5241,7 +5241,7 @@
                     "endOffset": 28161
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_config.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -5260,7 +5260,7 @@
                     "endOffset": 28226
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 104,
                         "startColumn": 4,
@@ -5279,7 +5279,7 @@
                     "endOffset": 28286
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 102,
                         "startColumn": 4,
@@ -5298,7 +5298,7 @@
                     "endOffset": 28348
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 4,
@@ -5317,7 +5317,7 @@
                     "endOffset": 28403
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 101,
                         "startColumn": 4,
@@ -5336,7 +5336,7 @@
                     "endOffset": 28453
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -5355,7 +5355,7 @@
                     "endOffset": 28498
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 4,
@@ -5374,7 +5374,7 @@
                     "endOffset": 28547
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -5393,7 +5393,7 @@
                     "endOffset": 28616
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 211,
                         "startColumn": 4,
@@ -5412,7 +5412,7 @@
                     "endOffset": 28670
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 205,
                         "startColumn": 4,
@@ -5431,7 +5431,7 @@
                     "endOffset": 28730
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 206,
                         "startColumn": 4,
@@ -5450,7 +5450,7 @@
                     "endOffset": 28787
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 199,
                         "startColumn": 4,
@@ -5469,7 +5469,7 @@
                     "endOffset": 28840
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 213,
                         "startColumn": 4,
@@ -5488,7 +5488,7 @@
                     "endOffset": 28882
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 208,
                         "startColumn": 4,
@@ -5507,7 +5507,7 @@
                     "endOffset": 28952
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 214,
                         "startColumn": 4,
@@ -5526,7 +5526,7 @@
                     "endOffset": 29015
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 207,
                         "startColumn": 4,
@@ -5545,7 +5545,7 @@
                     "endOffset": 29068
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 200,
                         "startColumn": 4,
@@ -5564,7 +5564,7 @@
                     "endOffset": 29122
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 198,
                         "startColumn": 4,
@@ -5583,7 +5583,7 @@
                     "endOffset": 29187
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 204,
                         "startColumn": 4,
@@ -5602,7 +5602,7 @@
                     "endOffset": 29249
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 203,
                         "startColumn": 4,
@@ -5621,7 +5621,7 @@
                     "endOffset": 29320
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 209,
                         "startColumn": 4,
@@ -5640,7 +5640,7 @@
                     "endOffset": 29383
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 210,
                         "startColumn": 4,
@@ -5659,7 +5659,7 @@
                     "endOffset": 29439
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 201,
                         "startColumn": 4,
@@ -5678,7 +5678,7 @@
                     "endOffset": 29481
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 212,
                         "startColumn": 4,
@@ -5697,7 +5697,7 @@
                     "endOffset": 29542
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 107,
                         "startColumn": 4,
@@ -5716,7 +5716,7 @@
                     "endOffset": 29603
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 106,
                         "startColumn": 4,
@@ -5735,7 +5735,7 @@
                     "endOffset": 29653
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -5754,7 +5754,7 @@
                     "endOffset": 29708
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -5773,7 +5773,7 @@
                     "endOffset": 29770
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -5792,7 +5792,7 @@
                     "endOffset": 29840
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -5811,7 +5811,7 @@
                     "endOffset": 29921
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -5830,7 +5830,7 @@
                     "endOffset": 29979
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
@@ -5849,7 +5849,7 @@
                     "endOffset": 30036
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -5868,7 +5868,7 @@
                     "endOffset": 30094
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -5887,7 +5887,7 @@
                     "endOffset": 30155
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -5906,7 +5906,7 @@
                     "endOffset": 30219
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -5925,7 +5925,7 @@
                     "endOffset": 30281
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -5944,7 +5944,7 @@
                     "endOffset": 30339
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -5963,7 +5963,7 @@
                     "endOffset": 30400
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 98,
                         "startColumn": 4,
@@ -5982,7 +5982,7 @@
                     "endOffset": 30458
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -6001,7 +6001,7 @@
                     "endOffset": 30506
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 114,
                         "startColumn": 4,
@@ -6020,7 +6020,7 @@
                     "endOffset": 30552
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 112,
                         "startColumn": 4,
@@ -6039,7 +6039,7 @@
                     "endOffset": 30601
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 122,
                         "startColumn": 4,
@@ -6058,7 +6058,7 @@
                     "endOffset": 30640
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -6077,7 +6077,7 @@
                     "endOffset": 30692
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 129,
                         "startColumn": 4,
@@ -6096,7 +6096,7 @@
                     "endOffset": 30751
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -6115,7 +6115,7 @@
                     "endOffset": 30803
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 128,
                         "startColumn": 4,
@@ -6134,7 +6134,7 @@
                     "endOffset": 30852
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 99,
                         "startColumn": 4,
@@ -6153,7 +6153,7 @@
                     "endOffset": 30899
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 125,
                         "startColumn": 4,
@@ -6172,7 +6172,7 @@
                     "endOffset": 30945
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 123,
                         "startColumn": 4,
@@ -6191,7 +6191,7 @@
                     "endOffset": 31002
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 88,
                         "startColumn": 4,
@@ -6210,7 +6210,7 @@
                     "endOffset": 31066
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 89,
                         "startColumn": 4,
@@ -6229,7 +6229,7 @@
                     "endOffset": 31135
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 90,
                         "startColumn": 4,
@@ -6248,7 +6248,7 @@
                     "endOffset": 31195
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 93,
                         "startColumn": 4,
@@ -6267,7 +6267,7 @@
                     "endOffset": 31253
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 86,
                         "startColumn": 4,
@@ -6286,7 +6286,7 @@
                     "endOffset": 31311
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 95,
                         "startColumn": 4,
@@ -6305,7 +6305,7 @@
                     "endOffset": 31370
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 91,
                         "startColumn": 4,
@@ -6324,7 +6324,7 @@
                     "endOffset": 31440
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 4,
@@ -6343,7 +6343,7 @@
                     "endOffset": 31500
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 94,
                         "startColumn": 4,
@@ -6362,7 +6362,7 @@
                     "endOffset": 31576
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 85,
                         "startColumn": 4,
@@ -6381,7 +6381,7 @@
                     "endOffset": 31651
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 96,
                         "startColumn": 4,
@@ -6400,7 +6400,7 @@
                     "endOffset": 31707
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 4,
@@ -6419,7 +6419,7 @@
                     "endOffset": 31774
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -6438,7 +6438,7 @@
                     "endOffset": 31852
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -6457,7 +6457,7 @@
                     "endOffset": 31917
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -6476,7 +6476,7 @@
                     "endOffset": 31983
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -6495,7 +6495,7 @@
                     "endOffset": 32052
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -6514,7 +6514,7 @@
                     "endOffset": 32107
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
@@ -6533,7 +6533,7 @@
                     "endOffset": 32174
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
@@ -6552,7 +6552,7 @@
                     "endOffset": 32234
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -6571,7 +6571,7 @@
                     "endOffset": 32308
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -6590,7 +6590,7 @@
                     "endOffset": 32357
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -6609,7 +6609,7 @@
                     "endOffset": 32415
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -6628,7 +6628,7 @@
                     "endOffset": 32464
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -6647,7 +6647,7 @@
                     "endOffset": 32522
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -6666,7 +6666,7 @@
                     "endOffset": 32579
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -6685,7 +6685,7 @@
                     "endOffset": 32628
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -6704,7 +6704,7 @@
                     "endOffset": 32691
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -6723,7 +6723,7 @@
                     "endOffset": 32747
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
@@ -6742,7 +6742,7 @@
                     "endOffset": 32796
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -6761,7 +6761,7 @@
                     "endOffset": 32853
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -6780,7 +6780,7 @@
                     "endOffset": 32918
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -6799,7 +6799,7 @@
                     "endOffset": 32972
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -6818,7 +6818,7 @@
                     "endOffset": 33036
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -6837,7 +6837,7 @@
                     "endOffset": 33083
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -6856,7 +6856,7 @@
                     "endOffset": 33133
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -6875,7 +6875,7 @@
                     "endOffset": 33193
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -6894,7 +6894,7 @@
                     "endOffset": 33255
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -6913,7 +6913,7 @@
                     "endOffset": 33304
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 4,
@@ -6932,7 +6932,7 @@
                     "endOffset": 33352
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 69,
                         "startColumn": 4,
@@ -6951,7 +6951,7 @@
                     "endOffset": 33403
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 4,
@@ -6970,7 +6970,7 @@
                     "endOffset": 33452
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 136,
                         "startColumn": 4,
@@ -6989,7 +6989,7 @@
                     "endOffset": 33515
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 83,
                         "startColumn": 4,
@@ -7008,7 +7008,7 @@
                     "endOffset": 33580
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 4,
@@ -7027,7 +7027,7 @@
                     "endOffset": 33640
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 80,
                         "startColumn": 4,
@@ -7046,7 +7046,7 @@
                     "endOffset": 33698
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 81,
                         "startColumn": 4,
@@ -7065,7 +7065,7 @@
                     "endOffset": 33760
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 82,
                         "startColumn": 4,
@@ -7084,7 +7084,7 @@
                     "endOffset": 33817
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMLib/build/intermediates/bundles/default/res/values/values.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -7103,7 +7103,7 @@
                     "endOffset": 33862
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 137,
                         "startColumn": 4,
@@ -7122,7 +7122,7 @@
                     "endOffset": 33919
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 196,
                         "startColumn": 4,
@@ -7141,7 +7141,7 @@
                     "endOffset": 33998
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -7160,7 +7160,7 @@
                     "endOffset": 34085
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -7179,7 +7179,7 @@
                     "endOffset": 34151
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 225,
                         "startColumn": 4,
@@ -7198,7 +7198,7 @@
                     "endOffset": 34218
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 224,
                         "startColumn": 4,
@@ -7217,7 +7217,7 @@
                     "endOffset": 34268
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -7236,7 +7236,7 @@
                     "endOffset": 34326
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -7255,7 +7255,7 @@
                     "endOffset": 34402
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 103,
                         "startColumn": 4,
@@ -7274,7 +7274,7 @@
                     "endOffset": 34452
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 119,
                         "startColumn": 4,
@@ -7293,7 +7293,7 @@
                     "endOffset": 34501
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 147,
                         "startColumn": 4,
@@ -7312,7 +7312,7 @@
                     "endOffset": 34556
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 148,
                         "startColumn": 4,
@@ -7331,7 +7331,7 @@
                     "endOffset": 34597
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 153,
                         "startColumn": 4,
@@ -7350,7 +7350,7 @@
                     "endOffset": 34649
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 109,
                         "startColumn": 4,
@@ -7369,7 +7369,7 @@
                     "endOffset": 34710
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -7388,7 +7388,7 @@
                     "endOffset": 34771
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
@@ -7407,7 +7407,7 @@
                     "endOffset": 34840
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -7426,7 +7426,7 @@
                     "endOffset": 34904
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 4,
@@ -7445,7 +7445,7 @@
                     "endOffset": 34969
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -7464,7 +7464,7 @@
                     "endOffset": 35043
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,
@@ -7483,7 +7483,7 @@
                     "endOffset": 35121
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 4,
@@ -7502,7 +7502,7 @@
                     "endOffset": 35168
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
@@ -7521,7 +7521,7 @@
                     "endOffset": 35218
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -7540,7 +7540,7 @@
                     "endOffset": 35277
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 4,
@@ -7559,7 +7559,7 @@
                     "endOffset": 35334
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 149,
                         "startColumn": 4,
@@ -7578,7 +7578,7 @@
                     "endOffset": 35382
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 120,
                         "startColumn": 4,
@@ -7597,7 +7597,7 @@
                     "endOffset": 35433
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 117,
                         "startColumn": 4,
@@ -7616,7 +7616,7 @@
                     "endOffset": 35482
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 115,
                         "startColumn": 4,
@@ -7635,7 +7635,7 @@
                     "endOffset": 35545
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 228,
                         "startColumn": 4,
@@ -7654,7 +7654,7 @@
                     "endOffset": 35599
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 4,
@@ -7673,7 +7673,7 @@
                     "endOffset": 35650
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 74,
                         "startColumn": 4,
@@ -7692,7 +7692,7 @@
                     "endOffset": 35701
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 4,
@@ -7711,7 +7711,7 @@
                     "endOffset": 35751
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 4,
@@ -7730,7 +7730,7 @@
                     "endOffset": 35804
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 75,
                         "startColumn": 4,
@@ -7749,7 +7749,7 @@
                     "endOffset": 35867
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 139,
                         "startColumn": 4,
@@ -7768,7 +7768,7 @@
                     "endOffset": 35928
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 76,
                         "startColumn": 4,
@@ -7787,7 +7787,7 @@
                     "endOffset": 35971
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 126,
                         "startColumn": 4,
@@ -7806,7 +7806,7 @@
                     "endOffset": 36022
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 116,
                         "startColumn": 4,
@@ -7825,7 +7825,7 @@
                     "endOffset": 36067
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 111,
                         "startColumn": 4,
@@ -7844,7 +7844,7 @@
                     "endOffset": 36104
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 133,
                         "startColumn": 4,
@@ -7863,7 +7863,7 @@
                     "endOffset": 36155
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 110,
                         "startColumn": 4,
@@ -7882,7 +7882,7 @@
                     "endOffset": 36219
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_ext_string.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -7901,7 +7901,7 @@
                     "endOffset": 36282
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_kit_string.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -7921,7 +7921,7 @@
                     "endOffset": 36913
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -7942,7 +7942,7 @@
                     "endOffset": 37135
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 98,
                         "startColumn": 4,
@@ -7963,7 +7963,7 @@
                     "endOffset": 37343
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 4,
@@ -7984,7 +7984,7 @@
                     "endOffset": 37611
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 4,
@@ -8005,7 +8005,7 @@
                     "endOffset": 38001
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 4,
@@ -8026,7 +8026,7 @@
                     "endOffset": 38496
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -8047,7 +8047,7 @@
                     "endOffset": 38579
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -8068,7 +8068,7 @@
                     "endOffset": 38661
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -8089,7 +8089,7 @@
                     "endOffset": 38839
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -8110,7 +8110,7 @@
                     "endOffset": 38922
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -8131,7 +8131,7 @@
                     "endOffset": 39210
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -8152,7 +8152,7 @@
                     "endOffset": 39292
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -8173,7 +8173,7 @@
                     "endOffset": 39754
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_theme.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
@@ -8194,7 +8194,7 @@
                     "endOffset": 40222
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,
@@ -8215,7 +8215,7 @@
                     "endOffset": 40476
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -8236,7 +8236,7 @@
                     "endOffset": 40849
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -8257,7 +8257,7 @@
                     "endOffset": 41197
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -8278,7 +8278,7 @@
                     "endOffset": 41550
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -8299,7 +8299,7 @@
                     "endOffset": 41947
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -8320,7 +8320,7 @@
                     "endOffset": 42222
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
@@ -8341,7 +8341,7 @@
                     "endOffset": 42435
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -8362,7 +8362,7 @@
                     "endOffset": 42687
                 },
                 "from": {
-                    "file": "/Users/daisycc/StudioProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
+                    "file": "/Users/guoweirong/AsProjects/Tanbais/IMKit/src/main/res/values/rc_style.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

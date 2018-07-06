@@ -11,7 +11,6 @@ import javax.inject.Inject;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import xgn.com.basesdk.base.mvp.BasePresenter;
 import xgn.com.basesdk.commonui.utils.XgFragmentManager;
 import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.base.activity.MyBaseBindPresentActivity;
