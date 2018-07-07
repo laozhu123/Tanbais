@@ -84,7 +84,6 @@ public class ActivityRegisterSecond extends MyBaseBindPresentActivity<PresenterA
             case R.id.male:
                 male.setSelected(true);
                 male.setTextColor(getResources().getColor(R.color.white));
-
                 female.setSelected(false);
                 female.setTextColor(getResources().getColor(R.color.color_a3a3a3));
                 break;
@@ -95,9 +94,10 @@ public class ActivityRegisterSecond extends MyBaseBindPresentActivity<PresenterA
                 male.setTextColor(getResources().getColor(R.color.color_a3a3a3));
                 break;
             case R.id.age:
-
+                //fixme setting age
                 break;
             case R.id.next:
+                //fixme upload info
                 EventBus.getDefault().post(new EventLoginSuccess());
                 SPHelper helper = new SPHelper(ActivityRegisterSecond.this, SharePrefrenceString.USER_LOGIN);
                 helper.putValues(new SPHelper.ContentValue(SharePrefrenceString.IS_LOGIN, true));

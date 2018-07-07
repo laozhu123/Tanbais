@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myBetterPushItem="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_head_title1" />
+
+    <xiaogao.zjut.tabbaishuo.views.MyBetterPushItem
+        android:id="@+id/personInfoBetter"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rect_4_blue_giant"
+        myBetterPushItem:content="@string/personalInfoContent"
+        myBetterPushItem:img="@drawable/icon_wanshanziliao"
+        myBetterPushItem:title1="@string/personalInfoBetter" />
+
+
+    <xiaogao.zjut.tabbaishuo.views.MyBetterPushItem
+        android:id="@+id/zobz"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rect_4_blue_giant"
+        myBetterPushItem:content="@string/zobzContent"
+        myBetterPushItem:img="@drawable/icon_zeou"
+        myBetterPushItem:title1="@string/zobzBetter" />
+
+    <xiaogao.zjut.tabbaishuo.views.MyBetterPushItem
+        android:id="@+id/xxrz"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rect_4_blue_giant"
+        myBetterPushItem:content="@string/xxrzContent"
+        myBetterPushItem:img="@drawable/icon_xinxirenzheng"
+        myBetterPushItem:title1="@string/xxrzBetter" />
+
+    <xiaogao.zjut.tabbaishuo.views.MyBetterPushItem
+        android:id="@+id/vip"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rect_4_pint_giant"
+        myBetterPushItem:content="@string/vipContent"
+        myBetterPushItem:img="@drawable/kaitongvip"
+        myBetterPushItem:title1="@string/registerVip" />
+</LinearLayout>
