@@ -105,7 +105,8 @@
         <activity android:name=".main.activity.common.ActivityBetterPush" />
         <activity android:name=".main.activity.common.ActivitySetNickname" />
         <activity android:name=".main.activity.common.ActivitySetOccuption" />
-        <activity android:name=".main.activity.login.ActivityRegisterFirst" />
+        <activity android:name=".main.activity.login.ActivityRegisterFirst"
+            android:launchMode="singleTop"/>
         <activity android:name=".main.activity.login.ActivityRegisterSecond" />
         <activity
             android:name=".main.activity.login.ActivityLogin"
