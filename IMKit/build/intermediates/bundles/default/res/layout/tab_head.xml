@@ -3,14 +3,14 @@
     android:id="@+id/head"
     android:layout_width="match_parent"
     android:layout_height="45dp"
-    android:background="#f9f9f9">
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:textColor="#484848"
+        android:textColor="#333333"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -22,7 +22,7 @@
         android:layout_centerVertical="true"
         android:layout_marginRight="15dp"
         android:text="预览"
-        android:textColor="#484848"
+        android:textColor="#333333"
         android:textSize="14sp"
         android:visibility="gone" />
 </RelativeLayout>

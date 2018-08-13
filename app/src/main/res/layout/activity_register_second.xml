@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <include layout="@layout/common_head_title1" />
+    <include layout="@layout/common_head_title_for_login" />
 
     <xiaogao.zjut.tabbaishuo.views.CircleImageView
         android:id="@+id/headIcon"
@@ -14,15 +14,26 @@
         android:layout_below="@id/head"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:src="@mipmap/helo"
+        android:src="@mipmap/placeholder"
         app:border_color="@color/white"
         app:border_width="2dp" />
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="上传真实头像可以大大提高约会的成功率哦"
+        android:textColor="#666666"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/nickName_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/headIcon"
+        android:layout_below="@id/tx1"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
         android:text="昵称"
@@ -36,7 +47,7 @@
         android:layout_alignLeft="@id/nickName_title"
         android:layout_below="@id/nickName_title"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="7dp"
         android:background="@color/white"
         android:hint="给自己起个好听的名字"
         android:textColor="@color/register_black"
@@ -48,9 +59,8 @@
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
         android:layout_alignLeft="@id/password"
-        android:layout_alignRight="@id/password"
         android:layout_below="@id/password"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="3dp"
         android:background="#f3f3f3" />
 
     <TextView
@@ -70,12 +80,8 @@
         android:layout_height="50dp"
         android:layout_alignLeft="@id/sex_title"
         android:layout_below="@id/sex_title"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/sex_circle_selector"
-        android:gravity="center"
-        android:text="男"
-        android:textColor="@drawable/sex_circlr_tx_color"
-        android:textSize="18sp" />
+        android:layout_marginTop="15dp"
+        android:background="@drawable/selector_male" />
 
     <TextView
         android:id="@+id/female"
@@ -84,11 +90,7 @@
         android:layout_alignTop="@id/male"
         android:layout_marginLeft="30dp"
         android:layout_toRightOf="@id/male"
-        android:background="@drawable/sex_circle_selector"
-        android:gravity="center"
-        android:text="女"
-        android:textColor="@drawable/sex_circlr_tx_color"
-        android:textSize="18sp" />
+        android:background="@drawable/selector_female" />
 
     <TextView
         android:id="@+id/age_title"
@@ -97,7 +99,7 @@
         android:layout_below="@id/male"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
-        android:text="选择您的年龄"
+        android:text="选择您的出生日期"
         android:textColor="@color/register_black"
         android:textSize="@dimen/register_low" />
 
@@ -108,21 +110,14 @@
         android:layout_alignLeft="@id/nickName_title"
         android:layout_below="@id/age_title"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="7dp"
         android:background="@color/white"
         android:gravity="center_vertical"
-        android:hint="请选择您的年龄"
+        android:hint="请选择您的出生日期"
         android:textColor="@color/register_black"
         android:textColorHint="@color/register_gray"
         android:textSize="@dimen/register_height" />
 
-    <ImageView
-        android:layout_width="15dp"
-        android:layout_height="20dp"
-        android:layout_alignRight="@id/age"
-        android:layout_alignTop="@id/age"
-        android:layout_marginTop="12dp"
-        android:src="@mipmap/arrow_right" />
 
     <View
         android:id="@+id/line2"
@@ -131,7 +126,7 @@
         android:layout_alignLeft="@id/password"
         android:layout_alignRight="@id/password"
         android:layout_below="@id/age"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="3dp"
         android:background="#f3f3f3" />
 
     <TextView
@@ -142,11 +137,11 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/rect_26_blue"
+        android:background="@drawable/rect_4_red"
         android:gravity="center_horizontal"
         android:paddingBottom="13dp"
         android:paddingTop="13dp"
-        android:text="下一步"
+        android:text="注  册"
         android:textColor="@color/white"
         android:textSize="18dp" />
 </RelativeLayout>

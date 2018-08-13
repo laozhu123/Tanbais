@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.bigkoo.pickerview.OptionsPickerView;
 import com.bigkoo.pickerview.TimePickerView;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -54,7 +55,9 @@ public class ActivityBaseInfo extends MyBaseBindPresentActivity<PresenterActivit
     InfoCommonAdapter mAdapter;
     List<String> lefts;
     List<String> rights;
-    OptionsPickerView pvOptions;
+    TimePickerView pvCustomTime;
+    OptionsPickerView pvOptionsSingle;
+
 
     private final int CODE_CHANGE_NICKNAME = 0;
     private final int CODE_SET_OCCUPTION = 1;
@@ -116,9 +119,13 @@ public class ActivityBaseInfo extends MyBaseBindPresentActivity<PresenterActivit
                     case 1:  //无法修改性别
                         break;
                     case 2:  //出生日期
-                        selectTime();
+                        if (pvCustomTime == null)
+                            initCustomTimePicker();
+                        pvCustomTime.show();
                         break;
                     case 3:  //身高
+                        if (pvOptionsSingle == null)
+                            initSingleOption();
                         break;
                     case 4:  //职业
                         intent.setClass(ActivityBaseInfo.this, ActivitySetOccuption.class);
@@ -146,6 +153,20 @@ public class ActivityBaseInfo extends MyBaseBindPresentActivity<PresenterActivit
         ms.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(ms);
         recyclerView.setAdapter(mAdapter);
+    }
+
+    private void initSingleOption() {
+//        pvOptionsSingle = new OptionsPickerView.Builder(this, new OptionsPickerView.OnOptionsSelectListener() {
+//            @Override
+//            public void onOptionsSelect(int options1, int options2, int options3, View v) {
+//                String tx = options1Items.get(options1).getPickerViewText()
+//                        + options2Items.get(options1).get(options2)
+//                        + options3Items.get(options1).get(options2).get(options3).getPickerViewText();
+//                tvOptions.setText(tx);
+//            }
+//        }).build();
+//        pvOptions.setPicker(options1Items, options2Items, options3Items);
+//        pvOptions.show();
     }
 
     private void selectAddressNow() {
@@ -183,27 +204,6 @@ public class ActivityBaseInfo extends MyBaseBindPresentActivity<PresenterActivit
 //        pvOptions.setPicker(options1Items, options2Items, options3Items);//添加数据源
     }
 
-    private void selectTime() {
-        boolean[] type = {true, true, true, false, false, false};
-
-        //时间选择器
-        TimePickerView pvTime = new TimePickerView.Builder(this, new TimePickerView.OnTimeSelectListener() {
-            @Override
-            public void onTimeSelect(Date date, View v) {//选中事件回调
-
-                rights.set(2, (date.getYear() + 1900) + "-" + date.getMonth() + "-" + date.getDate());
-                mAdapter.notifyDataSetChanged();
-            }
-        })
-                .setBackgroundId(R.color.white)
-                .setCancelColor(R.color.color_white_0fffffff)
-                .setTitleColor(R.color.color_3bc2ff)
-                .setType(type)
-                .build();
-        pvTime.setDate(Calendar.getInstance());//注：根据需求来决定是否使用该方法（一般是精确到秒的情况），此项可以在弹出选择器的时候重新设置当前时间，避免在初始化之后由于时间已经设定，导致选中时间与当前时间不匹配的问题。
-        pvTime.show();
-    }
-
 
     @Override
     public void onClick(View view) {
@@ -221,6 +221,64 @@ public class ActivityBaseInfo extends MyBaseBindPresentActivity<PresenterActivit
     public void onDestroy() {
         super.onDestroy();
         ButterKnife.unbind(this);
+    }
+
+    private void initCustomTimePicker() {
+
+        /**
+         * @description
+         *
+         * 注意事项：
+         * 1.自定义布局中，id为 optionspicker 或者 timepicker 的布局以及其子控件必须要有，否则会报空指针.
+         * 具体可参考demo 里面的两个自定义layout布局。
+         * 2.因为系统Calendar的月份是从0-11的,所以如果是调用Calendar的set方法来设置时间,月份的范围也要是从0-11
+         * setRangDate方法控制起始终止时间(如果不设置范围，则使用默认时间1900-2100年，此段代码可注释)
+         */
+        Calendar selectedDate = Calendar.getInstance();//系统当前时间
+        selectedDate.set(1990, 0, 1);
+        Calendar startDate = Calendar.getInstance();
+        startDate.set(1910, 0, 1);
+        Calendar endDate = Calendar.getInstance();
+        endDate.set(2018, 11, 29);
+        //时间选择器 ，自定义布局
+        pvCustomTime = new TimePickerView.Builder(this, new TimePickerView.OnTimeSelectListener() {
+            @Override
+            public void onTimeSelect(Date date, View v) {//选中事件回调
+                rights.set(2, getTime(date));
+                mAdapter.notifyDataSetChanged();
+            }
+        })
+                /*.setType(TimePickerView.Type.ALL)//default is all
+                .setCancelText("Cancel")
+                .setSubmitText("Sure")
+                .setContentSize(18)
+                .setTitleSize(20)
+                .setTitleText("Title")
+                .setTitleColor(Color.BLACK)
+               /*.setDividerColor(Color.WHITE)//设置分割线的颜色
+                .setTextColorCenter(Color.LTGRAY)//设置选中项的颜色
+                .setLineSpacingMultiplier(1.6f)//设置两横线之间的间隔倍数
+                .setTitleBgColor(Color.DKGRAY)//标题背景颜色 Night mode
+                .setBgColor(Color.BLACK)//滚轮背景颜色 Night mode
+                .setSubmitColor(Color.WHITE)
+                .setCancelColor(Color.WHITE)*/
+               /*.gravity(Gravity.RIGHT)// default is center*/
+                .setDate(selectedDate)
+                .setRangDate(startDate, endDate)
+                .setContentSize(18)
+                .setType(new boolean[]{true, true, true, false, false, false})
+                .setLabel("年", "月", "日", "时", "分", "秒")
+                .setLineSpacingMultiplier(1.2f)
+                .setTextXOffset(0, 0, 0, 40, 0, -40)
+                .isCenterLabel(false) //是否只显示中间选中项的label文字，false则每项item全部都带有label。
+                .setDividerColor(0xFF24AD9D)
+                .build();
+
+    }
+
+    private String getTime(Date date) {//可根据需要自行截取数据显示
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        return format.format(date);
     }
 }
 

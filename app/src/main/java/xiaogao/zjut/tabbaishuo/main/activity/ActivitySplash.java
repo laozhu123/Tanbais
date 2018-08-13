@@ -6,19 +6,16 @@ import android.view.View;
 
 import javax.inject.Inject;
 
-import io.rong.imkit.DefaultExtensionModule;
 import io.rong.imkit.RongContext;
-import io.rong.imkit.RongExtensionManager;
 import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.base.activity.MyBaseBindPresentActivity;
 import xiaogao.zjut.tabbaishuo.contants.SharePrefrenceString;
 import xiaogao.zjut.tabbaishuo.injecter.component.ActivityComponent;
 import xiaogao.zjut.tabbaishuo.interfaces.IUISplash;
 import xiaogao.zjut.tabbaishuo.main.MainActivity;
-import xiaogao.zjut.tabbaishuo.main.activity.im.tool.extension.MyExtensionModule;
 import xiaogao.zjut.tabbaishuo.main.activity.im.tool.textcolor.TextMessageItemProviderNew;
 import xiaogao.zjut.tabbaishuo.main.activity.im.tool.textcolor.VoiceMessageItemProviderNew;
-import xiaogao.zjut.tabbaishuo.main.activity.login.ActivityLogin;
+import xiaogao.zjut.tabbaishuo.main.activity.login.ActivityIntro;
 import xiaogao.zjut.tabbaishuo.main.activity.login.ActivityRegisterFirst;
 import xiaogao.zjut.tabbaishuo.main.persenter.PresenterSplash;
 import xiaogao.zjut.tabbaishuo.utils.SPHelper;
@@ -83,16 +80,19 @@ public class ActivitySplash extends MyBaseBindPresentActivity<PresenterSplash> i
     }
 
     private void jump() {
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                if (isLogined()) {
-                    startActivity(new Intent(ActivitySplash.this, MainActivity.class));
-                } else {
-                    startActivity(new Intent(ActivitySplash.this, ActivityRegisterFirst.class));
-                }
-                finish();
-            }
-        }, SPLASH_DURATION);
+        if (isFirstOpen() || !isLogined())
+            startActivity(new Intent(ActivitySplash.this, ActivityIntro.class));
+        else
+            startActivity(new Intent(ActivitySplash.this, MainActivity.class));
+        finish();
+    }
+
+    private boolean isFirstOpen() {
+        SPHelper helper = new SPHelper(ActivitySplash.this, SharePrefrenceString.USER_LOGIN);
+        if (!helper.getBoolean(SharePrefrenceString.HAVE_OPEN)) {
+            helper.putValues(new SPHelper.ContentValue(SharePrefrenceString.HAVE_OPEN, true));
+            return true;
+        }
+        return false;
     }
 }

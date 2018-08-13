@@ -13,7 +13,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         ndk {
-            abiFilters "armeabi-v7a", "armeabi", "arm64-v8a"
+            abiFilters "armeabi-v7a", "armeabi", "arm64-v8a", "x86"
         }
         multiDexEnabled true
 
@@ -40,6 +40,7 @@ android {
     lintOptions {
         abortOnError false
     }
+
 
     sourceSets {
         main {
@@ -93,7 +94,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.11'
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.11'
-    compile project(':StackCardsView')
     compile project(':IMKit')
     compile 'org.greenrobot:eventbus:3.0.0'
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
@@ -102,7 +102,12 @@ dependencies {
 
     compile 'com.android.support:multidex:1.0.1'
     compile 'com.github.bumptech.glide:glide:3.6.1'
-    compile 'jp.wasabeef:glide-transformations:2.0.2'        //glide-transformations是一个图像转换类库，为Glide（一个快速高效的Android媒体管理框架）提供各种各样的图像转换
+    compile 'jp.wasabeef:glide-transformations:2.0.2'
+    //glide-transformations是一个图像转换类库，为Glide（一个快速高效的Android媒体管理框架）提供各种各样的图像转换
     compile 'com.contrarywind:Android-PickerView:3.2.7'
 
+    compile ('com.alibaba.android:ultraviewpager:1.0.6.1@aar') {
+        transitive = true
+    }
+//    compile 'com.github.LuckSiege.PictureSelector:picture_library:v2.1.7'
 }

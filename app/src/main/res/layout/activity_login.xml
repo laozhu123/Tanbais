@@ -4,25 +4,28 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <xiaogao.zjut.tabbaishuo.views.CircleImageView
-        android:id="@+id/headIcon"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
-        android:src="@mipmap/helo" />
+    <include layout="@layout/common_head_title_for_login" />
 
+    <TextView
+        android:id="@+id/phone_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="60dp"
+        android:text="手机号"
+        android:textColor="#333333"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/phone"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_below="@id/headIcon"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="50dp"
+        android:layout_alignLeft="@id/phone_title"
+        android:layout_below="@id/phone_title"
+        android:layout_marginTop="12.5dp"
         android:background="@color/white"
-        android:hint="手机号/用户名"
+        android:hint="请输入您的手机号码"
         android:textColor="@color/register_black"
         android:textColorHint="@color/register_gray"
         android:textSize="@dimen/register_height" />
@@ -35,18 +38,30 @@
         android:layout_alignRight="@id/phone"
         android:layout_below="@id/phone"
         android:layout_marginTop="10dp"
-        android:background="#f3f3f3" />
+        android:background="#d6d6d6" />
+
+    <TextView
+        android:id="@+id/password_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:text="输入密码"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
 
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignLeft="@id/phone"
-        android:layout_below="@id/line1"
+        android:layout_below="@id/password_title"
         android:layout_marginRight="30dp"
         android:layout_marginTop="15dp"
         android:background="@color/white"
-        android:hint="密码"
+        android:hint="请输入您的密码"
         android:textColor="@color/register_black"
         android:textColorHint="@color/register_gray"
         android:textSize="@dimen/register_height" />
@@ -59,47 +74,47 @@
         android:layout_alignRight="@id/phone"
         android:layout_below="@id/password"
         android:layout_marginTop="10dp"
-        android:background="#f3f3f3" />
-
-    <TextView
-        android:id="@+id/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/line2"
-        android:layout_below="@id/line2"
-        android:layout_marginTop="5dp"
-        android:paddingBottom="3dp"
-        android:paddingTop="3dp"
-        android:text="注册账号"
-        android:textColor="#3bc2ff"
-        android:textSize="14sp" />
-
-    <TextView
-        android:id="@+id/forgetPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@id/line2"
-        android:layout_below="@id/line2"
-        android:layout_marginTop="5dp"
-        android:paddingBottom="3dp"
-        android:paddingTop="3dp"
-        android:text="忘记密码"
-        android:textColor="#bababa"
-        android:textSize="14sp" />
+        android:background="#d6d6d6" />
 
     <TextView
         android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/forgetPassword"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="80dp"
-        android:background="@drawable/rect_26_blue"
+        android:layout_below="@id/line2"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/rect_4_red"
         android:gravity="center_horizontal"
         android:paddingBottom="13dp"
         android:paddingTop="13dp"
         android:text="登录"
         android:textColor="@color/white"
         android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/login"
+        android:layout_below="@id/login"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="忘记密码?"
+        android:textColor="#666666"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/login"
+        android:layout_below="@id/login"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="注册"
+        android:textColor="#666666"
+        android:textSize="14sp" />
 </RelativeLayout>

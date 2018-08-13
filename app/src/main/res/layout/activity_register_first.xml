@@ -4,26 +4,16 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <include layout="@layout/common_head_title1" />
+    <include layout="@layout/common_head_title_for_login" />
 
-    <TextView
-        android:id="@+id/zc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/head"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="25dp"
-        android:text="注册"
-        android:textColor="@color/register_black"
-        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/phone_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/zc"
-        android:layout_below="@id/zc"
-        android:layout_marginTop="26dp"
+        android:layout_below="@id/head"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="60dp"
         android:text="手机号"
         android:textColor="@color/register_black"
         android:textSize="@dimen/register_low" />
@@ -50,16 +40,16 @@
         android:layout_alignRight="@id/phone"
         android:layout_below="@id/phone"
         android:layout_marginTop="10dp"
-        android:background="#f3f3f3" />
+        android:background="#d6d6d6" />
 
 
     <TextView
         android:id="@+id/yzm_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/zc"
+        android:layout_alignLeft="@id/phone_title"
         android:layout_below="@id/line1"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:text="输入验证码"
         android:textColor="@color/register_black"
         android:textSize="@dimen/register_low" />
@@ -85,7 +75,7 @@
         android:layout_alignRight="@id/phone"
         android:layout_marginBottom="6dp"
         android:text="获取验证码"
-        android:textColor="@color/color_3bc2ff"
+        android:textColor="#ff4b36"
         android:textSize="@dimen/register_height" />
 
     <View
@@ -96,15 +86,15 @@
         android:layout_alignRight="@id/phone"
         android:layout_below="@id/yzm"
         android:layout_marginTop="10dp"
-        android:background="#f3f3f3" />
+        android:background="#d6d6d6" />
 
     <TextView
         android:id="@+id/password_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/zc"
+        android:layout_alignLeft="@id/phone_title"
         android:layout_below="@id/line2"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:text="设置密码"
         android:textColor="@color/register_black"
         android:textSize="@dimen/register_low" />
@@ -131,38 +121,72 @@
         android:layout_alignRight="@id/password"
         android:layout_below="@id/password"
         android:layout_marginTop="10dp"
-        android:background="#f3f3f3" />
+        android:background="#d6d6d6" />
 
 
-    <TextView
-        android:id="@+id/login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/zc"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/rect_26_blue_stroke"
-        android:paddingBottom="13dp"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingTop="13dp"
-        android:text="去登录"
-        android:textColor="@color/color_3bc2ff"
-        android:textSize="18dp" />
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignLeft="@id/phone_title"
+        android:layout_below="@id/line3"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selector_register_check" />
 
     <TextView
-        android:id="@+id/next"
+        android:id="@+id/t1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@id/password"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/rect_26_blue"
+        android:layout_alignTop="@id/check"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/check"
+        android:text="注册表示您同意我们的"
+        android:textColor="#3e3f40"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/check"
+        android:layout_toRightOf="@id/t1"
+        android:text="用户协议"
+        android:textColor="#ff4b36"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/check"
+        android:layout_toRightOf="@id/t2"
+        android:text="和"
+        android:textColor="#3e3f40"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/check"
+        android:layout_toRightOf="@id/t3"
+        android:text="隐私条款"
+        android:textColor="#ff4b36"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/rect_4_red"
+        android:gravity="center_horizontal"
         android:paddingBottom="13dp"
-        android:paddingLeft="60dp"
-        android:paddingRight="60dp"
         android:paddingTop="13dp"
-        android:text="下一步"
+        android:text="注册"
         android:textColor="@color/white"
         android:textSize="18dp" />
 </RelativeLayout>

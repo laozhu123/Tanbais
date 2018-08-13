@@ -79,7 +79,6 @@
         <activity android:name=".main.activity.ActivitySplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -105,12 +104,18 @@
         <activity android:name=".main.activity.common.ActivityBetterPush" />
         <activity android:name=".main.activity.common.ActivitySetNickname" />
         <activity android:name=".main.activity.common.ActivitySetOccuption" />
-        <activity android:name=".main.activity.login.ActivityRegisterFirst"
-            android:launchMode="singleTop"/>
+        <activity
+            android:name=".main.activity.login.ActivityRegisterFirst"
+            android:launchMode="singleTop" />
         <activity android:name=".main.activity.login.ActivityRegisterSecond" />
         <activity
             android:name=".main.activity.login.ActivityLogin"
             android:launchMode="singleTop" />
+
+        <activity
+            android:name=".main.activity.login.ActivityIntro"
+            android:launchMode="singleTop" />
+
 
     </application>
 

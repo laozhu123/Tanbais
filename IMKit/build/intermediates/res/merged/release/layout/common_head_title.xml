@@ -8,18 +8,19 @@
 
     <ImageView
         android:id="@+id/back"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_centerVertical="true"
-        android:padding="3dp"
-        android:src="@drawable/icon_fanhui" />
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/black_back_arrow" />
 
     <TextView
         android:id="@+id/nickName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:textColor="#3bc2ff"
+        android:textColor="#333333"
         android:textSize="18sp" />
 
     <ImageView

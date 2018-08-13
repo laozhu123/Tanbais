@@ -11,10 +11,10 @@
     <dimen name="common_margin">12dp</dimen>
     <dimen name="common_margin_10">10dp</dimen>
 
-    <dimen name="common_time">32dp</dimen>
+    <dimen name="common_time">24dp</dimen>
 
-    <dimen name="register_low">15sp</dimen>
-    <dimen name="register_height">18sp</dimen>
+    <dimen name="register_low">16sp</dimen>
+    <dimen name="register_height">17sp</dimen>
 
     <dimen name="sex_circle_redius">25dp</dimen>
 </resources>

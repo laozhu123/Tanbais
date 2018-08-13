@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,88 +8,171 @@
     <include layout="@layout/tab_head" />
 
 
-    <com.beyondsw.lib.widget.StackCardsView
-        android:id="@+id/cards"
+    <ImageView
+        android:id="@+id/img"
         android:layout_width="match_parent"
-        android:layout_height="330dp"
+        android:layout_height="250dp"
         android:layout_below="@id/head"
-        android:clipToPadding="false"
-        app:itemHeight="330dp"
-        app:itemWidth="305dp" />
+        android:scaleType="centerCrop"
+        android:src="@mipmap/helo" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        tools:text="千千厥歌" />
+
+    <TextView
+        android:id="@+id/age_locate_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/name"
+        android:layout_below="@id/name"
+        android:layout_marginTop="5dp"
+        tools:text="18岁·杭州·演员"
+        android:textColor="#7f7f7f"
+        android:textSize="13sp" />
+
+    <TextView
+
+        android:id="@+id/yuanfen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/age_locate_job"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        tools:text="缘分指数 98%"
+        android:textColor="#333333"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/yuanfen"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#d6d6d6" />
 
 
+    <LinearLayout
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/hour1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect_4_f5f8fa"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#ff9d6e"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/hour2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape_rect_4_f5f8fa"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#ff9d6e"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/minute1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_rect_4_f5f8fa"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#ff9d6e"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/minute2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape_rect_4_f5f8fa"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#ff9d6e"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/second1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_rect_4_f5f8fa"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#ff9d6e"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/second2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape_rect_4_f5f8fa"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#ff9d6e"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="0" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/toast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/cards"
+        android:layout_below="@id/time"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
         android:text="@string/push_time_left"
-        android:layout_marginTop="42dp"
-        android:textColor="#888"
+        android:textColor="#666666"
         android:textSize="13sp" />
-
-    <LinearLayout
-        android:id="@+id/time"
-        android:layout_width="wrap_content"
-        android:layout_height="32dp"
-        android:layout_alignLeft="@id/toast"
-        android:layout_below="@id/cards"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
-
-
-        <TextView
-            android:id="@+id/hour"
-            android:layout_width="@dimen/common_time"
-            android:layout_height="match_parent"
-            android:background="@drawable/shape_rect_4_f5f8fa"
-            android:gravity="center"
-            android:textColor="@color/color_3bc2ff"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            tools:text="02" />
-
-        <TextView
-            android:id="@+id/minute"
-            android:layout_width="@dimen/common_time"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
-            android:background="@drawable/shape_rect_4_f5f8fa"
-            android:gravity="center"
-            android:textColor="@color/color_3bc2ff"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            tools:text="56" />
-
-        <TextView
-            android:id="@+id/seconds"
-            android:layout_width="@dimen/common_time"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
-            android:background="@drawable/shape_rect_4_f5f8fa"
-            android:gravity="center"
-            android:textColor="@color/color_3bc2ff"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            tools:text="28" />
-    </LinearLayout>
 
     <TextView
         android:id="@+id/howGetGoodPush"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="35dp"
+        android:layout_below="@id/toast"
+        android:layout_marginTop="25dp"
         android:background="@drawable/rect_4_blue_empty"
-        android:paddingBottom="5dp"
-        android:paddingLeft="7dp"
-        android:paddingRight="7dp"
-        android:paddingTop="5dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="17dp"
+        android:paddingTop="12dp"
+        android:paddingRight="17dp"
         android:text="@string/how_to_get_good_push"
-        android:textColor="@color/color_3bc2ff"
-        android:textSize="12sp" />
+        android:textColor="#fa6b5b"
+        android:textSize="13sp" />
 </RelativeLayout>

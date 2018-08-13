@@ -4,8 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="tab_tx_unselect">#bbccd4</color>
-    <color name="tab_tx_select">#3bc2ff</color>
+    <color name="tab_tx_unselect">#9b9b9b</color>
+    <color name="tab_tx_select">#ff4b36</color>
 
     <color name="color_f3f3f3">#f3f3f3</color>
     <color name="color_282828">#282828</color>
@@ -19,7 +19,10 @@
     <color name="color_484848">#484848</color>
     <color name="color_a3a3a3">#a3a3a3</color>
 
-    <color name="register_black">#282828</color>
+    <color name="register_black">#333333</color>
     <color name="register_gray">#bbccd4</color>
+
+    <color name="color_ff4b3d">#ff4b3d</color>
+    <color name="color_bbbbbb">#bbbbbb</color>
 
 </resources>

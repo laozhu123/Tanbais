@@ -9,4 +9,6 @@ public class SharePrefrenceString {
 
     public static final String IS_LOGIN = "is_login";
 
+    public static final String HAVE_OPEN = "have_open";
+
 }

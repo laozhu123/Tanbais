@@ -17,6 +17,7 @@ import xgn.com.basesdk.base.activity.ActivityBase;
 import xiaogao.zjut.tabbaishuo.R;
 import xiaogao.zjut.tabbaishuo.contants.SharePrefrenceString;
 import xiaogao.zjut.tabbaishuo.events.EventLogout;
+import xiaogao.zjut.tabbaishuo.main.activity.login.ActivityIntro;
 import xiaogao.zjut.tabbaishuo.main.activity.login.ActivityLogin;
 import xiaogao.zjut.tabbaishuo.main.activity.setting.ActivityContactUs;
 import xiaogao.zjut.tabbaishuo.main.activity.setting.ActivitySuggestionResponse;
@@ -95,7 +96,7 @@ public class ActivitySz extends ActivityBase {
                 EventBus.getDefault().post(new EventLogout());
                 SPHelper helper = new SPHelper(ActivitySz.this, SharePrefrenceString.USER_LOGIN);
                 helper.putValues(new SPHelper.ContentValue(SharePrefrenceString.IS_LOGIN, false));
-                intent.setClass(ActivitySz.this, ActivityLogin.class);
+                intent.setClass(ActivitySz.this, ActivityIntro.class);
                 startActivity(intent);
                 finish();
                 break;

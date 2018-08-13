@@ -1,59 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:myBetterPushItem="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="@color/white"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <include layout="@layout/common_head_title1" />
-
-    <xiaogao.zjut.tabbaishuo.views.MyBetterPushItem
-        android:id="@+id/personInfoBetter"
+    <com.tmall.ultraviewpager.UltraViewPager
+        android:id="@+id/ultra_viewpager"
         android:layout_width="match_parent"
-        android:layout_height="95dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ultra_viewpager"
         android:layout_marginTop="15dp"
-        android:background="@drawable/rect_4_blue_giant"
-        myBetterPushItem:content="@string/personalInfoContent"
-        myBetterPushItem:img="@drawable/icon_wanshanziliao"
-        myBetterPushItem:title1="@string/personalInfoBetter" />
+        android:textSize="13sp"
+        android:textColor="#666666"
+        android:text="@string/push_time_left"/>
+    
 
-
-    <xiaogao.zjut.tabbaishuo.views.MyBetterPushItem
-        android:id="@+id/zobz"
+    <TextView
+        android:id="@+id/login"
         android:layout_width="match_parent"
-        android:layout_height="95dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/rect_4_blue_giant"
-        myBetterPushItem:content="@string/zobzContent"
-        myBetterPushItem:img="@drawable/icon_zeou"
-        myBetterPushItem:title1="@string/zobzBetter" />
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ultra_viewpager"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rect_4_red"
+        android:gravity="center_horizontal"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
 
-    <xiaogao.zjut.tabbaishuo.views.MyBetterPushItem
-        android:id="@+id/xxrz"
+    <TextView
+        android:id="@+id/register"
         android:layout_width="match_parent"
-        android:layout_height="95dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/rect_4_blue_giant"
-        myBetterPushItem:content="@string/xxrzContent"
-        myBetterPushItem:img="@drawable/icon_xinxirenzheng"
-        myBetterPushItem:title1="@string/xxrzBetter" />
-
-    <xiaogao.zjut.tabbaishuo.views.MyBetterPushItem
-        android:id="@+id/vip"
-        android:layout_width="match_parent"
-        android:layout_height="95dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/rect_4_pint_giant"
-        myBetterPushItem:content="@string/vipContent"
-        myBetterPushItem:img="@drawable/kaitongvip"
-        myBetterPushItem:title1="@string/registerVip" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rect_4_white_stroke_red"
+        android:gravity="center_horizontal"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp"
+        android:text="注册"
+        android:textColor="@color/color_ff4b3d"
+        android:textSize="18dp" />
+</RelativeLayout>

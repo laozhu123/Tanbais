@@ -111,7 +111,7 @@ public class Constants {
      */
     public interface GetVerifyCodeActionType {
         /**
-         * 0-注册验证码
+         * pic0-注册验证码
          */
         String REGIST_ACTIONTYPE = "r";
         /**
@@ -141,4 +141,5 @@ public class Constants {
     public static final int IS_DIRDER = "is_rider".hashCode();
 
     public static final int REFRESH_LIST_TIME_OUT = 15;
+
 }

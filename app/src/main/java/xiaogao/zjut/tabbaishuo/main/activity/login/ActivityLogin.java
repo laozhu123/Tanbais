@@ -3,8 +3,10 @@ package xiaogao.zjut.tabbaishuo.main.activity.login;
 import android.content.Intent;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
 
 import javax.inject.Inject;
 
@@ -30,12 +32,12 @@ public class ActivityLogin extends MyBaseBindPresentActivity<PresenterActivityLo
 
     @Inject
     PresenterActivityLogin mPresenter;
-    @Bind(R.id.headIcon)
-    CircleImageView headIcon;
     @Bind(R.id.phone)
     EditText phone;
     @Bind(R.id.password)
     EditText password;
+    @Bind(R.id.title)
+    TextView title;
 
     @Override
     public PresenterActivityLogin getPresenter() {
@@ -52,6 +54,11 @@ public class ActivityLogin extends MyBaseBindPresentActivity<PresenterActivityLo
         return R.layout.activity_login;
     }
 
+    @Subscribe
+    public void closePage(EventLoginSuccess eventLoginSuccess) {
+        finish();
+    }
+
     @Override
     protected void initActivity(View var1) {
         initView();
@@ -59,17 +66,19 @@ public class ActivityLogin extends MyBaseBindPresentActivity<PresenterActivityLo
 
     private void initView() {
         ButterKnife.bind(this);
+        EventBus.getDefault().register(this);
         hideTitleBar();
-
+        title.setText("登录");
     }
 
     @Override
     public void onDestroy() {
         ButterKnife.unbind(this);
+        EventBus.getDefault().unregister(this);
         super.onDestroy();
     }
 
-    @OnClick({R.id.forgetPassword, R.id.login,R.id.register})
+    @OnClick({R.id.forgetPassword, R.id.login,R.id.register,R.id.back})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.forgetPassword:
@@ -86,6 +95,10 @@ public class ActivityLogin extends MyBaseBindPresentActivity<PresenterActivityLo
             case R.id.register:
                 //fixme
                 startActivity(new Intent(ActivityLogin.this,ActivityRegisterFirst.class));
+                finish();
+                break;
+            case R.id.back:
+                finish();
                 break;
         }
     }
